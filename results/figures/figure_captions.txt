@@ -1,0 +1,24 @@
+fig01_workflow.png
+Workflow of the study. (A) The primary simulated dataset (D1) is preprocessed and seven classifiers are compared with repeated stratified 10-fold cross-validation, an ablation study, a sensor-noise robustness test and a computational-cost benchmark. (B) The same models are externally validated on real cotton-field lysimeter data from Bushland, Texas (D4) using leave-one-year-out evaluation; all D4 features use only information available up to the previous day.
+
+fig02_d1_scatter.png
+Distribution of the 200 records of the AutoIrrigation dataset (D1). The pump state is completely separated by a single soil-moisture value (pump OFF ≤ 493, pump ON ≥ 503; dashed line at ≈ 498), whereas air temperature does not differ between classes. Higher sensor readings correspond to drier soil.
+
+fig03_log_distributions.png
+Distributions of the log-transformed predictors used by the final Gaussian Naive Bayes model (all 200 records of D1). (a, b) Histograms; (c, d) normal Q-Q plots with the probability-plot correlation coefficient r. Log-moisture is bimodal because the two pump classes occupy separate moisture ranges, so the Gaussian assumption holds within classes rather than marginally.
+
+fig04_confusion_matrix_nb.png
+Confusion matrix of the final Gaussian Naive Bayes model (log-transformed moisture and temperature) on D1, pooled over the ten test folds of one stratified 10-fold cross-validation (n = 200; accuracy = 0.980). Outlier trimming was fitted on training folds only.
+
+fig05_d1_model_comparison.png
+Accuracy of seven classifiers on D1 under 10-times-repeated stratified 10-fold cross-validation (100 test folds; points = mean, bars = ±1 SD). Outlier trimming and feature scaling were fitted on training folds only. The single-threshold rule, decision tree and random forest separate D1 perfectly, reflecting the rule-based origin of its labels.
+
+fig06_ablation.png
+Ablation of the Gaussian Naive Bayes pipeline on D1 (identical 100 cross-validation splits for all configurations). Removing the constant 'crop' variable has no effect (C1 vs C2); raw and log versions of the same variable are highly correlated (r = 0.91 for moisture, 0.98 for temperature), and using only the log features (C4, selected) performs within 0.1 percentage points of the redundant raw + log set.
+
+fig07_noise_robustness.png
+Robustness to simulated soil-moisture sensor noise on D1 (Gaussian noise added to training and test readings, labels unchanged; 20×5-fold cross-validation per level). The learned-threshold rule and the decision tree, which are perfect on clean data, degrade fastest; Gaussian NB, logistic regression and SVM decline gradually and end within 0.01 of each other at 10% noise. A manually set threshold that is slightly wrong (550 instead of ≈500, dashed) is worse than all learned models even without noise. Grey lines: logistic regression, KNN, SVM, random forest and the 450 threshold.
+
+fig08_bushland_validation.png
+External validation on real cotton-field data (USDA-ARS Bushland, Texas; 19 lysimeter-seasons, 2,584 in-season days, 12.4% irrigation days). Each season-year was held out in turn. All models are only modestly better than chance (dotted line), showing that real irrigation decisions are much harder to predict than the simulated D1 labels; Gaussian NB performs on par with heavier models and better than the deficit-threshold rule. A model that never irrigates reaches 87% accuracy but 0.50 balanced accuracy (not shown).
+

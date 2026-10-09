@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Predictive Control of Agricultural Irrigation Using Machine Learning: A Naive Bayes-Based IoT Framework for Cotton Crops (analysis code)"
+type: software
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-09"
+repository-code: "https://github.com/maruf3031/cotton-irrigation-naive-bayes"
+authors:
+  - family-names: Sultana
+    given-names: Nahid
+    affiliation: "Department of Business Administration, International Islamic University Chittagong"
+  - family-names: Akter
+    given-names: Sultana
+    affiliation: "Department of Business Administration, International Islamic University Chittagong"
+  - family-names: Chowdhury
+    given-names: Mohammad Shyfur Rahman
+    affiliation: "Department of Business Administration, International Islamic University Chittagong"
+  - family-names: Hasan
+    given-names: Md. Maruf
+    affiliation: "Rokomari.com, Dhaka, Bangladesh"
+keywords:
+  - smart irrigation
+  - Naive Bayes
+  - cotton
+  - IoT
+  - machine learning

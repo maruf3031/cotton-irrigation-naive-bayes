@@ -1,0 +1,8 @@
+model,train_time_ms,inference_us_median,inference_us_p95,model_size_kb,stored_numbers
+Threshold rule,0.082,50.700,55.800,0.406,1
+Gaussian NB,1.744,322.200,375.765,1.438,10
+Logistic Regression,6.040,964.350,1128.225,1.642,7
+Decision Tree,1.448,653.400,753.780,1.743,6
+KNN (k=5),3.028,1870.150,2152.180,11.609,580
+SVM (RBF),4.868,965.400,1124.510,3.513,98
+Random Forest,116.894,7594.800,8252.225,119.946,2068

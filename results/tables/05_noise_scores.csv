@@ -1,0 +1,3601 @@
+noise_pct,split,model,accuracy,f1_macro
+0,0,Threshold rule,1.0000,1.0000
+0,0,Gaussian NB,0.9750,0.9655
+0,0,Logistic Regression,0.9750,0.9655
+0,0,Decision Tree,1.0000,1.0000
+0,0,KNN (k=5),0.9750,0.9677
+0,0,SVM (RBF),0.9750,0.9655
+0,0,Random Forest,1.0000,1.0000
+0,0,Rule (fixed 450),0.9750,0.9655
+0,0,Rule (fixed 550),0.9000,0.8810
+0,1,Threshold rule,1.0000,1.0000
+0,1,Gaussian NB,0.9500,0.9283
+0,1,Logistic Regression,0.9500,0.9283
+0,1,Decision Tree,1.0000,1.0000
+0,1,KNN (k=5),0.9250,0.8880
+0,1,SVM (RBF),0.9500,0.9283
+0,1,Random Forest,1.0000,1.0000
+0,1,Rule (fixed 450),0.9500,0.9283
+0,1,Rule (fixed 550),0.9500,0.9373
+0,2,Threshold rule,1.0000,1.0000
+0,2,Gaussian NB,1.0000,1.0000
+0,2,Logistic Regression,0.9750,0.9655
+0,2,Decision Tree,1.0000,1.0000
+0,2,KNN (k=5),0.9750,0.9655
+0,2,SVM (RBF),0.9750,0.9655
+0,2,Random Forest,1.0000,1.0000
+0,2,Rule (fixed 450),0.9750,0.9655
+0,2,Rule (fixed 550),0.9750,0.9677
+0,3,Threshold rule,1.0000,1.0000
+0,3,Gaussian NB,1.0000,1.0000
+0,3,Logistic Regression,1.0000,1.0000
+0,3,Decision Tree,1.0000,1.0000
+0,3,KNN (k=5),1.0000,1.0000
+0,3,SVM (RBF),1.0000,1.0000
+0,3,Random Forest,1.0000,1.0000
+0,3,Rule (fixed 450),1.0000,1.0000
+0,3,Rule (fixed 550),0.9500,0.9373
+0,4,Threshold rule,1.0000,1.0000
+0,4,Gaussian NB,0.9750,0.9655
+0,4,Logistic Regression,0.9750,0.9655
+0,4,Decision Tree,1.0000,1.0000
+0,4,KNN (k=5),0.9500,0.9283
+0,4,SVM (RBF),0.9500,0.9283
+0,4,Random Forest,1.0000,1.0000
+0,4,Rule (fixed 450),0.9750,0.9655
+0,4,Rule (fixed 550),0.9250,0.9085
+0,5,Threshold rule,1.0000,1.0000
+0,5,Gaussian NB,0.9500,0.9283
+0,5,Logistic Regression,0.9500,0.9283
+0,5,Decision Tree,1.0000,1.0000
+0,5,KNN (k=5),0.9500,0.9283
+0,5,SVM (RBF),0.9500,0.9283
+0,5,Random Forest,1.0000,1.0000
+0,5,Rule (fixed 450),0.9500,0.9283
+0,5,Rule (fixed 550),0.9750,0.9677
+0,6,Threshold rule,1.0000,1.0000
+0,6,Gaussian NB,1.0000,1.0000
+0,6,Logistic Regression,1.0000,1.0000
+0,6,Decision Tree,1.0000,1.0000
+0,6,KNN (k=5),0.9750,0.9655
+0,6,SVM (RBF),0.9500,0.9283
+0,6,Random Forest,1.0000,1.0000
+0,6,Rule (fixed 450),1.0000,1.0000
+0,6,Rule (fixed 550),0.9000,0.8810
+0,7,Threshold rule,1.0000,1.0000
+0,7,Gaussian NB,1.0000,1.0000
+0,7,Logistic Regression,0.9750,0.9655
+0,7,Decision Tree,1.0000,1.0000
+0,7,KNN (k=5),0.9750,0.9655
+0,7,SVM (RBF),0.9750,0.9655
+0,7,Random Forest,1.0000,1.0000
+0,7,Rule (fixed 450),0.9750,0.9655
+0,7,Rule (fixed 550),0.9250,0.9085
+0,8,Threshold rule,1.0000,1.0000
+0,8,Gaussian NB,0.9750,0.9655
+0,8,Logistic Regression,0.9750,0.9655
+0,8,Decision Tree,1.0000,1.0000
+0,8,KNN (k=5),1.0000,1.0000
+0,8,SVM (RBF),0.9750,0.9655
+0,8,Random Forest,1.0000,1.0000
+0,8,Rule (fixed 450),0.9750,0.9655
+0,8,Rule (fixed 550),0.9500,0.9373
+0,9,Threshold rule,1.0000,1.0000
+0,9,Gaussian NB,1.0000,1.0000
+0,9,Logistic Regression,0.9750,0.9655
+0,9,Decision Tree,1.0000,1.0000
+0,9,KNN (k=5),0.9500,0.9333
+0,9,SVM (RBF),0.9750,0.9655
+0,9,Random Forest,1.0000,1.0000
+0,9,Rule (fixed 450),0.9750,0.9655
+0,9,Rule (fixed 550),0.9500,0.9373
+0,10,Threshold rule,0.9750,0.9655
+0,10,Gaussian NB,0.9500,0.9283
+0,10,Logistic Regression,0.9500,0.9283
+0,10,Decision Tree,0.9750,0.9655
+0,10,KNN (k=5),0.9000,0.8438
+0,10,SVM (RBF),0.9500,0.9283
+0,10,Random Forest,0.9750,0.9655
+0,10,Rule (fixed 450),0.9500,0.9283
+0,10,Rule (fixed 550),0.9750,0.9677
+0,11,Threshold rule,1.0000,1.0000
+0,11,Gaussian NB,1.0000,1.0000
+0,11,Logistic Regression,1.0000,1.0000
+0,11,Decision Tree,1.0000,1.0000
+0,11,KNN (k=5),0.9750,0.9677
+0,11,SVM (RBF),1.0000,1.0000
+0,11,Random Forest,1.0000,1.0000
+0,11,Rule (fixed 450),1.0000,1.0000
+0,11,Rule (fixed 550),0.9000,0.8810
+0,12,Threshold rule,1.0000,1.0000
+0,12,Gaussian NB,1.0000,1.0000
+0,12,Logistic Regression,1.0000,1.0000
+0,12,Decision Tree,1.0000,1.0000
+0,12,KNN (k=5),0.9500,0.9373
+0,12,SVM (RBF),1.0000,1.0000
+0,12,Random Forest,1.0000,1.0000
+0,12,Rule (fixed 450),1.0000,1.0000
+0,12,Rule (fixed 550),0.9250,0.9085
+0,13,Threshold rule,1.0000,1.0000
+0,13,Gaussian NB,1.0000,1.0000
+0,13,Logistic Regression,0.9750,0.9655
+0,13,Decision Tree,1.0000,1.0000
+0,13,KNN (k=5),0.9500,0.9283
+0,13,SVM (RBF),0.9500,0.9283
+0,13,Random Forest,1.0000,1.0000
+0,13,Rule (fixed 450),0.9750,0.9655
+0,13,Rule (fixed 550),0.9750,0.9677
+0,14,Threshold rule,1.0000,1.0000
+0,14,Gaussian NB,0.9750,0.9655
+0,14,Logistic Regression,0.9500,0.9283
+0,14,Decision Tree,1.0000,1.0000
+0,14,KNN (k=5),0.9250,0.8965
+0,14,SVM (RBF),0.9500,0.9283
+0,14,Random Forest,1.0000,1.0000
+0,14,Rule (fixed 450),0.9500,0.9283
+0,14,Rule (fixed 550),0.9250,0.9085
+0,15,Threshold rule,1.0000,1.0000
+0,15,Gaussian NB,0.9750,0.9655
+0,15,Logistic Regression,0.9750,0.9655
+0,15,Decision Tree,1.0000,1.0000
+0,15,KNN (k=5),0.9750,0.9655
+0,15,SVM (RBF),0.9750,0.9655
+0,15,Random Forest,1.0000,1.0000
+0,15,Rule (fixed 450),0.9750,0.9655
+0,15,Rule (fixed 550),0.9750,0.9677
+0,16,Threshold rule,1.0000,1.0000
+0,16,Gaussian NB,0.9750,0.9655
+0,16,Logistic Regression,0.9500,0.9283
+0,16,Decision Tree,1.0000,1.0000
+0,16,KNN (k=5),0.9500,0.9333
+0,16,SVM (RBF),0.9500,0.9283
+0,16,Random Forest,1.0000,1.0000
+0,16,Rule (fixed 450),0.9500,0.9283
+0,16,Rule (fixed 550),0.9000,0.8810
+0,17,Threshold rule,1.0000,1.0000
+0,17,Gaussian NB,1.0000,1.0000
+0,17,Logistic Regression,1.0000,1.0000
+0,17,Decision Tree,1.0000,1.0000
+0,17,KNN (k=5),1.0000,1.0000
+0,17,SVM (RBF),0.9750,0.9655
+0,17,Random Forest,1.0000,1.0000
+0,17,Rule (fixed 450),1.0000,1.0000
+0,17,Rule (fixed 550),0.9250,0.9085
+0,18,Threshold rule,1.0000,1.0000
+0,18,Gaussian NB,1.0000,1.0000
+0,18,Logistic Regression,1.0000,1.0000
+0,18,Decision Tree,1.0000,1.0000
+0,18,KNN (k=5),1.0000,1.0000
+0,18,SVM (RBF),1.0000,1.0000
+0,18,Random Forest,1.0000,1.0000
+0,18,Rule (fixed 450),1.0000,1.0000
+0,18,Rule (fixed 550),0.9750,0.9677
+0,19,Threshold rule,1.0000,1.0000
+0,19,Gaussian NB,0.9750,0.9655
+0,19,Logistic Regression,0.9500,0.9283
+0,19,Decision Tree,1.0000,1.0000
+0,19,KNN (k=5),0.9250,0.8880
+0,19,SVM (RBF),0.9250,0.8880
+0,19,Random Forest,1.0000,1.0000
+0,19,Rule (fixed 450),0.9500,0.9283
+0,19,Rule (fixed 550),0.9250,0.9085
+0,20,Threshold rule,1.0000,1.0000
+0,20,Gaussian NB,1.0000,1.0000
+0,20,Logistic Regression,0.9750,0.9655
+0,20,Decision Tree,1.0000,1.0000
+0,20,KNN (k=5),0.9750,0.9655
+0,20,SVM (RBF),0.9750,0.9655
+0,20,Random Forest,1.0000,1.0000
+0,20,Rule (fixed 450),0.9750,0.9655
+0,20,Rule (fixed 550),0.9500,0.9373
+0,21,Threshold rule,1.0000,1.0000
+0,21,Gaussian NB,0.9750,0.9655
+0,21,Logistic Regression,0.9750,0.9655
+0,21,Decision Tree,1.0000,1.0000
+0,21,KNN (k=5),0.9750,0.9655
+0,21,SVM (RBF),0.9500,0.9283
+0,21,Random Forest,1.0000,1.0000
+0,21,Rule (fixed 450),0.9750,0.9655
+0,21,Rule (fixed 550),0.9250,0.9085
+0,22,Threshold rule,1.0000,1.0000
+0,22,Gaussian NB,0.9750,0.9655
+0,22,Logistic Regression,0.9750,0.9655
+0,22,Decision Tree,1.0000,1.0000
+0,22,KNN (k=5),0.9750,0.9655
+0,22,SVM (RBF),0.9500,0.9283
+0,22,Random Forest,1.0000,1.0000
+0,22,Rule (fixed 450),0.9750,0.9655
+0,22,Rule (fixed 550),1.0000,1.0000
+0,23,Threshold rule,1.0000,1.0000
+0,23,Gaussian NB,1.0000,1.0000
+0,23,Logistic Regression,0.9750,0.9655
+0,23,Decision Tree,1.0000,1.0000
+0,23,KNN (k=5),0.9500,0.9333
+0,23,SVM (RBF),0.9750,0.9655
+0,23,Random Forest,1.0000,1.0000
+0,23,Rule (fixed 450),0.9750,0.9655
+0,23,Rule (fixed 550),0.9250,0.9085
+0,24,Threshold rule,1.0000,1.0000
+0,24,Gaussian NB,0.9750,0.9655
+0,24,Logistic Regression,0.9750,0.9655
+0,24,Decision Tree,1.0000,1.0000
+0,24,KNN (k=5),0.9500,0.9373
+0,24,SVM (RBF),1.0000,1.0000
+0,24,Random Forest,1.0000,1.0000
+0,24,Rule (fixed 450),0.9750,0.9655
+0,24,Rule (fixed 550),0.9000,0.8810
+0,25,Threshold rule,1.0000,1.0000
+0,25,Gaussian NB,0.9750,0.9655
+0,25,Logistic Regression,0.9000,0.8438
+0,25,Decision Tree,1.0000,1.0000
+0,25,KNN (k=5),0.9000,0.8566
+0,25,SVM (RBF),0.9250,0.8880
+0,25,Random Forest,1.0000,1.0000
+0,25,Rule (fixed 450),0.9250,0.8880
+0,25,Rule (fixed 550),0.9250,0.9085
+0,26,Threshold rule,1.0000,1.0000
+0,26,Gaussian NB,1.0000,1.0000
+0,26,Logistic Regression,1.0000,1.0000
+0,26,Decision Tree,1.0000,1.0000
+0,26,KNN (k=5),1.0000,1.0000
+0,26,SVM (RBF),1.0000,1.0000
+0,26,Random Forest,1.0000,1.0000
+0,26,Rule (fixed 450),1.0000,1.0000
+0,26,Rule (fixed 550),0.9250,0.9085
+0,27,Threshold rule,1.0000,1.0000
+0,27,Gaussian NB,0.9750,0.9655
+0,27,Logistic Regression,0.9750,0.9655
+0,27,Decision Tree,1.0000,1.0000
+0,27,KNN (k=5),0.9750,0.9655
+0,27,SVM (RBF),0.9750,0.9655
+0,27,Random Forest,1.0000,1.0000
+0,27,Rule (fixed 450),0.9750,0.9655
+0,27,Rule (fixed 550),1.0000,1.0000
+0,28,Threshold rule,1.0000,1.0000
+0,28,Gaussian NB,1.0000,1.0000
+0,28,Logistic Regression,1.0000,1.0000
+0,28,Decision Tree,1.0000,1.0000
+0,28,KNN (k=5),0.9750,0.9655
+0,28,SVM (RBF),0.9750,0.9655
+0,28,Random Forest,1.0000,1.0000
+0,28,Rule (fixed 450),1.0000,1.0000
+0,28,Rule (fixed 550),0.9250,0.9085
+0,29,Threshold rule,1.0000,1.0000
+0,29,Gaussian NB,0.9750,0.9655
+0,29,Logistic Regression,0.9750,0.9655
+0,29,Decision Tree,1.0000,1.0000
+0,29,KNN (k=5),1.0000,1.0000
+0,29,SVM (RBF),0.9750,0.9655
+0,29,Random Forest,1.0000,1.0000
+0,29,Rule (fixed 450),0.9750,0.9655
+0,29,Rule (fixed 550),0.9250,0.9085
+0,30,Threshold rule,1.0000,1.0000
+0,30,Gaussian NB,0.9750,0.9655
+0,30,Logistic Regression,0.9500,0.9283
+0,30,Decision Tree,1.0000,1.0000
+0,30,KNN (k=5),0.9500,0.9283
+0,30,SVM (RBF),0.9500,0.9283
+0,30,Random Forest,1.0000,1.0000
+0,30,Rule (fixed 450),0.9500,0.9283
+0,30,Rule (fixed 550),0.9000,0.8810
+0,31,Threshold rule,1.0000,1.0000
+0,31,Gaussian NB,0.9750,0.9655
+0,31,Logistic Regression,0.9750,0.9655
+0,31,Decision Tree,1.0000,1.0000
+0,31,KNN (k=5),1.0000,1.0000
+0,31,SVM (RBF),0.9750,0.9655
+0,31,Random Forest,1.0000,1.0000
+0,31,Rule (fixed 450),0.9750,0.9655
+0,31,Rule (fixed 550),0.9000,0.8810
+0,32,Threshold rule,1.0000,1.0000
+0,32,Gaussian NB,1.0000,1.0000
+0,32,Logistic Regression,1.0000,1.0000
+0,32,Decision Tree,1.0000,1.0000
+0,32,KNN (k=5),1.0000,1.0000
+0,32,SVM (RBF),1.0000,1.0000
+0,32,Random Forest,1.0000,1.0000
+0,32,Rule (fixed 450),1.0000,1.0000
+0,32,Rule (fixed 550),1.0000,1.0000
+0,33,Threshold rule,1.0000,1.0000
+0,33,Gaussian NB,0.9500,0.9283
+0,33,Logistic Regression,0.9500,0.9283
+0,33,Decision Tree,1.0000,1.0000
+0,33,KNN (k=5),0.9750,0.9655
+0,33,SVM (RBF),0.9500,0.9283
+0,33,Random Forest,1.0000,1.0000
+0,33,Rule (fixed 450),0.9500,0.9283
+0,33,Rule (fixed 550),0.9500,0.9373
+0,34,Threshold rule,1.0000,1.0000
+0,34,Gaussian NB,1.0000,1.0000
+0,34,Logistic Regression,1.0000,1.0000
+0,34,Decision Tree,1.0000,1.0000
+0,34,KNN (k=5),0.9500,0.9333
+0,34,SVM (RBF),0.9500,0.9283
+0,34,Random Forest,1.0000,1.0000
+0,34,Rule (fixed 450),1.0000,1.0000
+0,34,Rule (fixed 550),0.9500,0.9373
+0,35,Threshold rule,1.0000,1.0000
+0,35,Gaussian NB,1.0000,1.0000
+0,35,Logistic Regression,1.0000,1.0000
+0,35,Decision Tree,1.0000,1.0000
+0,35,KNN (k=5),1.0000,1.0000
+0,35,SVM (RBF),1.0000,1.0000
+0,35,Random Forest,1.0000,1.0000
+0,35,Rule (fixed 450),1.0000,1.0000
+0,35,Rule (fixed 550),0.9500,0.9373
+0,36,Threshold rule,1.0000,1.0000
+0,36,Gaussian NB,0.9750,0.9655
+0,36,Logistic Regression,0.9750,0.9655
+0,36,Decision Tree,1.0000,1.0000
+0,36,KNN (k=5),0.9500,0.9283
+0,36,SVM (RBF),0.9500,0.9283
+0,36,Random Forest,1.0000,1.0000
+0,36,Rule (fixed 450),0.9750,0.9655
+0,36,Rule (fixed 550),0.9250,0.9085
+0,37,Threshold rule,1.0000,1.0000
+0,37,Gaussian NB,0.9750,0.9655
+0,37,Logistic Regression,0.9750,0.9655
+0,37,Decision Tree,1.0000,1.0000
+0,37,KNN (k=5),0.9750,0.9655
+0,37,SVM (RBF),0.9750,0.9655
+0,37,Random Forest,1.0000,1.0000
+0,37,Rule (fixed 450),0.9750,0.9655
+0,37,Rule (fixed 550),0.9750,0.9677
+0,38,Threshold rule,1.0000,1.0000
+0,38,Gaussian NB,1.0000,1.0000
+0,38,Logistic Regression,0.9750,0.9655
+0,38,Decision Tree,1.0000,1.0000
+0,38,KNN (k=5),0.9750,0.9655
+0,38,SVM (RBF),0.9750,0.9655
+0,38,Random Forest,1.0000,1.0000
+0,38,Rule (fixed 450),0.9750,0.9655
+0,38,Rule (fixed 550),0.9250,0.9085
+0,39,Threshold rule,1.0000,1.0000
+0,39,Gaussian NB,0.9750,0.9655
+0,39,Logistic Regression,0.9500,0.9283
+0,39,Decision Tree,1.0000,1.0000
+0,39,KNN (k=5),0.9750,0.9655
+0,39,SVM (RBF),0.9500,0.9283
+0,39,Random Forest,1.0000,1.0000
+0,39,Rule (fixed 450),0.9500,0.9283
+0,39,Rule (fixed 550),0.9250,0.9085
+0,40,Threshold rule,1.0000,1.0000
+0,40,Gaussian NB,0.9500,0.9283
+0,40,Logistic Regression,0.9250,0.8880
+0,40,Decision Tree,1.0000,1.0000
+0,40,KNN (k=5),0.9250,0.8880
+0,40,SVM (RBF),0.9250,0.8880
+0,40,Random Forest,1.0000,1.0000
+0,40,Rule (fixed 450),0.9250,0.8880
+0,40,Rule (fixed 550),0.9250,0.9085
+0,41,Threshold rule,1.0000,1.0000
+0,41,Gaussian NB,1.0000,1.0000
+0,41,Logistic Regression,0.9750,0.9655
+0,41,Decision Tree,1.0000,1.0000
+0,41,KNN (k=5),0.9750,0.9655
+0,41,SVM (RBF),0.9750,0.9655
+0,41,Random Forest,1.0000,1.0000
+0,41,Rule (fixed 450),0.9750,0.9655
+0,41,Rule (fixed 550),0.9500,0.9373
+0,42,Threshold rule,1.0000,1.0000
+0,42,Gaussian NB,1.0000,1.0000
+0,42,Logistic Regression,1.0000,1.0000
+0,42,Decision Tree,1.0000,1.0000
+0,42,KNN (k=5),1.0000,1.0000
+0,42,SVM (RBF),1.0000,1.0000
+0,42,Random Forest,1.0000,1.0000
+0,42,Rule (fixed 450),1.0000,1.0000
+0,42,Rule (fixed 550),0.9000,0.8810
+0,43,Threshold rule,1.0000,1.0000
+0,43,Gaussian NB,1.0000,1.0000
+0,43,Logistic Regression,1.0000,1.0000
+0,43,Decision Tree,1.0000,1.0000
+0,43,KNN (k=5),0.9750,0.9655
+0,43,SVM (RBF),1.0000,1.0000
+0,43,Random Forest,1.0000,1.0000
+0,43,Rule (fixed 450),1.0000,1.0000
+0,43,Rule (fixed 550),0.9750,0.9677
+0,44,Threshold rule,1.0000,1.0000
+0,44,Gaussian NB,0.9750,0.9655
+0,44,Logistic Regression,0.9750,0.9655
+0,44,Decision Tree,1.0000,1.0000
+0,44,KNN (k=5),0.9750,0.9655
+0,44,SVM (RBF),0.9750,0.9655
+0,44,Random Forest,1.0000,1.0000
+0,44,Rule (fixed 450),0.9750,0.9655
+0,44,Rule (fixed 550),0.9500,0.9373
+0,45,Threshold rule,1.0000,1.0000
+0,45,Gaussian NB,0.9750,0.9655
+0,45,Logistic Regression,0.9500,0.9283
+0,45,Decision Tree,1.0000,1.0000
+0,45,KNN (k=5),0.9500,0.9283
+0,45,SVM (RBF),0.9500,0.9283
+0,45,Random Forest,1.0000,1.0000
+0,45,Rule (fixed 450),0.9500,0.9283
+0,45,Rule (fixed 550),0.9500,0.9373
+0,46,Threshold rule,1.0000,1.0000
+0,46,Gaussian NB,0.9750,0.9655
+0,46,Logistic Regression,0.9750,0.9655
+0,46,Decision Tree,1.0000,1.0000
+0,46,KNN (k=5),0.9750,0.9655
+0,46,SVM (RBF),0.9750,0.9655
+0,46,Random Forest,1.0000,1.0000
+0,46,Rule (fixed 450),0.9750,0.9655
+0,46,Rule (fixed 550),0.9500,0.9373
+0,47,Threshold rule,1.0000,1.0000
+0,47,Gaussian NB,0.9750,0.9655
+0,47,Logistic Regression,0.9500,0.9283
+0,47,Decision Tree,1.0000,1.0000
+0,47,KNN (k=5),0.9250,0.8880
+0,47,SVM (RBF),0.9250,0.8880
+0,47,Random Forest,1.0000,1.0000
+0,47,Rule (fixed 450),0.9500,0.9283
+0,47,Rule (fixed 550),0.9250,0.9085
+0,48,Threshold rule,1.0000,1.0000
+0,48,Gaussian NB,1.0000,1.0000
+0,48,Logistic Regression,1.0000,1.0000
+0,48,Decision Tree,1.0000,1.0000
+0,48,KNN (k=5),1.0000,1.0000
+0,48,SVM (RBF),1.0000,1.0000
+0,48,Random Forest,1.0000,1.0000
+0,48,Rule (fixed 450),1.0000,1.0000
+0,48,Rule (fixed 550),0.9750,0.9677
+0,49,Threshold rule,1.0000,1.0000
+0,49,Gaussian NB,1.0000,1.0000
+0,49,Logistic Regression,1.0000,1.0000
+0,49,Decision Tree,1.0000,1.0000
+0,49,KNN (k=5),0.9250,0.9031
+0,49,SVM (RBF),1.0000,1.0000
+0,49,Random Forest,1.0000,1.0000
+0,49,Rule (fixed 450),1.0000,1.0000
+0,49,Rule (fixed 550),0.9000,0.8810
+0,50,Threshold rule,1.0000,1.0000
+0,50,Gaussian NB,0.9500,0.9283
+0,50,Logistic Regression,0.9500,0.9283
+0,50,Decision Tree,1.0000,1.0000
+0,50,KNN (k=5),0.9250,0.8880
+0,50,SVM (RBF),0.9250,0.8880
+0,50,Random Forest,1.0000,1.0000
+0,50,Rule (fixed 450),0.9500,0.9283
+0,50,Rule (fixed 550),0.9500,0.9373
+0,51,Threshold rule,1.0000,1.0000
+0,51,Gaussian NB,1.0000,1.0000
+0,51,Logistic Regression,0.9750,0.9655
+0,51,Decision Tree,1.0000,1.0000
+0,51,KNN (k=5),0.9750,0.9655
+0,51,SVM (RBF),0.9750,0.9655
+0,51,Random Forest,1.0000,1.0000
+0,51,Rule (fixed 450),0.9750,0.9655
+0,51,Rule (fixed 550),1.0000,1.0000
+0,52,Threshold rule,1.0000,1.0000
+0,52,Gaussian NB,0.9750,0.9655
+0,52,Logistic Regression,0.9750,0.9655
+0,52,Decision Tree,1.0000,1.0000
+0,52,KNN (k=5),0.9500,0.9333
+0,52,SVM (RBF),0.9750,0.9655
+0,52,Random Forest,1.0000,1.0000
+0,52,Rule (fixed 450),0.9750,0.9655
+0,52,Rule (fixed 550),0.9500,0.9373
+0,53,Threshold rule,1.0000,1.0000
+0,53,Gaussian NB,0.9750,0.9655
+0,53,Logistic Regression,0.9750,0.9655
+0,53,Decision Tree,1.0000,1.0000
+0,53,KNN (k=5),1.0000,1.0000
+0,53,SVM (RBF),0.9750,0.9655
+0,53,Random Forest,1.0000,1.0000
+0,53,Rule (fixed 450),0.9750,0.9655
+0,53,Rule (fixed 550),0.9000,0.8810
+0,54,Threshold rule,1.0000,1.0000
+0,54,Gaussian NB,1.0000,1.0000
+0,54,Logistic Regression,1.0000,1.0000
+0,54,Decision Tree,1.0000,1.0000
+0,54,KNN (k=5),1.0000,1.0000
+0,54,SVM (RBF),1.0000,1.0000
+0,54,Random Forest,1.0000,1.0000
+0,54,Rule (fixed 450),1.0000,1.0000
+0,54,Rule (fixed 550),0.9000,0.8810
+0,55,Threshold rule,1.0000,1.0000
+0,55,Gaussian NB,0.9750,0.9655
+0,55,Logistic Regression,0.9750,0.9655
+0,55,Decision Tree,1.0000,1.0000
+0,55,KNN (k=5),0.9750,0.9655
+0,55,SVM (RBF),0.9750,0.9655
+0,55,Random Forest,1.0000,1.0000
+0,55,Rule (fixed 450),0.9750,0.9655
+0,55,Rule (fixed 550),0.9500,0.9373
+0,56,Threshold rule,1.0000,1.0000
+0,56,Gaussian NB,1.0000,1.0000
+0,56,Logistic Regression,1.0000,1.0000
+0,56,Decision Tree,1.0000,1.0000
+0,56,KNN (k=5),0.9750,0.9677
+0,56,SVM (RBF),1.0000,1.0000
+0,56,Random Forest,1.0000,1.0000
+0,56,Rule (fixed 450),1.0000,1.0000
+0,56,Rule (fixed 550),0.9500,0.9373
+0,57,Threshold rule,1.0000,1.0000
+0,57,Gaussian NB,0.9500,0.9283
+0,57,Logistic Regression,0.9250,0.8880
+0,57,Decision Tree,1.0000,1.0000
+0,57,KNN (k=5),0.9500,0.9283
+0,57,SVM (RBF),0.9250,0.8880
+0,57,Random Forest,1.0000,1.0000
+0,57,Rule (fixed 450),0.9250,0.8880
+0,57,Rule (fixed 550),0.9000,0.8810
+0,58,Threshold rule,1.0000,1.0000
+0,58,Gaussian NB,1.0000,1.0000
+0,58,Logistic Regression,1.0000,1.0000
+0,58,Decision Tree,1.0000,1.0000
+0,58,KNN (k=5),0.9750,0.9677
+0,58,SVM (RBF),1.0000,1.0000
+0,58,Random Forest,1.0000,1.0000
+0,58,Rule (fixed 450),1.0000,1.0000
+0,58,Rule (fixed 550),0.9500,0.9373
+0,59,Threshold rule,1.0000,1.0000
+0,59,Gaussian NB,0.9750,0.9655
+0,59,Logistic Regression,0.9750,0.9655
+0,59,Decision Tree,1.0000,1.0000
+0,59,KNN (k=5),0.9750,0.9655
+0,59,SVM (RBF),0.9750,0.9655
+0,59,Random Forest,1.0000,1.0000
+0,59,Rule (fixed 450),0.9750,0.9655
+0,59,Rule (fixed 550),0.9500,0.9373
+0,60,Threshold rule,1.0000,1.0000
+0,60,Gaussian NB,0.9750,0.9655
+0,60,Logistic Regression,0.9750,0.9655
+0,60,Decision Tree,1.0000,1.0000
+0,60,KNN (k=5),0.9750,0.9655
+0,60,SVM (RBF),0.9750,0.9655
+0,60,Random Forest,1.0000,1.0000
+0,60,Rule (fixed 450),0.9750,0.9655
+0,60,Rule (fixed 550),0.9250,0.9085
+0,61,Threshold rule,1.0000,1.0000
+0,61,Gaussian NB,1.0000,1.0000
+0,61,Logistic Regression,1.0000,1.0000
+0,61,Decision Tree,0.9750,0.9677
+0,61,KNN (k=5),0.9000,0.8810
+0,61,SVM (RBF),1.0000,1.0000
+0,61,Random Forest,1.0000,1.0000
+0,61,Rule (fixed 450),1.0000,1.0000
+0,61,Rule (fixed 550),0.8500,0.8291
+0,62,Threshold rule,1.0000,1.0000
+0,62,Gaussian NB,0.9500,0.9283
+0,62,Logistic Regression,0.9250,0.8880
+0,62,Decision Tree,1.0000,1.0000
+0,62,KNN (k=5),0.9250,0.8880
+0,62,SVM (RBF),0.9250,0.8880
+0,62,Random Forest,1.0000,1.0000
+0,62,Rule (fixed 450),0.9500,0.9283
+0,62,Rule (fixed 550),1.0000,1.0000
+0,63,Threshold rule,1.0000,1.0000
+0,63,Gaussian NB,1.0000,1.0000
+0,63,Logistic Regression,1.0000,1.0000
+0,63,Decision Tree,1.0000,1.0000
+0,63,KNN (k=5),0.9750,0.9655
+0,63,SVM (RBF),1.0000,1.0000
+0,63,Random Forest,1.0000,1.0000
+0,63,Rule (fixed 450),1.0000,1.0000
+0,63,Rule (fixed 550),0.9500,0.9373
+0,64,Threshold rule,1.0000,1.0000
+0,64,Gaussian NB,0.9500,0.9283
+0,64,Logistic Regression,0.9500,0.9283
+0,64,Decision Tree,1.0000,1.0000
+0,64,KNN (k=5),0.9500,0.9283
+0,64,SVM (RBF),0.9500,0.9283
+0,64,Random Forest,1.0000,1.0000
+0,64,Rule (fixed 450),0.9500,0.9283
+0,64,Rule (fixed 550),0.9750,0.9677
+0,65,Threshold rule,1.0000,1.0000
+0,65,Gaussian NB,0.9750,0.9655
+0,65,Logistic Regression,0.9750,0.9655
+0,65,Decision Tree,1.0000,1.0000
+0,65,KNN (k=5),1.0000,1.0000
+0,65,SVM (RBF),0.9500,0.9283
+0,65,Random Forest,1.0000,1.0000
+0,65,Rule (fixed 450),0.9750,0.9655
+0,65,Rule (fixed 550),0.9500,0.9373
+0,66,Threshold rule,1.0000,1.0000
+0,66,Gaussian NB,1.0000,1.0000
+0,66,Logistic Regression,1.0000,1.0000
+0,66,Decision Tree,1.0000,1.0000
+0,66,KNN (k=5),1.0000,1.0000
+0,66,SVM (RBF),1.0000,1.0000
+0,66,Random Forest,1.0000,1.0000
+0,66,Rule (fixed 450),1.0000,1.0000
+0,66,Rule (fixed 550),0.9000,0.8810
+0,67,Threshold rule,1.0000,1.0000
+0,67,Gaussian NB,1.0000,1.0000
+0,67,Logistic Regression,0.9750,0.9655
+0,67,Decision Tree,1.0000,1.0000
+0,67,KNN (k=5),0.9500,0.9283
+0,67,SVM (RBF),0.9750,0.9655
+0,67,Random Forest,1.0000,1.0000
+0,67,Rule (fixed 450),0.9750,0.9655
+0,67,Rule (fixed 550),0.9500,0.9373
+0,68,Threshold rule,1.0000,1.0000
+0,68,Gaussian NB,0.9250,0.8880
+0,68,Logistic Regression,0.9250,0.8880
+0,68,Decision Tree,1.0000,1.0000
+0,68,KNN (k=5),0.9500,0.9283
+0,68,SVM (RBF),0.9250,0.8880
+0,68,Random Forest,1.0000,1.0000
+0,68,Rule (fixed 450),0.9250,0.8880
+0,68,Rule (fixed 550),0.9750,0.9677
+0,69,Threshold rule,1.0000,1.0000
+0,69,Gaussian NB,1.0000,1.0000
+0,69,Logistic Regression,1.0000,1.0000
+0,69,Decision Tree,1.0000,1.0000
+0,69,KNN (k=5),1.0000,1.0000
+0,69,SVM (RBF),1.0000,1.0000
+0,69,Random Forest,1.0000,1.0000
+0,69,Rule (fixed 450),1.0000,1.0000
+0,69,Rule (fixed 550),0.9250,0.9085
+0,70,Threshold rule,1.0000,1.0000
+0,70,Gaussian NB,0.9750,0.9655
+0,70,Logistic Regression,0.9750,0.9655
+0,70,Decision Tree,1.0000,1.0000
+0,70,KNN (k=5),0.9750,0.9655
+0,70,SVM (RBF),0.9750,0.9655
+0,70,Random Forest,1.0000,1.0000
+0,70,Rule (fixed 450),0.9750,0.9655
+0,70,Rule (fixed 550),0.9250,0.9085
+0,71,Threshold rule,1.0000,1.0000
+0,71,Gaussian NB,1.0000,1.0000
+0,71,Logistic Regression,0.9750,0.9655
+0,71,Decision Tree,1.0000,1.0000
+0,71,KNN (k=5),0.9750,0.9655
+0,71,SVM (RBF),0.9750,0.9655
+0,71,Random Forest,1.0000,1.0000
+0,71,Rule (fixed 450),0.9750,0.9655
+0,71,Rule (fixed 550),0.9750,0.9677
+0,72,Threshold rule,1.0000,1.0000
+0,72,Gaussian NB,0.9750,0.9655
+0,72,Logistic Regression,0.9500,0.9283
+0,72,Decision Tree,1.0000,1.0000
+0,72,KNN (k=5),0.9750,0.9655
+0,72,SVM (RBF),0.9750,0.9655
+0,72,Random Forest,1.0000,1.0000
+0,72,Rule (fixed 450),0.9500,0.9283
+0,72,Rule (fixed 550),0.9250,0.9085
+0,73,Threshold rule,1.0000,1.0000
+0,73,Gaussian NB,1.0000,1.0000
+0,73,Logistic Regression,1.0000,1.0000
+0,73,Decision Tree,1.0000,1.0000
+0,73,KNN (k=5),0.9750,0.9655
+0,73,SVM (RBF),0.9750,0.9655
+0,73,Random Forest,1.0000,1.0000
+0,73,Rule (fixed 450),1.0000,1.0000
+0,73,Rule (fixed 550),0.9000,0.8810
+0,74,Threshold rule,1.0000,1.0000
+0,74,Gaussian NB,0.9750,0.9655
+0,74,Logistic Regression,0.9250,0.8880
+0,74,Decision Tree,1.0000,1.0000
+0,74,KNN (k=5),0.9250,0.8880
+0,74,SVM (RBF),0.9500,0.9283
+0,74,Random Forest,1.0000,1.0000
+0,74,Rule (fixed 450),0.9750,0.9655
+0,74,Rule (fixed 550),0.9750,0.9677
+0,75,Threshold rule,1.0000,1.0000
+0,75,Gaussian NB,1.0000,1.0000
+0,75,Logistic Regression,1.0000,1.0000
+0,75,Decision Tree,1.0000,1.0000
+0,75,KNN (k=5),0.9750,0.9655
+0,75,SVM (RBF),0.9750,0.9655
+0,75,Random Forest,1.0000,1.0000
+0,75,Rule (fixed 450),1.0000,1.0000
+0,75,Rule (fixed 550),0.9500,0.9373
+0,76,Threshold rule,1.0000,1.0000
+0,76,Gaussian NB,1.0000,1.0000
+0,76,Logistic Regression,1.0000,1.0000
+0,76,Decision Tree,1.0000,1.0000
+0,76,KNN (k=5),0.9750,0.9677
+0,76,SVM (RBF),1.0000,1.0000
+0,76,Random Forest,1.0000,1.0000
+0,76,Rule (fixed 450),1.0000,1.0000
+0,76,Rule (fixed 550),0.9250,0.9085
+0,77,Threshold rule,1.0000,1.0000
+0,77,Gaussian NB,1.0000,1.0000
+0,77,Logistic Regression,1.0000,1.0000
+0,77,Decision Tree,1.0000,1.0000
+0,77,KNN (k=5),0.9750,0.9655
+0,77,SVM (RBF),0.9750,0.9655
+0,77,Random Forest,1.0000,1.0000
+0,77,Rule (fixed 450),1.0000,1.0000
+0,77,Rule (fixed 550),0.9500,0.9373
+0,78,Threshold rule,0.9500,0.9283
+0,78,Gaussian NB,0.9000,0.8438
+0,78,Logistic Regression,0.8750,0.7949
+0,78,Decision Tree,0.9500,0.9283
+0,78,KNN (k=5),0.9000,0.8438
+0,78,SVM (RBF),0.9000,0.8438
+0,78,Random Forest,0.9250,0.8880
+0,78,Rule (fixed 450),0.9000,0.8438
+0,78,Rule (fixed 550),0.9750,0.9677
+0,79,Threshold rule,1.0000,1.0000
+0,79,Gaussian NB,1.0000,1.0000
+0,79,Logistic Regression,0.9750,0.9655
+0,79,Decision Tree,1.0000,1.0000
+0,79,KNN (k=5),0.9750,0.9655
+0,79,SVM (RBF),0.9750,0.9655
+0,79,Random Forest,1.0000,1.0000
+0,79,Rule (fixed 450),0.9750,0.9655
+0,79,Rule (fixed 550),0.9000,0.8810
+0,80,Threshold rule,1.0000,1.0000
+0,80,Gaussian NB,0.9750,0.9655
+0,80,Logistic Regression,0.9750,0.9655
+0,80,Decision Tree,1.0000,1.0000
+0,80,KNN (k=5),0.9750,0.9655
+0,80,SVM (RBF),0.9750,0.9655
+0,80,Random Forest,1.0000,1.0000
+0,80,Rule (fixed 450),0.9750,0.9655
+0,80,Rule (fixed 550),0.9750,0.9677
+0,81,Threshold rule,1.0000,1.0000
+0,81,Gaussian NB,1.0000,1.0000
+0,81,Logistic Regression,1.0000,1.0000
+0,81,Decision Tree,1.0000,1.0000
+0,81,KNN (k=5),0.9500,0.9333
+0,81,SVM (RBF),1.0000,1.0000
+0,81,Random Forest,1.0000,1.0000
+0,81,Rule (fixed 450),1.0000,1.0000
+0,81,Rule (fixed 550),0.9250,0.9085
+0,82,Threshold rule,0.9750,0.9655
+0,82,Gaussian NB,0.9500,0.9283
+0,82,Logistic Regression,0.9250,0.8880
+0,82,Decision Tree,0.9750,0.9655
+0,82,KNN (k=5),0.9250,0.8880
+0,82,SVM (RBF),0.9250,0.8880
+0,82,Random Forest,0.9750,0.9655
+0,82,Rule (fixed 450),0.9250,0.8880
+0,82,Rule (fixed 550),0.8750,0.8545
+0,83,Threshold rule,1.0000,1.0000
+0,83,Gaussian NB,0.9750,0.9655
+0,83,Logistic Regression,0.9750,0.9655
+0,83,Decision Tree,1.0000,1.0000
+0,83,KNN (k=5),0.9750,0.9655
+0,83,SVM (RBF),0.9750,0.9655
+0,83,Random Forest,1.0000,1.0000
+0,83,Rule (fixed 450),0.9750,0.9655
+0,83,Rule (fixed 550),0.9750,0.9677
+0,84,Threshold rule,1.0000,1.0000
+0,84,Gaussian NB,1.0000,1.0000
+0,84,Logistic Regression,1.0000,1.0000
+0,84,Decision Tree,1.0000,1.0000
+0,84,KNN (k=5),1.0000,1.0000
+0,84,SVM (RBF),1.0000,1.0000
+0,84,Random Forest,1.0000,1.0000
+0,84,Rule (fixed 450),1.0000,1.0000
+0,84,Rule (fixed 550),0.9500,0.9373
+0,85,Threshold rule,1.0000,1.0000
+0,85,Gaussian NB,0.9750,0.9655
+0,85,Logistic Regression,0.9250,0.8880
+0,85,Decision Tree,1.0000,1.0000
+0,85,KNN (k=5),0.9000,0.8566
+0,85,SVM (RBF),0.9250,0.8965
+0,85,Random Forest,1.0000,1.0000
+0,85,Rule (fixed 450),0.9500,0.9283
+0,85,Rule (fixed 550),0.8750,0.8545
+0,86,Threshold rule,1.0000,1.0000
+0,86,Gaussian NB,1.0000,1.0000
+0,86,Logistic Regression,0.9750,0.9655
+0,86,Decision Tree,1.0000,1.0000
+0,86,KNN (k=5),0.9750,0.9655
+0,86,SVM (RBF),0.9750,0.9655
+0,86,Random Forest,1.0000,1.0000
+0,86,Rule (fixed 450),0.9750,0.9655
+0,86,Rule (fixed 550),0.9000,0.8810
+0,87,Threshold rule,1.0000,1.0000
+0,87,Gaussian NB,1.0000,1.0000
+0,87,Logistic Regression,1.0000,1.0000
+0,87,Decision Tree,1.0000,1.0000
+0,87,KNN (k=5),1.0000,1.0000
+0,87,SVM (RBF),1.0000,1.0000
+0,87,Random Forest,1.0000,1.0000
+0,87,Rule (fixed 450),1.0000,1.0000
+0,87,Rule (fixed 550),0.9750,0.9677
+0,88,Threshold rule,1.0000,1.0000
+0,88,Gaussian NB,0.9750,0.9655
+0,88,Logistic Regression,0.9750,0.9655
+0,88,Decision Tree,1.0000,1.0000
+0,88,KNN (k=5),0.9750,0.9655
+0,88,SVM (RBF),0.9750,0.9655
+0,88,Random Forest,1.0000,1.0000
+0,88,Rule (fixed 450),0.9750,0.9655
+0,88,Rule (fixed 550),1.0000,1.0000
+0,89,Threshold rule,1.0000,1.0000
+0,89,Gaussian NB,1.0000,1.0000
+0,89,Logistic Regression,0.9500,0.9283
+0,89,Decision Tree,1.0000,1.0000
+0,89,KNN (k=5),0.9250,0.8965
+0,89,SVM (RBF),0.9500,0.9283
+0,89,Random Forest,1.0000,1.0000
+0,89,Rule (fixed 450),0.9750,0.9655
+0,89,Rule (fixed 550),0.9500,0.9373
+0,90,Threshold rule,1.0000,1.0000
+0,90,Gaussian NB,0.9750,0.9655
+0,90,Logistic Regression,1.0000,1.0000
+0,90,Decision Tree,1.0000,1.0000
+0,90,KNN (k=5),0.9750,0.9655
+0,90,SVM (RBF),0.9750,0.9655
+0,90,Random Forest,1.0000,1.0000
+0,90,Rule (fixed 450),1.0000,1.0000
+0,90,Rule (fixed 550),0.9500,0.9373
+0,91,Threshold rule,0.9750,0.9655
+0,91,Gaussian NB,0.9500,0.9283
+0,91,Logistic Regression,0.9250,0.8880
+0,91,Decision Tree,0.9750,0.9655
+0,91,KNN (k=5),0.9250,0.8880
+0,91,SVM (RBF),0.9250,0.8880
+0,91,Random Forest,0.9750,0.9655
+0,91,Rule (fixed 450),0.9250,0.8880
+0,91,Rule (fixed 550),0.9500,0.9373
+0,92,Threshold rule,1.0000,1.0000
+0,92,Gaussian NB,0.9750,0.9655
+0,92,Logistic Regression,0.9750,0.9655
+0,92,Decision Tree,1.0000,1.0000
+0,92,KNN (k=5),0.9500,0.9333
+0,92,SVM (RBF),0.9750,0.9655
+0,92,Random Forest,1.0000,1.0000
+0,92,Rule (fixed 450),0.9750,0.9655
+0,92,Rule (fixed 550),0.9000,0.8810
+0,93,Threshold rule,1.0000,1.0000
+0,93,Gaussian NB,1.0000,1.0000
+0,93,Logistic Regression,1.0000,1.0000
+0,93,Decision Tree,1.0000,1.0000
+0,93,KNN (k=5),1.0000,1.0000
+0,93,SVM (RBF),1.0000,1.0000
+0,93,Random Forest,1.0000,1.0000
+0,93,Rule (fixed 450),1.0000,1.0000
+0,93,Rule (fixed 550),0.9750,0.9677
+0,94,Threshold rule,1.0000,1.0000
+0,94,Gaussian NB,1.0000,1.0000
+0,94,Logistic Regression,0.9750,0.9655
+0,94,Decision Tree,1.0000,1.0000
+0,94,KNN (k=5),0.9750,0.9655
+0,94,SVM (RBF),0.9750,0.9655
+0,94,Random Forest,1.0000,1.0000
+0,94,Rule (fixed 450),0.9750,0.9655
+0,94,Rule (fixed 550),0.9250,0.9085
+0,95,Threshold rule,1.0000,1.0000
+0,95,Gaussian NB,0.9500,0.9283
+0,95,Logistic Regression,0.9250,0.8880
+0,95,Decision Tree,1.0000,1.0000
+0,95,KNN (k=5),0.9500,0.9283
+0,95,SVM (RBF),0.9250,0.8880
+0,95,Random Forest,1.0000,1.0000
+0,95,Rule (fixed 450),0.9250,0.8880
+0,95,Rule (fixed 550),0.9500,0.9373
+0,96,Threshold rule,1.0000,1.0000
+0,96,Gaussian NB,1.0000,1.0000
+0,96,Logistic Regression,1.0000,1.0000
+0,96,Decision Tree,1.0000,1.0000
+0,96,KNN (k=5),0.9750,0.9655
+0,96,SVM (RBF),0.9750,0.9655
+0,96,Random Forest,1.0000,1.0000
+0,96,Rule (fixed 450),1.0000,1.0000
+0,96,Rule (fixed 550),0.9750,0.9677
+0,97,Threshold rule,1.0000,1.0000
+0,97,Gaussian NB,1.0000,1.0000
+0,97,Logistic Regression,0.9750,0.9655
+0,97,Decision Tree,1.0000,1.0000
+0,97,KNN (k=5),0.9500,0.9283
+0,97,SVM (RBF),0.9500,0.9283
+0,97,Random Forest,1.0000,1.0000
+0,97,Rule (fixed 450),0.9750,0.9655
+0,97,Rule (fixed 550),0.8750,0.8545
+0,98,Threshold rule,1.0000,1.0000
+0,98,Gaussian NB,1.0000,1.0000
+0,98,Logistic Regression,1.0000,1.0000
+0,98,Decision Tree,1.0000,1.0000
+0,98,KNN (k=5),1.0000,1.0000
+0,98,SVM (RBF),1.0000,1.0000
+0,98,Random Forest,1.0000,1.0000
+0,98,Rule (fixed 450),1.0000,1.0000
+0,98,Rule (fixed 550),0.9250,0.9085
+0,99,Threshold rule,1.0000,1.0000
+0,99,Gaussian NB,0.9750,0.9655
+0,99,Logistic Regression,0.9750,0.9655
+0,99,Decision Tree,1.0000,1.0000
+0,99,KNN (k=5),0.9750,0.9655
+0,99,SVM (RBF),0.9750,0.9655
+0,99,Random Forest,1.0000,1.0000
+0,99,Rule (fixed 450),0.9750,0.9655
+0,99,Rule (fixed 550),0.9750,0.9677
+2,0,Threshold rule,1.0000,1.0000
+2,0,Gaussian NB,0.9750,0.9655
+2,0,Logistic Regression,0.9750,0.9655
+2,0,Decision Tree,1.0000,1.0000
+2,0,KNN (k=5),0.9500,0.9373
+2,0,SVM (RBF),0.9750,0.9655
+2,0,Random Forest,1.0000,1.0000
+2,0,Rule (fixed 450),0.9750,0.9655
+2,0,Rule (fixed 550),0.9250,0.9085
+2,1,Threshold rule,0.9750,0.9655
+2,1,Gaussian NB,0.9750,0.9655
+2,1,Logistic Regression,0.9500,0.9283
+2,1,Decision Tree,0.9750,0.9655
+2,1,KNN (k=5),0.9500,0.9283
+2,1,SVM (RBF),0.9250,0.8880
+2,1,Random Forest,0.9750,0.9655
+2,1,Rule (fixed 450),0.9500,0.9283
+2,1,Rule (fixed 550),0.9500,0.9373
+2,2,Threshold rule,1.0000,1.0000
+2,2,Gaussian NB,1.0000,1.0000
+2,2,Logistic Regression,0.9750,0.9655
+2,2,Decision Tree,1.0000,1.0000
+2,2,KNN (k=5),0.9750,0.9655
+2,2,SVM (RBF),0.9750,0.9655
+2,2,Random Forest,1.0000,1.0000
+2,2,Rule (fixed 450),1.0000,1.0000
+2,2,Rule (fixed 550),0.9750,0.9677
+2,3,Threshold rule,1.0000,1.0000
+2,3,Gaussian NB,1.0000,1.0000
+2,3,Logistic Regression,1.0000,1.0000
+2,3,Decision Tree,1.0000,1.0000
+2,3,KNN (k=5),1.0000,1.0000
+2,3,SVM (RBF),1.0000,1.0000
+2,3,Random Forest,1.0000,1.0000
+2,3,Rule (fixed 450),1.0000,1.0000
+2,3,Rule (fixed 550),0.9500,0.9373
+2,4,Threshold rule,1.0000,1.0000
+2,4,Gaussian NB,0.9750,0.9655
+2,4,Logistic Regression,0.9750,0.9655
+2,4,Decision Tree,1.0000,1.0000
+2,4,KNN (k=5),0.9750,0.9655
+2,4,SVM (RBF),0.9750,0.9655
+2,4,Random Forest,1.0000,1.0000
+2,4,Rule (fixed 450),0.9750,0.9655
+2,4,Rule (fixed 550),0.9250,0.9085
+2,5,Threshold rule,0.9750,0.9655
+2,5,Gaussian NB,0.9500,0.9283
+2,5,Logistic Regression,0.9500,0.9283
+2,5,Decision Tree,0.9750,0.9655
+2,5,KNN (k=5),0.9500,0.9283
+2,5,SVM (RBF),0.9500,0.9283
+2,5,Random Forest,0.9750,0.9655
+2,5,Rule (fixed 450),0.9500,0.9283
+2,5,Rule (fixed 550),1.0000,1.0000
+2,6,Threshold rule,1.0000,1.0000
+2,6,Gaussian NB,0.9750,0.9655
+2,6,Logistic Regression,0.9750,0.9655
+2,6,Decision Tree,0.9750,0.9677
+2,6,KNN (k=5),0.9750,0.9655
+2,6,SVM (RBF),0.9750,0.9655
+2,6,Random Forest,0.9750,0.9677
+2,6,Rule (fixed 450),0.9750,0.9655
+2,6,Rule (fixed 550),0.9000,0.8810
+2,7,Threshold rule,1.0000,1.0000
+2,7,Gaussian NB,0.9750,0.9655
+2,7,Logistic Regression,0.9750,0.9655
+2,7,Decision Tree,1.0000,1.0000
+2,7,KNN (k=5),0.9750,0.9655
+2,7,SVM (RBF),0.9750,0.9655
+2,7,Random Forest,1.0000,1.0000
+2,7,Rule (fixed 450),0.9750,0.9655
+2,7,Rule (fixed 550),0.9000,0.8810
+2,8,Threshold rule,1.0000,1.0000
+2,8,Gaussian NB,0.9750,0.9655
+2,8,Logistic Regression,0.9500,0.9283
+2,8,Decision Tree,1.0000,1.0000
+2,8,KNN (k=5),0.9750,0.9655
+2,8,SVM (RBF),0.9750,0.9655
+2,8,Random Forest,1.0000,1.0000
+2,8,Rule (fixed 450),0.9500,0.9283
+2,8,Rule (fixed 550),0.9000,0.8810
+2,9,Threshold rule,1.0000,1.0000
+2,9,Gaussian NB,1.0000,1.0000
+2,9,Logistic Regression,0.9750,0.9655
+2,9,Decision Tree,1.0000,1.0000
+2,9,KNN (k=5),0.9500,0.9333
+2,9,SVM (RBF),0.9750,0.9655
+2,9,Random Forest,1.0000,1.0000
+2,9,Rule (fixed 450),0.9750,0.9655
+2,9,Rule (fixed 550),0.9250,0.9085
+2,10,Threshold rule,0.9500,0.9283
+2,10,Gaussian NB,0.9500,0.9283
+2,10,Logistic Regression,0.9250,0.8880
+2,10,Decision Tree,0.9500,0.9283
+2,10,KNN (k=5),0.9000,0.8438
+2,10,SVM (RBF),0.9250,0.8880
+2,10,Random Forest,0.9750,0.9655
+2,10,Rule (fixed 450),0.9500,0.9283
+2,10,Rule (fixed 550),0.9750,0.9677
+2,11,Threshold rule,1.0000,1.0000
+2,11,Gaussian NB,1.0000,1.0000
+2,11,Logistic Regression,1.0000,1.0000
+2,11,Decision Tree,0.9750,0.9677
+2,11,KNN (k=5),1.0000,1.0000
+2,11,SVM (RBF),1.0000,1.0000
+2,11,Random Forest,0.9750,0.9677
+2,11,Rule (fixed 450),1.0000,1.0000
+2,11,Rule (fixed 550),0.9750,0.9677
+2,12,Threshold rule,0.9500,0.9373
+2,12,Gaussian NB,1.0000,1.0000
+2,12,Logistic Regression,1.0000,1.0000
+2,12,Decision Tree,1.0000,1.0000
+2,12,KNN (k=5),0.9500,0.9373
+2,12,SVM (RBF),0.9500,0.9373
+2,12,Random Forest,1.0000,1.0000
+2,12,Rule (fixed 450),1.0000,1.0000
+2,12,Rule (fixed 550),0.9250,0.9085
+2,13,Threshold rule,1.0000,1.0000
+2,13,Gaussian NB,0.9500,0.9283
+2,13,Logistic Regression,0.9500,0.9283
+2,13,Decision Tree,0.9750,0.9655
+2,13,KNN (k=5),0.9500,0.9283
+2,13,SVM (RBF),0.9500,0.9283
+2,13,Random Forest,0.9750,0.9655
+2,13,Rule (fixed 450),0.9500,0.9283
+2,13,Rule (fixed 550),1.0000,1.0000
+2,14,Threshold rule,0.9500,0.9283
+2,14,Gaussian NB,0.9500,0.9283
+2,14,Logistic Regression,0.9500,0.9283
+2,14,Decision Tree,0.9500,0.9283
+2,14,KNN (k=5),0.9250,0.8965
+2,14,SVM (RBF),0.9500,0.9283
+2,14,Random Forest,0.9500,0.9283
+2,14,Rule (fixed 450),0.9500,0.9283
+2,14,Rule (fixed 550),0.9500,0.9373
+2,15,Threshold rule,1.0000,1.0000
+2,15,Gaussian NB,0.9750,0.9655
+2,15,Logistic Regression,0.9750,0.9655
+2,15,Decision Tree,0.9750,0.9655
+2,15,KNN (k=5),0.9750,0.9655
+2,15,SVM (RBF),0.9750,0.9655
+2,15,Random Forest,0.9750,0.9655
+2,15,Rule (fixed 450),0.9750,0.9655
+2,15,Rule (fixed 550),0.9750,0.9677
+2,16,Threshold rule,0.9750,0.9655
+2,16,Gaussian NB,0.9750,0.9655
+2,16,Logistic Regression,0.9750,0.9655
+2,16,Decision Tree,0.9500,0.9333
+2,16,KNN (k=5),0.9500,0.9333
+2,16,SVM (RBF),0.9500,0.9283
+2,16,Random Forest,0.9500,0.9333
+2,16,Rule (fixed 450),0.9750,0.9655
+2,16,Rule (fixed 550),0.9000,0.8810
+2,17,Threshold rule,0.9750,0.9677
+2,17,Gaussian NB,1.0000,1.0000
+2,17,Logistic Regression,1.0000,1.0000
+2,17,Decision Tree,0.9750,0.9677
+2,17,KNN (k=5),1.0000,1.0000
+2,17,SVM (RBF),1.0000,1.0000
+2,17,Random Forest,0.9750,0.9677
+2,17,Rule (fixed 450),1.0000,1.0000
+2,17,Rule (fixed 550),0.9250,0.9085
+2,18,Threshold rule,1.0000,1.0000
+2,18,Gaussian NB,0.9750,0.9655
+2,18,Logistic Regression,0.9750,0.9655
+2,18,Decision Tree,1.0000,1.0000
+2,18,KNN (k=5),0.9750,0.9655
+2,18,SVM (RBF),0.9750,0.9655
+2,18,Random Forest,1.0000,1.0000
+2,18,Rule (fixed 450),0.9750,0.9655
+2,18,Rule (fixed 550),0.9750,0.9677
+2,19,Threshold rule,0.9750,0.9655
+2,19,Gaussian NB,0.9750,0.9655
+2,19,Logistic Regression,0.9500,0.9283
+2,19,Decision Tree,0.9750,0.9655
+2,19,KNN (k=5),0.9500,0.9283
+2,19,SVM (RBF),0.9750,0.9655
+2,19,Random Forest,0.9750,0.9655
+2,19,Rule (fixed 450),0.9750,0.9655
+2,19,Rule (fixed 550),0.9500,0.9373
+2,20,Threshold rule,0.9750,0.9677
+2,20,Gaussian NB,1.0000,1.0000
+2,20,Logistic Regression,0.9750,0.9655
+2,20,Decision Tree,0.9500,0.9373
+2,20,KNN (k=5),0.9750,0.9655
+2,20,SVM (RBF),0.9750,0.9655
+2,20,Random Forest,0.9750,0.9677
+2,20,Rule (fixed 450),0.9750,0.9655
+2,20,Rule (fixed 550),0.9250,0.9085
+2,21,Threshold rule,0.9750,0.9655
+2,21,Gaussian NB,0.9500,0.9283
+2,21,Logistic Regression,0.9500,0.9283
+2,21,Decision Tree,0.9750,0.9655
+2,21,KNN (k=5),0.9500,0.9283
+2,21,SVM (RBF),0.9500,0.9283
+2,21,Random Forest,0.9750,0.9655
+2,21,Rule (fixed 450),0.9750,0.9655
+2,21,Rule (fixed 550),0.9500,0.9373
+2,22,Threshold rule,0.9750,0.9655
+2,22,Gaussian NB,0.9750,0.9655
+2,22,Logistic Regression,0.9750,0.9655
+2,22,Decision Tree,0.9750,0.9655
+2,22,KNN (k=5),0.9500,0.9283
+2,22,SVM (RBF),0.9750,0.9655
+2,22,Random Forest,0.9750,0.9655
+2,22,Rule (fixed 450),0.9750,0.9655
+2,22,Rule (fixed 550),0.9750,0.9677
+2,23,Threshold rule,1.0000,1.0000
+2,23,Gaussian NB,1.0000,1.0000
+2,23,Logistic Regression,1.0000,1.0000
+2,23,Decision Tree,1.0000,1.0000
+2,23,KNN (k=5),0.9750,0.9655
+2,23,SVM (RBF),1.0000,1.0000
+2,23,Random Forest,1.0000,1.0000
+2,23,Rule (fixed 450),1.0000,1.0000
+2,23,Rule (fixed 550),0.9500,0.9373
+2,24,Threshold rule,1.0000,1.0000
+2,24,Gaussian NB,1.0000,1.0000
+2,24,Logistic Regression,1.0000,1.0000
+2,24,Decision Tree,1.0000,1.0000
+2,24,KNN (k=5),0.9750,0.9677
+2,24,SVM (RBF),1.0000,1.0000
+2,24,Random Forest,1.0000,1.0000
+2,24,Rule (fixed 450),0.9750,0.9655
+2,24,Rule (fixed 550),0.8500,0.8291
+2,25,Threshold rule,1.0000,1.0000
+2,25,Gaussian NB,0.9750,0.9655
+2,25,Logistic Regression,0.9000,0.8438
+2,25,Decision Tree,0.9750,0.9655
+2,25,KNN (k=5),0.9250,0.8965
+2,25,SVM (RBF),0.9250,0.8880
+2,25,Random Forest,0.9750,0.9655
+2,25,Rule (fixed 450),0.9500,0.9283
+2,25,Rule (fixed 550),0.8750,0.8545
+2,26,Threshold rule,1.0000,1.0000
+2,26,Gaussian NB,1.0000,1.0000
+2,26,Logistic Regression,1.0000,1.0000
+2,26,Decision Tree,1.0000,1.0000
+2,26,KNN (k=5),1.0000,1.0000
+2,26,SVM (RBF),1.0000,1.0000
+2,26,Random Forest,1.0000,1.0000
+2,26,Rule (fixed 450),1.0000,1.0000
+2,26,Rule (fixed 550),0.9500,0.9373
+2,27,Threshold rule,1.0000,1.0000
+2,27,Gaussian NB,0.9750,0.9655
+2,27,Logistic Regression,0.9750,0.9655
+2,27,Decision Tree,0.9750,0.9655
+2,27,KNN (k=5),0.9750,0.9655
+2,27,SVM (RBF),0.9750,0.9655
+2,27,Random Forest,0.9750,0.9655
+2,27,Rule (fixed 450),0.9750,0.9655
+2,27,Rule (fixed 550),1.0000,1.0000
+2,28,Threshold rule,1.0000,1.0000
+2,28,Gaussian NB,1.0000,1.0000
+2,28,Logistic Regression,1.0000,1.0000
+2,28,Decision Tree,1.0000,1.0000
+2,28,KNN (k=5),1.0000,1.0000
+2,28,SVM (RBF),1.0000,1.0000
+2,28,Random Forest,1.0000,1.0000
+2,28,Rule (fixed 450),1.0000,1.0000
+2,28,Rule (fixed 550),0.9500,0.9373
+2,29,Threshold rule,0.9750,0.9677
+2,29,Gaussian NB,1.0000,1.0000
+2,29,Logistic Regression,1.0000,1.0000
+2,29,Decision Tree,0.9750,0.9677
+2,29,KNN (k=5),1.0000,1.0000
+2,29,SVM (RBF),1.0000,1.0000
+2,29,Random Forest,0.9750,0.9677
+2,29,Rule (fixed 450),0.9750,0.9655
+2,29,Rule (fixed 550),0.9250,0.9085
+2,30,Threshold rule,0.9750,0.9677
+2,30,Gaussian NB,0.9750,0.9655
+2,30,Logistic Regression,0.9750,0.9655
+2,30,Decision Tree,0.9750,0.9655
+2,30,KNN (k=5),0.9500,0.9283
+2,30,SVM (RBF),0.9500,0.9283
+2,30,Random Forest,0.9750,0.9655
+2,30,Rule (fixed 450),0.9750,0.9655
+2,30,Rule (fixed 550),0.9500,0.9373
+2,31,Threshold rule,1.0000,1.0000
+2,31,Gaussian NB,0.9750,0.9655
+2,31,Logistic Regression,0.9750,0.9655
+2,31,Decision Tree,1.0000,1.0000
+2,31,KNN (k=5),0.9750,0.9677
+2,31,SVM (RBF),0.9750,0.9655
+2,31,Random Forest,1.0000,1.0000
+2,31,Rule (fixed 450),0.9750,0.9655
+2,31,Rule (fixed 550),0.9250,0.9085
+2,32,Threshold rule,1.0000,1.0000
+2,32,Gaussian NB,1.0000,1.0000
+2,32,Logistic Regression,1.0000,1.0000
+2,32,Decision Tree,1.0000,1.0000
+2,32,KNN (k=5),1.0000,1.0000
+2,32,SVM (RBF),1.0000,1.0000
+2,32,Random Forest,1.0000,1.0000
+2,32,Rule (fixed 450),1.0000,1.0000
+2,32,Rule (fixed 550),0.9750,0.9677
+2,33,Threshold rule,0.9500,0.9283
+2,33,Gaussian NB,0.9500,0.9283
+2,33,Logistic Regression,0.9500,0.9283
+2,33,Decision Tree,0.9500,0.9283
+2,33,KNN (k=5),0.9500,0.9283
+2,33,SVM (RBF),0.9500,0.9283
+2,33,Random Forest,0.9500,0.9283
+2,33,Rule (fixed 450),0.9500,0.9283
+2,33,Rule (fixed 550),0.9750,0.9677
+2,34,Threshold rule,1.0000,1.0000
+2,34,Gaussian NB,1.0000,1.0000
+2,34,Logistic Regression,1.0000,1.0000
+2,34,Decision Tree,0.9500,0.9333
+2,34,KNN (k=5),0.9500,0.9333
+2,34,SVM (RBF),1.0000,1.0000
+2,34,Random Forest,0.9750,0.9677
+2,34,Rule (fixed 450),1.0000,1.0000
+2,34,Rule (fixed 550),0.9500,0.9373
+2,35,Threshold rule,1.0000,1.0000
+2,35,Gaussian NB,1.0000,1.0000
+2,35,Logistic Regression,1.0000,1.0000
+2,35,Decision Tree,1.0000,1.0000
+2,35,KNN (k=5),0.9750,0.9677
+2,35,SVM (RBF),1.0000,1.0000
+2,35,Random Forest,1.0000,1.0000
+2,35,Rule (fixed 450),1.0000,1.0000
+2,35,Rule (fixed 550),0.9750,0.9677
+2,36,Threshold rule,0.9500,0.9373
+2,36,Gaussian NB,0.9750,0.9655
+2,36,Logistic Regression,0.9500,0.9283
+2,36,Decision Tree,0.9750,0.9677
+2,36,KNN (k=5),0.9250,0.8965
+2,36,SVM (RBF),0.9500,0.9283
+2,36,Random Forest,0.9750,0.9677
+2,36,Rule (fixed 450),0.9500,0.9283
+2,36,Rule (fixed 550),0.9000,0.8810
+2,37,Threshold rule,1.0000,1.0000
+2,37,Gaussian NB,0.9750,0.9655
+2,37,Logistic Regression,0.9500,0.9283
+2,37,Decision Tree,1.0000,1.0000
+2,37,KNN (k=5),0.9250,0.8880
+2,37,SVM (RBF),0.9500,0.9283
+2,37,Random Forest,1.0000,1.0000
+2,37,Rule (fixed 450),0.9750,0.9655
+2,37,Rule (fixed 550),1.0000,1.0000
+2,38,Threshold rule,1.0000,1.0000
+2,38,Gaussian NB,0.9750,0.9655
+2,38,Logistic Regression,0.9750,0.9655
+2,38,Decision Tree,1.0000,1.0000
+2,38,KNN (k=5),0.9750,0.9655
+2,38,SVM (RBF),0.9750,0.9655
+2,38,Random Forest,1.0000,1.0000
+2,38,Rule (fixed 450),0.9750,0.9655
+2,38,Rule (fixed 550),0.9500,0.9373
+2,39,Threshold rule,1.0000,1.0000
+2,39,Gaussian NB,0.9750,0.9655
+2,39,Logistic Regression,0.9500,0.9283
+2,39,Decision Tree,0.9750,0.9655
+2,39,KNN (k=5),0.9750,0.9655
+2,39,SVM (RBF),0.9500,0.9283
+2,39,Random Forest,0.9750,0.9677
+2,39,Rule (fixed 450),0.9500,0.9283
+2,39,Rule (fixed 550),0.9500,0.9373
+2,40,Threshold rule,0.9750,0.9655
+2,40,Gaussian NB,0.9500,0.9283
+2,40,Logistic Regression,0.9250,0.8880
+2,40,Decision Tree,0.9750,0.9655
+2,40,KNN (k=5),0.9250,0.8965
+2,40,SVM (RBF),0.9250,0.8880
+2,40,Random Forest,0.9750,0.9655
+2,40,Rule (fixed 450),0.9250,0.8880
+2,40,Rule (fixed 550),0.9250,0.9085
+2,41,Threshold rule,0.9750,0.9655
+2,41,Gaussian NB,0.9750,0.9655
+2,41,Logistic Regression,0.9750,0.9655
+2,41,Decision Tree,0.9750,0.9655
+2,41,KNN (k=5),0.9750,0.9655
+2,41,SVM (RBF),0.9750,0.9655
+2,41,Random Forest,0.9500,0.9333
+2,41,Rule (fixed 450),0.9750,0.9655
+2,41,Rule (fixed 550),0.9500,0.9373
+2,42,Threshold rule,0.9750,0.9677
+2,42,Gaussian NB,0.9750,0.9677
+2,42,Logistic Regression,0.9750,0.9677
+2,42,Decision Tree,0.9750,0.9677
+2,42,KNN (k=5),0.9750,0.9677
+2,42,SVM (RBF),0.9750,0.9677
+2,42,Random Forest,0.9750,0.9677
+2,42,Rule (fixed 450),1.0000,1.0000
+2,42,Rule (fixed 550),0.9250,0.9085
+2,43,Threshold rule,1.0000,1.0000
+2,43,Gaussian NB,1.0000,1.0000
+2,43,Logistic Regression,1.0000,1.0000
+2,43,Decision Tree,1.0000,1.0000
+2,43,KNN (k=5),1.0000,1.0000
+2,43,SVM (RBF),1.0000,1.0000
+2,43,Random Forest,1.0000,1.0000
+2,43,Rule (fixed 450),1.0000,1.0000
+2,43,Rule (fixed 550),0.9750,0.9677
+2,44,Threshold rule,0.9500,0.9333
+2,44,Gaussian NB,0.9750,0.9655
+2,44,Logistic Regression,0.9750,0.9655
+2,44,Decision Tree,0.9500,0.9333
+2,44,KNN (k=5),0.9750,0.9655
+2,44,SVM (RBF),0.9750,0.9655
+2,44,Random Forest,0.9500,0.9333
+2,44,Rule (fixed 450),0.9750,0.9655
+2,44,Rule (fixed 550),0.9500,0.9373
+2,45,Threshold rule,0.9750,0.9655
+2,45,Gaussian NB,0.9500,0.9283
+2,45,Logistic Regression,0.9500,0.9283
+2,45,Decision Tree,0.9750,0.9655
+2,45,KNN (k=5),0.9500,0.9283
+2,45,SVM (RBF),0.9500,0.9283
+2,45,Random Forest,0.9750,0.9655
+2,45,Rule (fixed 450),0.9500,0.9283
+2,45,Rule (fixed 550),0.9500,0.9373
+2,46,Threshold rule,0.9750,0.9677
+2,46,Gaussian NB,0.9750,0.9655
+2,46,Logistic Regression,0.9750,0.9655
+2,46,Decision Tree,0.9750,0.9655
+2,46,KNN (k=5),0.9750,0.9655
+2,46,SVM (RBF),0.9750,0.9655
+2,46,Random Forest,0.9750,0.9655
+2,46,Rule (fixed 450),0.9750,0.9655
+2,46,Rule (fixed 550),0.9750,0.9677
+2,47,Threshold rule,0.9500,0.9333
+2,47,Gaussian NB,0.9750,0.9655
+2,47,Logistic Regression,0.9250,0.8880
+2,47,Decision Tree,0.9500,0.9333
+2,47,KNN (k=5),0.9250,0.8880
+2,47,SVM (RBF),0.9250,0.8880
+2,47,Random Forest,0.9500,0.9333
+2,47,Rule (fixed 450),0.9250,0.8880
+2,47,Rule (fixed 550),0.9500,0.9373
+2,48,Threshold rule,0.9750,0.9677
+2,48,Gaussian NB,1.0000,1.0000
+2,48,Logistic Regression,1.0000,1.0000
+2,48,Decision Tree,0.9750,0.9677
+2,48,KNN (k=5),1.0000,1.0000
+2,48,SVM (RBF),1.0000,1.0000
+2,48,Random Forest,0.9750,0.9677
+2,48,Rule (fixed 450),1.0000,1.0000
+2,48,Rule (fixed 550),0.9750,0.9677
+2,49,Threshold rule,0.9750,0.9677
+2,49,Gaussian NB,0.9750,0.9677
+2,49,Logistic Regression,0.9750,0.9677
+2,49,Decision Tree,0.9750,0.9677
+2,49,KNN (k=5),0.9500,0.9373
+2,49,SVM (RBF),0.9750,0.9677
+2,49,Random Forest,0.9750,0.9677
+2,49,Rule (fixed 450),1.0000,1.0000
+2,49,Rule (fixed 550),0.9000,0.8810
+2,50,Threshold rule,0.9750,0.9677
+2,50,Gaussian NB,0.9500,0.9333
+2,50,Logistic Regression,0.9500,0.9283
+2,50,Decision Tree,0.9500,0.9333
+2,50,KNN (k=5),0.9500,0.9283
+2,50,SVM (RBF),0.9500,0.9283
+2,50,Random Forest,0.9500,0.9333
+2,50,Rule (fixed 450),0.9500,0.9283
+2,50,Rule (fixed 550),0.9500,0.9373
+2,51,Threshold rule,0.9750,0.9655
+2,51,Gaussian NB,0.9750,0.9655
+2,51,Logistic Regression,0.9750,0.9655
+2,51,Decision Tree,0.9750,0.9677
+2,51,KNN (k=5),0.9750,0.9655
+2,51,SVM (RBF),0.9750,0.9655
+2,51,Random Forest,0.9750,0.9655
+2,51,Rule (fixed 450),0.9750,0.9655
+2,51,Rule (fixed 550),0.9750,0.9677
+2,52,Threshold rule,1.0000,1.0000
+2,52,Gaussian NB,1.0000,1.0000
+2,52,Logistic Regression,0.9750,0.9655
+2,52,Decision Tree,1.0000,1.0000
+2,52,KNN (k=5),0.9500,0.9333
+2,52,SVM (RBF),0.9750,0.9655
+2,52,Random Forest,1.0000,1.0000
+2,52,Rule (fixed 450),1.0000,1.0000
+2,52,Rule (fixed 550),0.9500,0.9373
+2,53,Threshold rule,0.9750,0.9655
+2,53,Gaussian NB,0.9750,0.9655
+2,53,Logistic Regression,0.9750,0.9655
+2,53,Decision Tree,1.0000,1.0000
+2,53,KNN (k=5),0.9750,0.9655
+2,53,SVM (RBF),0.9750,0.9655
+2,53,Random Forest,1.0000,1.0000
+2,53,Rule (fixed 450),0.9750,0.9655
+2,53,Rule (fixed 550),0.9500,0.9373
+2,54,Threshold rule,0.9500,0.9373
+2,54,Gaussian NB,0.9750,0.9677
+2,54,Logistic Regression,0.9750,0.9677
+2,54,Decision Tree,0.9500,0.9373
+2,54,KNN (k=5),0.9750,0.9677
+2,54,SVM (RBF),0.9750,0.9677
+2,54,Random Forest,0.9500,0.9373
+2,54,Rule (fixed 450),1.0000,1.0000
+2,54,Rule (fixed 550),0.9000,0.8810
+2,55,Threshold rule,0.9750,0.9677
+2,55,Gaussian NB,1.0000,1.0000
+2,55,Logistic Regression,0.9750,0.9655
+2,55,Decision Tree,1.0000,1.0000
+2,55,KNN (k=5),0.9750,0.9655
+2,55,SVM (RBF),0.9750,0.9655
+2,55,Random Forest,1.0000,1.0000
+2,55,Rule (fixed 450),0.9750,0.9655
+2,55,Rule (fixed 550),0.9750,0.9677
+2,56,Threshold rule,1.0000,1.0000
+2,56,Gaussian NB,1.0000,1.0000
+2,56,Logistic Regression,1.0000,1.0000
+2,56,Decision Tree,1.0000,1.0000
+2,56,KNN (k=5),0.9750,0.9677
+2,56,SVM (RBF),1.0000,1.0000
+2,56,Random Forest,1.0000,1.0000
+2,56,Rule (fixed 450),1.0000,1.0000
+2,56,Rule (fixed 550),0.9500,0.9373
+2,57,Threshold rule,0.9750,0.9655
+2,57,Gaussian NB,0.9750,0.9655
+2,57,Logistic Regression,0.9250,0.8880
+2,57,Decision Tree,0.9750,0.9655
+2,57,KNN (k=5),0.9750,0.9655
+2,57,SVM (RBF),0.9500,0.9283
+2,57,Random Forest,0.9750,0.9655
+2,57,Rule (fixed 450),0.9500,0.9283
+2,57,Rule (fixed 550),0.9250,0.9085
+2,58,Threshold rule,1.0000,1.0000
+2,58,Gaussian NB,1.0000,1.0000
+2,58,Logistic Regression,1.0000,1.0000
+2,58,Decision Tree,0.9750,0.9677
+2,58,KNN (k=5),0.9500,0.9333
+2,58,SVM (RBF),1.0000,1.0000
+2,58,Random Forest,0.9750,0.9677
+2,58,Rule (fixed 450),1.0000,1.0000
+2,58,Rule (fixed 550),0.9500,0.9373
+2,59,Threshold rule,0.9750,0.9677
+2,59,Gaussian NB,0.9750,0.9655
+2,59,Logistic Regression,1.0000,1.0000
+2,59,Decision Tree,1.0000,1.0000
+2,59,KNN (k=5),1.0000,1.0000
+2,59,SVM (RBF),1.0000,1.0000
+2,59,Random Forest,1.0000,1.0000
+2,59,Rule (fixed 450),0.9750,0.9655
+2,59,Rule (fixed 550),0.9500,0.9373
+2,60,Threshold rule,0.9750,0.9655
+2,60,Gaussian NB,0.9750,0.9655
+2,60,Logistic Regression,0.9750,0.9655
+2,60,Decision Tree,0.9750,0.9655
+2,60,KNN (k=5),0.9750,0.9655
+2,60,SVM (RBF),0.9750,0.9655
+2,60,Random Forest,0.9750,0.9655
+2,60,Rule (fixed 450),0.9750,0.9655
+2,60,Rule (fixed 550),0.9000,0.8810
+2,61,Threshold rule,0.9750,0.9677
+2,61,Gaussian NB,1.0000,1.0000
+2,61,Logistic Regression,1.0000,1.0000
+2,61,Decision Tree,0.9750,0.9677
+2,61,KNN (k=5),0.9000,0.8810
+2,61,SVM (RBF),1.0000,1.0000
+2,61,Random Forest,1.0000,1.0000
+2,61,Rule (fixed 450),1.0000,1.0000
+2,61,Rule (fixed 550),0.8000,0.7802
+2,62,Threshold rule,0.9750,0.9655
+2,62,Gaussian NB,0.9750,0.9655
+2,62,Logistic Regression,0.9000,0.8438
+2,62,Decision Tree,0.9500,0.9283
+2,62,KNN (k=5),0.9000,0.8438
+2,62,SVM (RBF),0.9250,0.8880
+2,62,Random Forest,0.9750,0.9655
+2,62,Rule (fixed 450),0.9500,0.9283
+2,62,Rule (fixed 550),1.0000,1.0000
+2,63,Threshold rule,1.0000,1.0000
+2,63,Gaussian NB,0.9750,0.9655
+2,63,Logistic Regression,1.0000,1.0000
+2,63,Decision Tree,1.0000,1.0000
+2,63,KNN (k=5),0.9750,0.9655
+2,63,SVM (RBF),0.9750,0.9655
+2,63,Random Forest,1.0000,1.0000
+2,63,Rule (fixed 450),0.9750,0.9655
+2,63,Rule (fixed 550),1.0000,1.0000
+2,64,Threshold rule,0.9750,0.9677
+2,64,Gaussian NB,0.9500,0.9283
+2,64,Logistic Regression,0.9500,0.9283
+2,64,Decision Tree,0.9750,0.9677
+2,64,KNN (k=5),0.9500,0.9283
+2,64,SVM (RBF),0.9500,0.9283
+2,64,Random Forest,0.9750,0.9677
+2,64,Rule (fixed 450),0.9500,0.9283
+2,64,Rule (fixed 550),0.9750,0.9677
+2,65,Threshold rule,0.9750,0.9677
+2,65,Gaussian NB,0.9750,0.9655
+2,65,Logistic Regression,0.9750,0.9655
+2,65,Decision Tree,1.0000,1.0000
+2,65,KNN (k=5),0.9500,0.9333
+2,65,SVM (RBF),0.9750,0.9655
+2,65,Random Forest,0.9750,0.9677
+2,65,Rule (fixed 450),0.9750,0.9655
+2,65,Rule (fixed 550),0.9500,0.9373
+2,66,Threshold rule,0.9750,0.9677
+2,66,Gaussian NB,1.0000,1.0000
+2,66,Logistic Regression,1.0000,1.0000
+2,66,Decision Tree,1.0000,1.0000
+2,66,KNN (k=5),0.9750,0.9677
+2,66,SVM (RBF),0.9750,0.9677
+2,66,Random Forest,1.0000,1.0000
+2,66,Rule (fixed 450),1.0000,1.0000
+2,66,Rule (fixed 550),0.9250,0.9085
+2,67,Threshold rule,0.9750,0.9677
+2,67,Gaussian NB,0.9500,0.9333
+2,67,Logistic Regression,0.9750,0.9655
+2,67,Decision Tree,0.9750,0.9677
+2,67,KNN (k=5),0.9500,0.9283
+2,67,SVM (RBF),0.9500,0.9283
+2,67,Random Forest,0.9750,0.9677
+2,67,Rule (fixed 450),0.9750,0.9655
+2,67,Rule (fixed 550),0.9500,0.9373
+2,68,Threshold rule,0.9750,0.9655
+2,68,Gaussian NB,0.9500,0.9283
+2,68,Logistic Regression,0.9250,0.8880
+2,68,Decision Tree,0.9500,0.9283
+2,68,KNN (k=5),0.9500,0.9283
+2,68,SVM (RBF),0.9250,0.8880
+2,68,Random Forest,0.9500,0.9283
+2,68,Rule (fixed 450),0.9250,0.8880
+2,68,Rule (fixed 550),0.9750,0.9677
+2,69,Threshold rule,1.0000,1.0000
+2,69,Gaussian NB,1.0000,1.0000
+2,69,Logistic Regression,1.0000,1.0000
+2,69,Decision Tree,1.0000,1.0000
+2,69,KNN (k=5),1.0000,1.0000
+2,69,SVM (RBF),1.0000,1.0000
+2,69,Random Forest,1.0000,1.0000
+2,69,Rule (fixed 450),1.0000,1.0000
+2,69,Rule (fixed 550),0.9250,0.9085
+2,70,Threshold rule,1.0000,1.0000
+2,70,Gaussian NB,0.9750,0.9655
+2,70,Logistic Regression,0.9750,0.9655
+2,70,Decision Tree,0.9750,0.9655
+2,70,KNN (k=5),0.9750,0.9655
+2,70,SVM (RBF),0.9750,0.9655
+2,70,Random Forest,0.9750,0.9655
+2,70,Rule (fixed 450),0.9750,0.9655
+2,70,Rule (fixed 550),0.9500,0.9373
+2,71,Threshold rule,1.0000,1.0000
+2,71,Gaussian NB,0.9750,0.9655
+2,71,Logistic Regression,0.9750,0.9655
+2,71,Decision Tree,1.0000,1.0000
+2,71,KNN (k=5),0.9750,0.9655
+2,71,SVM (RBF),0.9750,0.9655
+2,71,Random Forest,1.0000,1.0000
+2,71,Rule (fixed 450),0.9750,0.9655
+2,71,Rule (fixed 550),0.9750,0.9677
+2,72,Threshold rule,0.9500,0.9333
+2,72,Gaussian NB,0.9750,0.9655
+2,72,Logistic Regression,0.9500,0.9283
+2,72,Decision Tree,0.9750,0.9655
+2,72,KNN (k=5),0.9500,0.9283
+2,72,SVM (RBF),0.9500,0.9283
+2,72,Random Forest,0.9750,0.9655
+2,72,Rule (fixed 450),0.9500,0.9283
+2,72,Rule (fixed 550),0.9000,0.8810
+2,73,Threshold rule,1.0000,1.0000
+2,73,Gaussian NB,1.0000,1.0000
+2,73,Logistic Regression,1.0000,1.0000
+2,73,Decision Tree,0.9750,0.9677
+2,73,KNN (k=5),0.9500,0.9333
+2,73,SVM (RBF),0.9500,0.9333
+2,73,Random Forest,0.9750,0.9677
+2,73,Rule (fixed 450),1.0000,1.0000
+2,73,Rule (fixed 550),0.9000,0.8810
+2,74,Threshold rule,1.0000,1.0000
+2,74,Gaussian NB,0.9500,0.9283
+2,74,Logistic Regression,0.9250,0.8880
+2,74,Decision Tree,1.0000,1.0000
+2,74,KNN (k=5),0.9500,0.9283
+2,74,SVM (RBF),0.9500,0.9283
+2,74,Random Forest,1.0000,1.0000
+2,74,Rule (fixed 450),0.9500,0.9283
+2,74,Rule (fixed 550),0.9500,0.9373
+2,75,Threshold rule,0.9750,0.9677
+2,75,Gaussian NB,0.9750,0.9677
+2,75,Logistic Regression,1.0000,1.0000
+2,75,Decision Tree,0.9750,0.9677
+2,75,KNN (k=5),0.9500,0.9333
+2,75,SVM (RBF),0.9750,0.9677
+2,75,Random Forest,0.9750,0.9677
+2,75,Rule (fixed 450),1.0000,1.0000
+2,75,Rule (fixed 550),0.9250,0.9085
+2,76,Threshold rule,1.0000,1.0000
+2,76,Gaussian NB,1.0000,1.0000
+2,76,Logistic Regression,1.0000,1.0000
+2,76,Decision Tree,1.0000,1.0000
+2,76,KNN (k=5),1.0000,1.0000
+2,76,SVM (RBF),1.0000,1.0000
+2,76,Random Forest,1.0000,1.0000
+2,76,Rule (fixed 450),0.9750,0.9655
+2,76,Rule (fixed 550),0.9250,0.9085
+2,77,Threshold rule,1.0000,1.0000
+2,77,Gaussian NB,1.0000,1.0000
+2,77,Logistic Regression,1.0000,1.0000
+2,77,Decision Tree,1.0000,1.0000
+2,77,KNN (k=5),0.9750,0.9655
+2,77,SVM (RBF),0.9500,0.9333
+2,77,Random Forest,1.0000,1.0000
+2,77,Rule (fixed 450),1.0000,1.0000
+2,77,Rule (fixed 550),0.9750,0.9677
+2,78,Threshold rule,0.9250,0.8880
+2,78,Gaussian NB,0.9000,0.8438
+2,78,Logistic Regression,0.8750,0.7949
+2,78,Decision Tree,0.9250,0.8880
+2,78,KNN (k=5),0.8750,0.7949
+2,78,SVM (RBF),0.8750,0.7949
+2,78,Random Forest,0.9250,0.8880
+2,78,Rule (fixed 450),0.8750,0.7949
+2,78,Rule (fixed 550),0.9500,0.9373
+2,79,Threshold rule,1.0000,1.0000
+2,79,Gaussian NB,0.9750,0.9655
+2,79,Logistic Regression,0.9750,0.9655
+2,79,Decision Tree,0.9500,0.9333
+2,79,KNN (k=5),0.9750,0.9655
+2,79,SVM (RBF),0.9750,0.9655
+2,79,Random Forest,0.9500,0.9333
+2,79,Rule (fixed 450),0.9750,0.9655
+2,79,Rule (fixed 550),0.9000,0.8810
+2,80,Threshold rule,1.0000,1.0000
+2,80,Gaussian NB,0.9750,0.9655
+2,80,Logistic Regression,0.9750,0.9655
+2,80,Decision Tree,0.9500,0.9333
+2,80,KNN (k=5),0.9750,0.9655
+2,80,SVM (RBF),0.9750,0.9655
+2,80,Random Forest,0.9750,0.9655
+2,80,Rule (fixed 450),0.9750,0.9655
+2,80,Rule (fixed 550),0.9750,0.9677
+2,81,Threshold rule,1.0000,1.0000
+2,81,Gaussian NB,0.9750,0.9655
+2,81,Logistic Regression,0.9750,0.9655
+2,81,Decision Tree,1.0000,1.0000
+2,81,KNN (k=5),0.9750,0.9655
+2,81,SVM (RBF),0.9750,0.9655
+2,81,Random Forest,1.0000,1.0000
+2,81,Rule (fixed 450),0.9750,0.9655
+2,81,Rule (fixed 550),0.9250,0.9085
+2,82,Threshold rule,0.9750,0.9655
+2,82,Gaussian NB,0.9500,0.9283
+2,82,Logistic Regression,0.9250,0.8880
+2,82,Decision Tree,0.9500,0.9283
+2,82,KNN (k=5),0.9250,0.8880
+2,82,SVM (RBF),0.9250,0.8880
+2,82,Random Forest,0.9500,0.9283
+2,82,Rule (fixed 450),0.9250,0.8880
+2,82,Rule (fixed 550),0.9750,0.9677
+2,83,Threshold rule,0.9750,0.9655
+2,83,Gaussian NB,0.9750,0.9655
+2,83,Logistic Regression,0.9750,0.9655
+2,83,Decision Tree,0.9500,0.9283
+2,83,KNN (k=5),0.9750,0.9655
+2,83,SVM (RBF),0.9500,0.9283
+2,83,Random Forest,0.9750,0.9655
+2,83,Rule (fixed 450),0.9750,0.9655
+2,83,Rule (fixed 550),0.9750,0.9677
+2,84,Threshold rule,0.9750,0.9677
+2,84,Gaussian NB,1.0000,1.0000
+2,84,Logistic Regression,1.0000,1.0000
+2,84,Decision Tree,0.9750,0.9677
+2,84,KNN (k=5),1.0000,1.0000
+2,84,SVM (RBF),1.0000,1.0000
+2,84,Random Forest,0.9750,0.9677
+2,84,Rule (fixed 450),1.0000,1.0000
+2,84,Rule (fixed 550),0.9500,0.9373
+2,85,Threshold rule,0.9500,0.9373
+2,85,Gaussian NB,0.9500,0.9333
+2,85,Logistic Regression,0.9000,0.8566
+2,85,Decision Tree,0.9750,0.9677
+2,85,KNN (k=5),0.9000,0.8566
+2,85,SVM (RBF),0.9250,0.8965
+2,85,Random Forest,0.9500,0.9373
+2,85,Rule (fixed 450),0.9500,0.9283
+2,85,Rule (fixed 550),0.8750,0.8545
+2,86,Threshold rule,0.9750,0.9677
+2,86,Gaussian NB,0.9750,0.9655
+2,86,Logistic Regression,0.9750,0.9655
+2,86,Decision Tree,0.9750,0.9677
+2,86,KNN (k=5),0.9750,0.9677
+2,86,SVM (RBF),1.0000,1.0000
+2,86,Random Forest,0.9750,0.9677
+2,86,Rule (fixed 450),0.9750,0.9655
+2,86,Rule (fixed 550),0.9500,0.9373
+2,87,Threshold rule,1.0000,1.0000
+2,87,Gaussian NB,1.0000,1.0000
+2,87,Logistic Regression,1.0000,1.0000
+2,87,Decision Tree,1.0000,1.0000
+2,87,KNN (k=5),1.0000,1.0000
+2,87,SVM (RBF),1.0000,1.0000
+2,87,Random Forest,1.0000,1.0000
+2,87,Rule (fixed 450),1.0000,1.0000
+2,87,Rule (fixed 550),1.0000,1.0000
+2,88,Threshold rule,1.0000,1.0000
+2,88,Gaussian NB,0.9750,0.9655
+2,88,Logistic Regression,0.9750,0.9655
+2,88,Decision Tree,1.0000,1.0000
+2,88,KNN (k=5),0.9750,0.9655
+2,88,SVM (RBF),0.9750,0.9655
+2,88,Random Forest,1.0000,1.0000
+2,88,Rule (fixed 450),0.9750,0.9655
+2,88,Rule (fixed 550),0.9750,0.9677
+2,89,Threshold rule,0.9750,0.9677
+2,89,Gaussian NB,0.9750,0.9655
+2,89,Logistic Regression,0.9500,0.9283
+2,89,Decision Tree,0.9750,0.9677
+2,89,KNN (k=5),0.9250,0.8965
+2,89,SVM (RBF),0.9500,0.9283
+2,89,Random Forest,0.9750,0.9677
+2,89,Rule (fixed 450),0.9750,0.9655
+2,89,Rule (fixed 550),0.9750,0.9677
+2,90,Threshold rule,1.0000,1.0000
+2,90,Gaussian NB,1.0000,1.0000
+2,90,Logistic Regression,1.0000,1.0000
+2,90,Decision Tree,0.9750,0.9655
+2,90,KNN (k=5),0.9750,0.9655
+2,90,SVM (RBF),1.0000,1.0000
+2,90,Random Forest,1.0000,1.0000
+2,90,Rule (fixed 450),1.0000,1.0000
+2,90,Rule (fixed 550),0.9500,0.9373
+2,91,Threshold rule,0.9500,0.9283
+2,91,Gaussian NB,0.9250,0.8880
+2,91,Logistic Regression,0.9250,0.8880
+2,91,Decision Tree,0.9500,0.9283
+2,91,KNN (k=5),0.9250,0.8880
+2,91,SVM (RBF),0.9250,0.8880
+2,91,Random Forest,0.9500,0.9283
+2,91,Rule (fixed 450),0.9250,0.8880
+2,91,Rule (fixed 550),0.9250,0.9085
+2,92,Threshold rule,1.0000,1.0000
+2,92,Gaussian NB,1.0000,1.0000
+2,92,Logistic Regression,0.9750,0.9655
+2,92,Decision Tree,1.0000,1.0000
+2,92,KNN (k=5),1.0000,1.0000
+2,92,SVM (RBF),1.0000,1.0000
+2,92,Random Forest,1.0000,1.0000
+2,92,Rule (fixed 450),0.9750,0.9655
+2,92,Rule (fixed 550),0.9000,0.8810
+2,93,Threshold rule,1.0000,1.0000
+2,93,Gaussian NB,1.0000,1.0000
+2,93,Logistic Regression,1.0000,1.0000
+2,93,Decision Tree,1.0000,1.0000
+2,93,KNN (k=5),1.0000,1.0000
+2,93,SVM (RBF),1.0000,1.0000
+2,93,Random Forest,1.0000,1.0000
+2,93,Rule (fixed 450),1.0000,1.0000
+2,93,Rule (fixed 550),0.9750,0.9677
+2,94,Threshold rule,0.9500,0.9373
+2,94,Gaussian NB,0.9500,0.9333
+2,94,Logistic Regression,0.9500,0.9333
+2,94,Decision Tree,0.9750,0.9677
+2,94,KNN (k=5),0.9500,0.9333
+2,94,SVM (RBF),0.9500,0.9333
+2,94,Random Forest,0.9750,0.9677
+2,94,Rule (fixed 450),0.9750,0.9655
+2,94,Rule (fixed 550),0.9250,0.9085
+2,95,Threshold rule,0.9500,0.9283
+2,95,Gaussian NB,0.9250,0.8880
+2,95,Logistic Regression,0.9250,0.8880
+2,95,Decision Tree,0.9500,0.9283
+2,95,KNN (k=5),0.9250,0.8880
+2,95,SVM (RBF),0.9250,0.8880
+2,95,Random Forest,0.9500,0.9283
+2,95,Rule (fixed 450),0.9250,0.8880
+2,95,Rule (fixed 550),0.9750,0.9677
+2,96,Threshold rule,1.0000,1.0000
+2,96,Gaussian NB,1.0000,1.0000
+2,96,Logistic Regression,1.0000,1.0000
+2,96,Decision Tree,1.0000,1.0000
+2,96,KNN (k=5),0.9750,0.9655
+2,96,SVM (RBF),1.0000,1.0000
+2,96,Random Forest,1.0000,1.0000
+2,96,Rule (fixed 450),1.0000,1.0000
+2,96,Rule (fixed 550),0.9750,0.9677
+2,97,Threshold rule,0.9750,0.9677
+2,97,Gaussian NB,0.9750,0.9655
+2,97,Logistic Regression,0.9500,0.9283
+2,97,Decision Tree,1.0000,1.0000
+2,97,KNN (k=5),0.9500,0.9283
+2,97,SVM (RBF),0.9500,0.9283
+2,97,Random Forest,1.0000,1.0000
+2,97,Rule (fixed 450),0.9500,0.9283
+2,97,Rule (fixed 550),0.9000,0.8810
+2,98,Threshold rule,0.9750,0.9677
+2,98,Gaussian NB,1.0000,1.0000
+2,98,Logistic Regression,1.0000,1.0000
+2,98,Decision Tree,1.0000,1.0000
+2,98,KNN (k=5),1.0000,1.0000
+2,98,SVM (RBF),1.0000,1.0000
+2,98,Random Forest,1.0000,1.0000
+2,98,Rule (fixed 450),1.0000,1.0000
+2,98,Rule (fixed 550),0.9250,0.9085
+2,99,Threshold rule,1.0000,1.0000
+2,99,Gaussian NB,0.9750,0.9655
+2,99,Logistic Regression,0.9750,0.9655
+2,99,Decision Tree,0.9750,0.9655
+2,99,KNN (k=5),0.9750,0.9655
+2,99,SVM (RBF),0.9750,0.9655
+2,99,Random Forest,0.9750,0.9655
+2,99,Rule (fixed 450),0.9750,0.9655
+2,99,Rule (fixed 550),0.9750,0.9677
+5,0,Threshold rule,0.9500,0.9373
+5,0,Gaussian NB,0.9750,0.9655
+5,0,Logistic Regression,0.9750,0.9655
+5,0,Decision Tree,0.9250,0.9031
+5,0,KNN (k=5),0.9750,0.9655
+5,0,SVM (RBF),0.9750,0.9655
+5,0,Random Forest,0.9500,0.9333
+5,0,Rule (fixed 450),0.9750,0.9655
+5,0,Rule (fixed 550),0.9250,0.9085
+5,1,Threshold rule,0.8750,0.8274
+5,1,Gaussian NB,0.8750,0.8133
+5,1,Logistic Regression,0.9000,0.8438
+5,1,Decision Tree,0.8500,0.7849
+5,1,KNN (k=5),0.8500,0.7849
+5,1,SVM (RBF),0.9000,0.8438
+5,1,Random Forest,0.8500,0.7849
+5,1,Rule (fixed 450),0.8500,0.7849
+5,1,Rule (fixed 550),0.9500,0.9373
+5,2,Threshold rule,1.0000,1.0000
+5,2,Gaussian NB,1.0000,1.0000
+5,2,Logistic Regression,0.9750,0.9655
+5,2,Decision Tree,0.9500,0.9373
+5,2,KNN (k=5),0.9750,0.9655
+5,2,SVM (RBF),0.9750,0.9655
+5,2,Random Forest,1.0000,1.0000
+5,2,Rule (fixed 450),1.0000,1.0000
+5,2,Rule (fixed 550),0.9500,0.9373
+5,3,Threshold rule,0.9500,0.9373
+5,3,Gaussian NB,1.0000,1.0000
+5,3,Logistic Regression,1.0000,1.0000
+5,3,Decision Tree,0.9500,0.9373
+5,3,KNN (k=5),0.9750,0.9677
+5,3,SVM (RBF),0.9750,0.9655
+5,3,Random Forest,0.9750,0.9677
+5,3,Rule (fixed 450),1.0000,1.0000
+5,3,Rule (fixed 550),0.9500,0.9373
+5,4,Threshold rule,0.9250,0.8965
+5,4,Gaussian NB,0.9250,0.8965
+5,4,Logistic Regression,0.9250,0.8965
+5,4,Decision Tree,0.9250,0.8965
+5,4,KNN (k=5),0.9500,0.9283
+5,4,SVM (RBF),0.9250,0.8965
+5,4,Random Forest,0.9250,0.9031
+5,4,Rule (fixed 450),0.9250,0.8965
+5,4,Rule (fixed 550),0.9250,0.9085
+5,5,Threshold rule,0.9500,0.9333
+5,5,Gaussian NB,0.9500,0.9283
+5,5,Logistic Regression,0.9500,0.9283
+5,5,Decision Tree,0.9250,0.8965
+5,5,KNN (k=5),0.9250,0.8880
+5,5,SVM (RBF),0.9500,0.9283
+5,5,Random Forest,0.9500,0.9283
+5,5,Rule (fixed 450),0.9500,0.9283
+5,5,Rule (fixed 550),0.9250,0.9085
+5,6,Threshold rule,0.9500,0.9373
+5,6,Gaussian NB,0.9500,0.9333
+5,6,Logistic Regression,0.9750,0.9677
+5,6,Decision Tree,0.9500,0.9373
+5,6,KNN (k=5),0.9500,0.9333
+5,6,SVM (RBF),0.9500,0.9333
+5,6,Random Forest,0.9500,0.9373
+5,6,Rule (fixed 450),0.9500,0.9333
+5,6,Rule (fixed 550),0.9250,0.9085
+5,7,Threshold rule,0.9750,0.9677
+5,7,Gaussian NB,0.9750,0.9677
+5,7,Logistic Regression,0.9750,0.9677
+5,7,Decision Tree,0.9500,0.9373
+5,7,KNN (k=5),0.9500,0.9373
+5,7,SVM (RBF),0.9750,0.9677
+5,7,Random Forest,0.9750,0.9677
+5,7,Rule (fixed 450),0.9750,0.9677
+5,7,Rule (fixed 550),0.9250,0.9085
+5,8,Threshold rule,1.0000,1.0000
+5,8,Gaussian NB,0.9750,0.9655
+5,8,Logistic Regression,0.9750,0.9655
+5,8,Decision Tree,1.0000,1.0000
+5,8,KNN (k=5),1.0000,1.0000
+5,8,SVM (RBF),0.9750,0.9655
+5,8,Random Forest,0.9750,0.9655
+5,8,Rule (fixed 450),0.9750,0.9655
+5,8,Rule (fixed 550),0.9000,0.8810
+5,9,Threshold rule,0.9500,0.9373
+5,9,Gaussian NB,0.9750,0.9655
+5,9,Logistic Regression,0.9500,0.9333
+5,9,Decision Tree,0.9250,0.9085
+5,9,KNN (k=5),0.9500,0.9333
+5,9,SVM (RBF),0.9500,0.9333
+5,9,Random Forest,0.9500,0.9333
+5,9,Rule (fixed 450),0.9750,0.9655
+5,9,Rule (fixed 550),0.9250,0.9085
+5,10,Threshold rule,0.9500,0.9333
+5,10,Gaussian NB,0.9250,0.8880
+5,10,Logistic Regression,0.9250,0.8880
+5,10,Decision Tree,0.9250,0.8880
+5,10,KNN (k=5),0.9000,0.8438
+5,10,SVM (RBF),0.9250,0.8880
+5,10,Random Forest,0.9250,0.8880
+5,10,Rule (fixed 450),0.9250,0.8880
+5,10,Rule (fixed 550),0.9750,0.9677
+5,11,Threshold rule,0.9750,0.9677
+5,11,Gaussian NB,0.9750,0.9677
+5,11,Logistic Regression,0.9750,0.9677
+5,11,Decision Tree,0.9750,0.9677
+5,11,KNN (k=5),0.9500,0.9373
+5,11,SVM (RBF),0.9750,0.9677
+5,11,Random Forest,0.9500,0.9373
+5,11,Rule (fixed 450),0.9750,0.9677
+5,11,Rule (fixed 550),0.9000,0.8810
+5,12,Threshold rule,0.9500,0.9373
+5,12,Gaussian NB,0.9750,0.9677
+5,12,Logistic Regression,0.9750,0.9677
+5,12,Decision Tree,0.9500,0.9373
+5,12,KNN (k=5),0.9750,0.9677
+5,12,SVM (RBF),0.9750,0.9677
+5,12,Random Forest,0.9750,0.9677
+5,12,Rule (fixed 450),0.9750,0.9677
+5,12,Rule (fixed 550),0.9000,0.8810
+5,13,Threshold rule,1.0000,1.0000
+5,13,Gaussian NB,0.9750,0.9655
+5,13,Logistic Regression,0.9750,0.9655
+5,13,Decision Tree,0.9750,0.9655
+5,13,KNN (k=5),0.9750,0.9655
+5,13,SVM (RBF),0.9750,0.9655
+5,13,Random Forest,0.9750,0.9655
+5,13,Rule (fixed 450),1.0000,1.0000
+5,13,Rule (fixed 550),1.0000,1.0000
+5,14,Threshold rule,1.0000,1.0000
+5,14,Gaussian NB,1.0000,1.0000
+5,14,Logistic Regression,0.9750,0.9655
+5,14,Decision Tree,1.0000,1.0000
+5,14,KNN (k=5),1.0000,1.0000
+5,14,SVM (RBF),0.9750,0.9655
+5,14,Random Forest,1.0000,1.0000
+5,14,Rule (fixed 450),1.0000,1.0000
+5,14,Rule (fixed 550),0.9750,0.9677
+5,15,Threshold rule,0.9750,0.9677
+5,15,Gaussian NB,0.9750,0.9655
+5,15,Logistic Regression,0.9750,0.9655
+5,15,Decision Tree,0.9250,0.9031
+5,15,KNN (k=5),0.9250,0.8965
+5,15,SVM (RBF),0.9750,0.9655
+5,15,Random Forest,0.9250,0.9031
+5,15,Rule (fixed 450),0.9750,0.9655
+5,15,Rule (fixed 550),0.9500,0.9373
+5,16,Threshold rule,0.9750,0.9655
+5,16,Gaussian NB,0.9750,0.9655
+5,16,Logistic Regression,0.9750,0.9655
+5,16,Decision Tree,0.9750,0.9655
+5,16,KNN (k=5),0.9750,0.9655
+5,16,SVM (RBF),0.9750,0.9655
+5,16,Random Forest,0.9750,0.9655
+5,16,Rule (fixed 450),0.9750,0.9655
+5,16,Rule (fixed 550),0.9500,0.9373
+5,17,Threshold rule,0.9500,0.9373
+5,17,Gaussian NB,0.9500,0.9283
+5,17,Logistic Regression,0.9750,0.9655
+5,17,Decision Tree,1.0000,1.0000
+5,17,KNN (k=5),1.0000,1.0000
+5,17,SVM (RBF),1.0000,1.0000
+5,17,Random Forest,1.0000,1.0000
+5,17,Rule (fixed 450),0.9500,0.9283
+5,17,Rule (fixed 550),0.9250,0.9085
+5,18,Threshold rule,1.0000,1.0000
+5,18,Gaussian NB,0.9750,0.9655
+5,18,Logistic Regression,1.0000,1.0000
+5,18,Decision Tree,0.9250,0.8880
+5,18,KNN (k=5),0.9750,0.9655
+5,18,SVM (RBF),1.0000,1.0000
+5,18,Random Forest,0.9750,0.9655
+5,18,Rule (fixed 450),1.0000,1.0000
+5,18,Rule (fixed 550),0.9000,0.8810
+5,19,Threshold rule,0.9250,0.9031
+5,19,Gaussian NB,0.9000,0.8667
+5,19,Logistic Regression,0.9250,0.8965
+5,19,Decision Tree,0.9250,0.9031
+5,19,KNN (k=5),0.9500,0.9283
+5,19,SVM (RBF),0.9250,0.8965
+5,19,Random Forest,0.9250,0.9031
+5,19,Rule (fixed 450),0.9250,0.8965
+5,19,Rule (fixed 550),0.9500,0.9373
+5,20,Threshold rule,0.9500,0.9373
+5,20,Gaussian NB,0.9750,0.9655
+5,20,Logistic Regression,0.9750,0.9655
+5,20,Decision Tree,0.9500,0.9373
+5,20,KNN (k=5),0.9750,0.9655
+5,20,SVM (RBF),0.9750,0.9655
+5,20,Random Forest,0.9750,0.9677
+5,20,Rule (fixed 450),0.9750,0.9655
+5,20,Rule (fixed 550),0.9500,0.9373
+5,21,Threshold rule,0.9750,0.9655
+5,21,Gaussian NB,0.9750,0.9655
+5,21,Logistic Regression,0.9750,0.9655
+5,21,Decision Tree,0.9500,0.9333
+5,21,KNN (k=5),0.9750,0.9655
+5,21,SVM (RBF),0.9750,0.9655
+5,21,Random Forest,0.9500,0.9333
+5,21,Rule (fixed 450),0.9750,0.9655
+5,21,Rule (fixed 550),1.0000,1.0000
+5,22,Threshold rule,1.0000,1.0000
+5,22,Gaussian NB,0.9500,0.9283
+5,22,Logistic Regression,0.9500,0.9283
+5,22,Decision Tree,1.0000,1.0000
+5,22,KNN (k=5),0.9500,0.9283
+5,22,SVM (RBF),0.9500,0.9283
+5,22,Random Forest,1.0000,1.0000
+5,22,Rule (fixed 450),0.9500,0.9283
+5,22,Rule (fixed 550),1.0000,1.0000
+5,23,Threshold rule,0.9250,0.8965
+5,23,Gaussian NB,0.9250,0.8965
+5,23,Logistic Regression,0.9500,0.9283
+5,23,Decision Tree,0.9500,0.9333
+5,23,KNN (k=5),0.9250,0.8965
+5,23,SVM (RBF),0.9250,0.8965
+5,23,Random Forest,0.9250,0.8965
+5,23,Rule (fixed 450),0.9250,0.8965
+5,23,Rule (fixed 550),0.9250,0.9085
+5,24,Threshold rule,0.9750,0.9655
+5,24,Gaussian NB,0.9750,0.9655
+5,24,Logistic Regression,0.9750,0.9655
+5,24,Decision Tree,0.9250,0.9085
+5,24,KNN (k=5),0.9500,0.9333
+5,24,SVM (RBF),0.9750,0.9655
+5,24,Random Forest,0.9250,0.9085
+5,24,Rule (fixed 450),0.9750,0.9655
+5,24,Rule (fixed 550),0.9250,0.9085
+5,25,Threshold rule,0.9250,0.8965
+5,25,Gaussian NB,0.9000,0.8566
+5,25,Logistic Regression,0.9000,0.8566
+5,25,Decision Tree,0.9000,0.8566
+5,25,KNN (k=5),0.9250,0.8965
+5,25,SVM (RBF),0.9000,0.8566
+5,25,Random Forest,0.9000,0.8566
+5,25,Rule (fixed 450),0.9000,0.8566
+5,25,Rule (fixed 550),0.9000,0.8810
+5,26,Threshold rule,0.9750,0.9677
+5,26,Gaussian NB,1.0000,1.0000
+5,26,Logistic Regression,1.0000,1.0000
+5,26,Decision Tree,1.0000,1.0000
+5,26,KNN (k=5),1.0000,1.0000
+5,26,SVM (RBF),1.0000,1.0000
+5,26,Random Forest,1.0000,1.0000
+5,26,Rule (fixed 450),1.0000,1.0000
+5,26,Rule (fixed 550),0.9750,0.9677
+5,27,Threshold rule,0.9500,0.9283
+5,27,Gaussian NB,0.9500,0.9283
+5,27,Logistic Regression,0.9500,0.9283
+5,27,Decision Tree,0.9500,0.9333
+5,27,KNN (k=5),0.9250,0.8880
+5,27,SVM (RBF),0.9500,0.9283
+5,27,Random Forest,0.9500,0.9333
+5,27,Rule (fixed 450),0.9500,0.9283
+5,27,Rule (fixed 550),0.9750,0.9677
+5,28,Threshold rule,0.9750,0.9677
+5,28,Gaussian NB,0.9500,0.9333
+5,28,Logistic Regression,1.0000,1.0000
+5,28,Decision Tree,0.9750,0.9677
+5,28,KNN (k=5),0.9500,0.9333
+5,28,SVM (RBF),0.9500,0.9333
+5,28,Random Forest,0.9750,0.9677
+5,28,Rule (fixed 450),0.9750,0.9655
+5,28,Rule (fixed 550),0.9500,0.9373
+5,29,Threshold rule,0.9750,0.9677
+5,29,Gaussian NB,0.9750,0.9655
+5,29,Logistic Regression,1.0000,1.0000
+5,29,Decision Tree,1.0000,1.0000
+5,29,KNN (k=5),1.0000,1.0000
+5,29,SVM (RBF),0.9750,0.9655
+5,29,Random Forest,1.0000,1.0000
+5,29,Rule (fixed 450),0.9750,0.9655
+5,29,Rule (fixed 550),0.9500,0.9373
+5,30,Threshold rule,0.9750,0.9677
+5,30,Gaussian NB,0.9750,0.9655
+5,30,Logistic Regression,0.9750,0.9655
+5,30,Decision Tree,0.9500,0.9333
+5,30,KNN (k=5),0.9750,0.9655
+5,30,SVM (RBF),0.9750,0.9655
+5,30,Random Forest,0.9500,0.9333
+5,30,Rule (fixed 450),0.9750,0.9655
+5,30,Rule (fixed 550),0.9250,0.9085
+5,31,Threshold rule,0.9250,0.8965
+5,31,Gaussian NB,0.9250,0.8965
+5,31,Logistic Regression,0.9250,0.8965
+5,31,Decision Tree,0.9250,0.8965
+5,31,KNN (k=5),0.9500,0.9283
+5,31,SVM (RBF),0.9500,0.9283
+5,31,Random Forest,0.9250,0.8965
+5,31,Rule (fixed 450),0.9250,0.8965
+5,31,Rule (fixed 550),0.9000,0.8746
+5,32,Threshold rule,1.0000,1.0000
+5,32,Gaussian NB,1.0000,1.0000
+5,32,Logistic Regression,1.0000,1.0000
+5,32,Decision Tree,1.0000,1.0000
+5,32,KNN (k=5),1.0000,1.0000
+5,32,SVM (RBF),1.0000,1.0000
+5,32,Random Forest,1.0000,1.0000
+5,32,Rule (fixed 450),1.0000,1.0000
+5,32,Rule (fixed 550),1.0000,1.0000
+5,33,Threshold rule,0.9500,0.9333
+5,33,Gaussian NB,0.9500,0.9333
+5,33,Logistic Regression,0.9500,0.9333
+5,33,Decision Tree,0.9500,0.9283
+5,33,KNN (k=5),0.9250,0.8965
+5,33,SVM (RBF),0.9250,0.8965
+5,33,Random Forest,0.9250,0.8965
+5,33,Rule (fixed 450),0.9500,0.9333
+5,33,Rule (fixed 550),0.9750,0.9677
+5,34,Threshold rule,0.9750,0.9655
+5,34,Gaussian NB,0.9500,0.9283
+5,34,Logistic Regression,0.9500,0.9283
+5,34,Decision Tree,0.9500,0.9333
+5,34,KNN (k=5),0.9500,0.9283
+5,34,SVM (RBF),0.9500,0.9283
+5,34,Random Forest,0.9500,0.9333
+5,34,Rule (fixed 450),0.9500,0.9283
+5,34,Rule (fixed 550),0.9000,0.8746
+5,35,Threshold rule,0.9750,0.9677
+5,35,Gaussian NB,1.0000,1.0000
+5,35,Logistic Regression,1.0000,1.0000
+5,35,Decision Tree,0.9750,0.9677
+5,35,KNN (k=5),0.9750,0.9677
+5,35,SVM (RBF),1.0000,1.0000
+5,35,Random Forest,0.9750,0.9677
+5,35,Rule (fixed 450),1.0000,1.0000
+5,35,Rule (fixed 550),0.9500,0.9373
+5,36,Threshold rule,0.9250,0.9031
+5,36,Gaussian NB,0.9500,0.9283
+5,36,Logistic Regression,0.9250,0.8880
+5,36,Decision Tree,0.9500,0.9333
+5,36,KNN (k=5),0.9250,0.8965
+5,36,SVM (RBF),0.9250,0.8880
+5,36,Random Forest,0.9500,0.9333
+5,36,Rule (fixed 450),0.9500,0.9283
+5,36,Rule (fixed 550),0.8750,0.8545
+5,37,Threshold rule,1.0000,1.0000
+5,37,Gaussian NB,0.9500,0.9283
+5,37,Logistic Regression,0.9500,0.9283
+5,37,Decision Tree,0.9750,0.9655
+5,37,KNN (k=5),0.9750,0.9655
+5,37,SVM (RBF),0.9500,0.9283
+5,37,Random Forest,0.9500,0.9283
+5,37,Rule (fixed 450),0.9500,0.9283
+5,37,Rule (fixed 550),1.0000,1.0000
+5,38,Threshold rule,0.9500,0.9373
+5,38,Gaussian NB,0.9750,0.9677
+5,38,Logistic Regression,1.0000,1.0000
+5,38,Decision Tree,0.9500,0.9373
+5,38,KNN (k=5),0.9750,0.9677
+5,38,SVM (RBF),0.9750,0.9677
+5,38,Random Forest,0.9500,0.9373
+5,38,Rule (fixed 450),0.9750,0.9677
+5,38,Rule (fixed 550),0.9250,0.9085
+5,39,Threshold rule,0.9500,0.9283
+5,39,Gaussian NB,0.9500,0.9283
+5,39,Logistic Regression,0.9500,0.9283
+5,39,Decision Tree,0.9500,0.9283
+5,39,KNN (k=5),0.9250,0.8965
+5,39,SVM (RBF),0.9500,0.9283
+5,39,Random Forest,0.9500,0.9283
+5,39,Rule (fixed 450),0.9500,0.9283
+5,39,Rule (fixed 550),0.8750,0.8474
+5,40,Threshold rule,0.9500,0.9283
+5,40,Gaussian NB,0.9500,0.9283
+5,40,Logistic Regression,0.9250,0.8880
+5,40,Decision Tree,0.9500,0.9333
+5,40,KNN (k=5),0.9250,0.8880
+5,40,SVM (RBF),0.9250,0.8880
+5,40,Random Forest,0.9500,0.9283
+5,40,Rule (fixed 450),0.9500,0.9283
+5,40,Rule (fixed 550),0.9000,0.8810
+5,41,Threshold rule,0.9750,0.9677
+5,41,Gaussian NB,1.0000,1.0000
+5,41,Logistic Regression,0.9750,0.9655
+5,41,Decision Tree,0.9750,0.9677
+5,41,KNN (k=5),0.9750,0.9655
+5,41,SVM (RBF),0.9750,0.9655
+5,41,Random Forest,1.0000,1.0000
+5,41,Rule (fixed 450),1.0000,1.0000
+5,41,Rule (fixed 550),0.9000,0.8810
+5,42,Threshold rule,1.0000,1.0000
+5,42,Gaussian NB,1.0000,1.0000
+5,42,Logistic Regression,1.0000,1.0000
+5,42,Decision Tree,1.0000,1.0000
+5,42,KNN (k=5),1.0000,1.0000
+5,42,SVM (RBF),1.0000,1.0000
+5,42,Random Forest,1.0000,1.0000
+5,42,Rule (fixed 450),1.0000,1.0000
+5,42,Rule (fixed 550),0.9750,0.9677
+5,43,Threshold rule,0.9750,0.9655
+5,43,Gaussian NB,0.9750,0.9655
+5,43,Logistic Regression,0.9750,0.9655
+5,43,Decision Tree,0.9500,0.9333
+5,43,KNN (k=5),0.9750,0.9655
+5,43,SVM (RBF),0.9750,0.9655
+5,43,Random Forest,0.9750,0.9655
+5,43,Rule (fixed 450),0.9750,0.9655
+5,43,Rule (fixed 550),0.9750,0.9677
+5,44,Threshold rule,0.9750,0.9655
+5,44,Gaussian NB,0.9500,0.9283
+5,44,Logistic Regression,0.9500,0.9283
+5,44,Decision Tree,0.9750,0.9655
+5,44,KNN (k=5),0.9500,0.9283
+5,44,SVM (RBF),0.9500,0.9283
+5,44,Random Forest,0.9750,0.9655
+5,44,Rule (fixed 450),0.9500,0.9283
+5,44,Rule (fixed 550),0.9500,0.9373
+5,45,Threshold rule,0.9250,0.8965
+5,45,Gaussian NB,0.9250,0.8965
+5,45,Logistic Regression,0.9500,0.9283
+5,45,Decision Tree,0.9500,0.9333
+5,45,KNN (k=5),0.9250,0.8965
+5,45,SVM (RBF),0.9250,0.8965
+5,45,Random Forest,0.9500,0.9333
+5,45,Rule (fixed 450),0.9250,0.8965
+5,45,Rule (fixed 550),0.9500,0.9373
+5,46,Threshold rule,0.9750,0.9655
+5,46,Gaussian NB,0.9750,0.9655
+5,46,Logistic Regression,0.9750,0.9655
+5,46,Decision Tree,0.9000,0.8746
+5,46,KNN (k=5),0.9500,0.9333
+5,46,SVM (RBF),0.9750,0.9655
+5,46,Random Forest,0.9750,0.9655
+5,46,Rule (fixed 450),0.9750,0.9655
+5,46,Rule (fixed 550),0.9000,0.8810
+5,47,Threshold rule,0.9500,0.9333
+5,47,Gaussian NB,0.9500,0.9333
+5,47,Logistic Regression,0.9000,0.8566
+5,47,Decision Tree,0.8750,0.8133
+5,47,KNN (k=5),0.9250,0.8965
+5,47,SVM (RBF),0.9250,0.8965
+5,47,Random Forest,0.9250,0.8965
+5,47,Rule (fixed 450),0.9500,0.9333
+5,47,Rule (fixed 550),0.9000,0.8810
+5,48,Threshold rule,0.9750,0.9677
+5,48,Gaussian NB,1.0000,1.0000
+5,48,Logistic Regression,1.0000,1.0000
+5,48,Decision Tree,0.9750,0.9677
+5,48,KNN (k=5),1.0000,1.0000
+5,48,SVM (RBF),1.0000,1.0000
+5,48,Random Forest,0.9750,0.9677
+5,48,Rule (fixed 450),1.0000,1.0000
+5,48,Rule (fixed 550),0.9750,0.9677
+5,49,Threshold rule,0.9750,0.9677
+5,49,Gaussian NB,0.9750,0.9655
+5,49,Logistic Regression,0.9750,0.9655
+5,49,Decision Tree,0.9750,0.9655
+5,49,KNN (k=5),0.9500,0.9283
+5,49,SVM (RBF),0.9750,0.9655
+5,49,Random Forest,0.9750,0.9655
+5,49,Rule (fixed 450),0.9750,0.9655
+5,49,Rule (fixed 550),0.9250,0.9085
+5,50,Threshold rule,0.9500,0.9333
+5,50,Gaussian NB,0.9000,0.8566
+5,50,Logistic Regression,0.9250,0.8880
+5,50,Decision Tree,0.9750,0.9655
+5,50,KNN (k=5),0.9250,0.8965
+5,50,SVM (RBF),0.9000,0.8566
+5,50,Random Forest,0.9500,0.9333
+5,50,Rule (fixed 450),0.9000,0.8566
+5,50,Rule (fixed 550),0.9250,0.9031
+5,51,Threshold rule,0.9750,0.9677
+5,51,Gaussian NB,1.0000,1.0000
+5,51,Logistic Regression,1.0000,1.0000
+5,51,Decision Tree,0.9500,0.9373
+5,51,KNN (k=5),0.9750,0.9655
+5,51,SVM (RBF),1.0000,1.0000
+5,51,Random Forest,1.0000,1.0000
+5,51,Rule (fixed 450),1.0000,1.0000
+5,51,Rule (fixed 550),0.9250,0.9085
+5,52,Threshold rule,1.0000,1.0000
+5,52,Gaussian NB,0.9750,0.9655
+5,52,Logistic Regression,0.9750,0.9655
+5,52,Decision Tree,0.9750,0.9655
+5,52,KNN (k=5),0.9750,0.9655
+5,52,SVM (RBF),0.9750,0.9655
+5,52,Random Forest,0.9750,0.9655
+5,52,Rule (fixed 450),0.9750,0.9655
+5,52,Rule (fixed 550),0.9250,0.9085
+5,53,Threshold rule,0.9500,0.9283
+5,53,Gaussian NB,0.9500,0.9283
+5,53,Logistic Regression,0.9500,0.9283
+5,53,Decision Tree,0.9500,0.9283
+5,53,KNN (k=5),0.9750,0.9655
+5,53,SVM (RBF),0.9500,0.9283
+5,53,Random Forest,0.9500,0.9283
+5,53,Rule (fixed 450),0.9500,0.9283
+5,53,Rule (fixed 550),0.9750,0.9677
+5,54,Threshold rule,0.9750,0.9677
+5,54,Gaussian NB,0.9750,0.9677
+5,54,Logistic Regression,1.0000,1.0000
+5,54,Decision Tree,0.9750,0.9677
+5,54,KNN (k=5),0.9750,0.9677
+5,54,SVM (RBF),0.9750,0.9677
+5,54,Random Forest,0.9750,0.9677
+5,54,Rule (fixed 450),0.9750,0.9677
+5,54,Rule (fixed 550),0.9250,0.9085
+5,55,Threshold rule,1.0000,1.0000
+5,55,Gaussian NB,1.0000,1.0000
+5,55,Logistic Regression,1.0000,1.0000
+5,55,Decision Tree,1.0000,1.0000
+5,55,KNN (k=5),1.0000,1.0000
+5,55,SVM (RBF),1.0000,1.0000
+5,55,Random Forest,1.0000,1.0000
+5,55,Rule (fixed 450),1.0000,1.0000
+5,55,Rule (fixed 550),0.9500,0.9373
+5,56,Threshold rule,1.0000,1.0000
+5,56,Gaussian NB,1.0000,1.0000
+5,56,Logistic Regression,1.0000,1.0000
+5,56,Decision Tree,1.0000,1.0000
+5,56,KNN (k=5),0.9500,0.9373
+5,56,SVM (RBF),1.0000,1.0000
+5,56,Random Forest,1.0000,1.0000
+5,56,Rule (fixed 450),1.0000,1.0000
+5,56,Rule (fixed 550),0.9250,0.9085
+5,57,Threshold rule,0.9750,0.9677
+5,57,Gaussian NB,0.9750,0.9677
+5,57,Logistic Regression,0.9250,0.8880
+5,57,Decision Tree,0.9500,0.9373
+5,57,KNN (k=5),0.9250,0.8965
+5,57,SVM (RBF),0.9750,0.9655
+5,57,Random Forest,0.9500,0.9373
+5,57,Rule (fixed 450),0.9250,0.8880
+5,57,Rule (fixed 550),0.9500,0.9373
+5,58,Threshold rule,0.9250,0.9085
+5,58,Gaussian NB,1.0000,1.0000
+5,58,Logistic Regression,0.9750,0.9655
+5,58,Decision Tree,0.9500,0.9373
+5,58,KNN (k=5),0.9750,0.9655
+5,58,SVM (RBF),0.9750,0.9655
+5,58,Random Forest,1.0000,1.0000
+5,58,Rule (fixed 450),0.9750,0.9655
+5,58,Rule (fixed 550),0.8750,0.8545
+5,59,Threshold rule,0.9500,0.9283
+5,59,Gaussian NB,0.9500,0.9283
+5,59,Logistic Regression,0.9500,0.9283
+5,59,Decision Tree,0.9750,0.9655
+5,59,KNN (k=5),0.9500,0.9283
+5,59,SVM (RBF),0.9500,0.9283
+5,59,Random Forest,0.9750,0.9655
+5,59,Rule (fixed 450),0.9500,0.9283
+5,59,Rule (fixed 550),0.9500,0.9373
+5,60,Threshold rule,0.9750,0.9655
+5,60,Gaussian NB,0.9750,0.9655
+5,60,Logistic Regression,0.9750,0.9655
+5,60,Decision Tree,0.9750,0.9655
+5,60,KNN (k=5),0.9750,0.9655
+5,60,SVM (RBF),0.9750,0.9655
+5,60,Random Forest,0.9750,0.9655
+5,60,Rule (fixed 450),0.9750,0.9655
+5,60,Rule (fixed 550),0.9250,0.9085
+5,61,Threshold rule,0.9250,0.9085
+5,61,Gaussian NB,0.9750,0.9677
+5,61,Logistic Regression,1.0000,1.0000
+5,61,Decision Tree,0.9000,0.8810
+5,61,KNN (k=5),0.9500,0.9373
+5,61,SVM (RBF),0.9500,0.9373
+5,61,Random Forest,0.9250,0.9085
+5,61,Rule (fixed 450),1.0000,1.0000
+5,61,Rule (fixed 550),0.9000,0.8810
+5,62,Threshold rule,0.9750,0.9655
+5,62,Gaussian NB,0.9500,0.9283
+5,62,Logistic Regression,0.9500,0.9283
+5,62,Decision Tree,0.8750,0.8386
+5,62,KNN (k=5),0.9250,0.8880
+5,62,SVM (RBF),0.9500,0.9283
+5,62,Random Forest,0.9000,0.8667
+5,62,Rule (fixed 450),0.9500,0.9283
+5,62,Rule (fixed 550),0.8750,0.8474
+5,63,Threshold rule,0.9750,0.9677
+5,63,Gaussian NB,0.9750,0.9655
+5,63,Logistic Regression,0.9750,0.9655
+5,63,Decision Tree,0.9750,0.9677
+5,63,KNN (k=5),0.9500,0.9333
+5,63,SVM (RBF),0.9750,0.9655
+5,63,Random Forest,0.9750,0.9677
+5,63,Rule (fixed 450),1.0000,1.0000
+5,63,Rule (fixed 550),0.9500,0.9373
+5,64,Threshold rule,0.9750,0.9677
+5,64,Gaussian NB,0.9250,0.8880
+5,64,Logistic Regression,0.9250,0.8880
+5,64,Decision Tree,0.9500,0.9333
+5,64,KNN (k=5),0.9250,0.8965
+5,64,SVM (RBF),0.9250,0.8965
+5,64,Random Forest,0.9500,0.9333
+5,64,Rule (fixed 450),0.9500,0.9283
+5,64,Rule (fixed 550),0.9750,0.9677
+5,65,Threshold rule,0.9750,0.9677
+5,65,Gaussian NB,0.9750,0.9655
+5,65,Logistic Regression,0.9500,0.9333
+5,65,Decision Tree,0.9500,0.9333
+5,65,KNN (k=5),0.9500,0.9333
+5,65,SVM (RBF),0.9250,0.8965
+5,65,Random Forest,0.9750,0.9677
+5,65,Rule (fixed 450),0.9750,0.9655
+5,65,Rule (fixed 550),0.9500,0.9373
+5,66,Threshold rule,0.9750,0.9677
+5,66,Gaussian NB,0.9750,0.9677
+5,66,Logistic Regression,1.0000,1.0000
+5,66,Decision Tree,0.9750,0.9677
+5,66,KNN (k=5),1.0000,1.0000
+5,66,SVM (RBF),0.9750,0.9677
+5,66,Random Forest,0.9750,0.9677
+5,66,Rule (fixed 450),1.0000,1.0000
+5,66,Rule (fixed 550),0.9250,0.9085
+5,67,Threshold rule,1.0000,1.0000
+5,67,Gaussian NB,1.0000,1.0000
+5,67,Logistic Regression,1.0000,1.0000
+5,67,Decision Tree,0.8500,0.8000
+5,67,KNN (k=5),0.9750,0.9655
+5,67,SVM (RBF),0.9500,0.9283
+5,67,Random Forest,0.9000,0.8667
+5,67,Rule (fixed 450),1.0000,1.0000
+5,67,Rule (fixed 550),0.9250,0.9085
+5,68,Threshold rule,1.0000,1.0000
+5,68,Gaussian NB,0.9500,0.9283
+5,68,Logistic Regression,0.9000,0.8438
+5,68,Decision Tree,1.0000,1.0000
+5,68,KNN (k=5),0.9250,0.8965
+5,68,SVM (RBF),0.9500,0.9283
+5,68,Random Forest,0.9750,0.9655
+5,68,Rule (fixed 450),0.9750,0.9655
+5,68,Rule (fixed 550),0.9500,0.9373
+5,69,Threshold rule,1.0000,1.0000
+5,69,Gaussian NB,1.0000,1.0000
+5,69,Logistic Regression,1.0000,1.0000
+5,69,Decision Tree,1.0000,1.0000
+5,69,KNN (k=5),1.0000,1.0000
+5,69,SVM (RBF),1.0000,1.0000
+5,69,Random Forest,1.0000,1.0000
+5,69,Rule (fixed 450),1.0000,1.0000
+5,69,Rule (fixed 550),0.9750,0.9677
+5,70,Threshold rule,1.0000,1.0000
+5,70,Gaussian NB,0.9750,0.9655
+5,70,Logistic Regression,0.9750,0.9655
+5,70,Decision Tree,1.0000,1.0000
+5,70,KNN (k=5),1.0000,1.0000
+5,70,SVM (RBF),0.9750,0.9655
+5,70,Random Forest,1.0000,1.0000
+5,70,Rule (fixed 450),0.9750,0.9655
+5,70,Rule (fixed 550),0.9750,0.9677
+5,71,Threshold rule,1.0000,1.0000
+5,71,Gaussian NB,1.0000,1.0000
+5,71,Logistic Regression,1.0000,1.0000
+5,71,Decision Tree,0.9750,0.9677
+5,71,KNN (k=5),0.9750,0.9677
+5,71,SVM (RBF),1.0000,1.0000
+5,71,Random Forest,0.9750,0.9677
+5,71,Rule (fixed 450),1.0000,1.0000
+5,71,Rule (fixed 550),1.0000,1.0000
+5,72,Threshold rule,0.9750,0.9677
+5,72,Gaussian NB,0.9750,0.9677
+5,72,Logistic Regression,0.9750,0.9655
+5,72,Decision Tree,1.0000,1.0000
+5,72,KNN (k=5),0.9250,0.9031
+5,72,SVM (RBF),0.9250,0.9031
+5,72,Random Forest,0.9500,0.9373
+5,72,Rule (fixed 450),0.9250,0.8965
+5,72,Rule (fixed 550),0.9500,0.9373
+5,73,Threshold rule,0.9250,0.9031
+5,73,Gaussian NB,0.9250,0.9031
+5,73,Logistic Regression,0.9250,0.9031
+5,73,Decision Tree,0.9250,0.9085
+5,73,KNN (k=5),0.9250,0.9031
+5,73,SVM (RBF),0.9250,0.9031
+5,73,Random Forest,0.9500,0.9373
+5,73,Rule (fixed 450),0.9250,0.9031
+5,73,Rule (fixed 550),0.9000,0.8810
+5,74,Threshold rule,0.9500,0.9333
+5,74,Gaussian NB,0.9500,0.9283
+5,74,Logistic Regression,0.9500,0.9283
+5,74,Decision Tree,0.9750,0.9655
+5,74,KNN (k=5),0.9750,0.9655
+5,74,SVM (RBF),0.9500,0.9283
+5,74,Random Forest,0.9750,0.9655
+5,74,Rule (fixed 450),0.9500,0.9333
+5,74,Rule (fixed 550),0.9500,0.9333
+5,75,Threshold rule,0.9750,0.9677
+5,75,Gaussian NB,0.9750,0.9655
+5,75,Logistic Regression,0.9750,0.9655
+5,75,Decision Tree,0.9750,0.9677
+5,75,KNN (k=5),1.0000,1.0000
+5,75,SVM (RBF),1.0000,1.0000
+5,75,Random Forest,1.0000,1.0000
+5,75,Rule (fixed 450),0.9750,0.9655
+5,75,Rule (fixed 550),0.9250,0.9085
+5,76,Threshold rule,0.9500,0.9373
+5,76,Gaussian NB,0.9500,0.9373
+5,76,Logistic Regression,0.9500,0.9373
+5,76,Decision Tree,0.9500,0.9373
+5,76,KNN (k=5),0.9750,0.9677
+5,76,SVM (RBF),0.9750,0.9677
+5,76,Random Forest,0.9500,0.9373
+5,76,Rule (fixed 450),0.9500,0.9373
+5,76,Rule (fixed 550),0.9500,0.9373
+5,77,Threshold rule,0.9500,0.9333
+5,77,Gaussian NB,0.9500,0.9333
+5,77,Logistic Regression,0.9500,0.9333
+5,77,Decision Tree,0.9250,0.9031
+5,77,KNN (k=5),0.9500,0.9333
+5,77,SVM (RBF),0.9500,0.9333
+5,77,Random Forest,0.9500,0.9333
+5,77,Rule (fixed 450),0.9500,0.9333
+5,77,Rule (fixed 550),0.9500,0.9373
+5,78,Threshold rule,0.9250,0.8880
+5,78,Gaussian NB,0.9000,0.8438
+5,78,Logistic Regression,0.8750,0.7949
+5,78,Decision Tree,0.9000,0.8566
+5,78,KNN (k=5),0.8750,0.7949
+5,78,SVM (RBF),0.8750,0.7949
+5,78,Random Forest,0.9000,0.8438
+5,78,Rule (fixed 450),0.9000,0.8438
+5,78,Rule (fixed 550),0.9000,0.8746
+5,79,Threshold rule,0.9000,0.8746
+5,79,Gaussian NB,0.9250,0.9085
+5,79,Logistic Regression,0.9250,0.9031
+5,79,Decision Tree,1.0000,1.0000
+5,79,KNN (k=5),0.9500,0.9333
+5,79,SVM (RBF),0.9500,0.9333
+5,79,Random Forest,1.0000,1.0000
+5,79,Rule (fixed 450),0.9000,0.8746
+5,79,Rule (fixed 550),0.9250,0.9085
+5,80,Threshold rule,1.0000,1.0000
+5,80,Gaussian NB,1.0000,1.0000
+5,80,Logistic Regression,1.0000,1.0000
+5,80,Decision Tree,0.9750,0.9677
+5,80,KNN (k=5),0.9750,0.9655
+5,80,SVM (RBF),0.9750,0.9655
+5,80,Random Forest,0.9750,0.9677
+5,80,Rule (fixed 450),1.0000,1.0000
+5,80,Rule (fixed 550),0.9500,0.9373
+5,81,Threshold rule,0.9250,0.9085
+5,81,Gaussian NB,0.9500,0.9333
+5,81,Logistic Regression,0.9750,0.9677
+5,81,Decision Tree,0.9250,0.9085
+5,81,KNN (k=5),0.9750,0.9677
+5,81,SVM (RBF),0.9750,0.9677
+5,81,Random Forest,0.9750,0.9677
+5,81,Rule (fixed 450),0.9500,0.9333
+5,81,Rule (fixed 550),0.8750,0.8545
+5,82,Threshold rule,0.9250,0.8965
+5,82,Gaussian NB,0.9500,0.9283
+5,82,Logistic Regression,0.9250,0.8880
+5,82,Decision Tree,0.8500,0.8000
+5,82,KNN (k=5),0.9000,0.8566
+5,82,SVM (RBF),0.9000,0.8566
+5,82,Random Forest,0.8750,0.8386
+5,82,Rule (fixed 450),0.9250,0.8880
+5,82,Rule (fixed 550),0.8500,0.8214
+5,83,Threshold rule,0.9750,0.9655
+5,83,Gaussian NB,0.9750,0.9655
+5,83,Logistic Regression,0.9750,0.9655
+5,83,Decision Tree,0.9500,0.9283
+5,83,KNN (k=5),0.9750,0.9655
+5,83,SVM (RBF),0.9750,0.9655
+5,83,Random Forest,0.9750,0.9655
+5,83,Rule (fixed 450),0.9750,0.9655
+5,83,Rule (fixed 550),0.9500,0.9373
+5,84,Threshold rule,0.9750,0.9677
+5,84,Gaussian NB,1.0000,1.0000
+5,84,Logistic Regression,1.0000,1.0000
+5,84,Decision Tree,0.9750,0.9677
+5,84,KNN (k=5),1.0000,1.0000
+5,84,SVM (RBF),1.0000,1.0000
+5,84,Random Forest,0.9750,0.9677
+5,84,Rule (fixed 450),1.0000,1.0000
+5,84,Rule (fixed 550),0.9000,0.8810
+5,85,Threshold rule,0.9500,0.9373
+5,85,Gaussian NB,0.9750,0.9655
+5,85,Logistic Regression,0.9250,0.8880
+5,85,Decision Tree,0.9750,0.9677
+5,85,KNN (k=5),0.8750,0.8274
+5,85,SVM (RBF),0.9750,0.9655
+5,85,Random Forest,1.0000,1.0000
+5,85,Rule (fixed 450),0.9750,0.9655
+5,85,Rule (fixed 550),0.8750,0.8545
+5,86,Threshold rule,0.9500,0.9333
+5,86,Gaussian NB,0.9500,0.9283
+5,86,Logistic Regression,0.9250,0.8965
+5,86,Decision Tree,0.9500,0.9333
+5,86,KNN (k=5),0.9500,0.9333
+5,86,SVM (RBF),0.9250,0.8965
+5,86,Random Forest,0.9500,0.9333
+5,86,Rule (fixed 450),0.9500,0.9283
+5,86,Rule (fixed 550),0.9250,0.9085
+5,87,Threshold rule,1.0000,1.0000
+5,87,Gaussian NB,1.0000,1.0000
+5,87,Logistic Regression,1.0000,1.0000
+5,87,Decision Tree,1.0000,1.0000
+5,87,KNN (k=5),1.0000,1.0000
+5,87,SVM (RBF),1.0000,1.0000
+5,87,Random Forest,1.0000,1.0000
+5,87,Rule (fixed 450),1.0000,1.0000
+5,87,Rule (fixed 550),1.0000,1.0000
+5,88,Threshold rule,1.0000,1.0000
+5,88,Gaussian NB,1.0000,1.0000
+5,88,Logistic Regression,0.9750,0.9655
+5,88,Decision Tree,1.0000,1.0000
+5,88,KNN (k=5),1.0000,1.0000
+5,88,SVM (RBF),1.0000,1.0000
+5,88,Random Forest,1.0000,1.0000
+5,88,Rule (fixed 450),1.0000,1.0000
+5,88,Rule (fixed 550),0.9250,0.9085
+5,89,Threshold rule,0.9750,0.9655
+5,89,Gaussian NB,0.9500,0.9283
+5,89,Logistic Regression,0.9500,0.9283
+5,89,Decision Tree,0.9000,0.8667
+5,89,KNN (k=5),0.9250,0.8965
+5,89,SVM (RBF),0.9500,0.9283
+5,89,Random Forest,0.9250,0.8965
+5,89,Rule (fixed 450),0.9500,0.9283
+5,89,Rule (fixed 550),0.9000,0.8810
+5,90,Threshold rule,0.9750,0.9655
+5,90,Gaussian NB,0.9750,0.9655
+5,90,Logistic Regression,0.9500,0.9283
+5,90,Decision Tree,0.9500,0.9283
+5,90,KNN (k=5),0.9500,0.9283
+5,90,SVM (RBF),0.9750,0.9655
+5,90,Random Forest,0.9750,0.9655
+5,90,Rule (fixed 450),0.9750,0.9655
+5,90,Rule (fixed 550),0.9250,0.9085
+5,91,Threshold rule,0.9750,0.9677
+5,91,Gaussian NB,0.9500,0.9283
+5,91,Logistic Regression,0.9500,0.9283
+5,91,Decision Tree,0.9000,0.8667
+5,91,KNN (k=5),0.9000,0.8438
+5,91,SVM (RBF),0.9500,0.9283
+5,91,Random Forest,0.9500,0.9283
+5,91,Rule (fixed 450),0.9500,0.9283
+5,91,Rule (fixed 550),0.9500,0.9373
+5,92,Threshold rule,0.9500,0.9373
+5,92,Gaussian NB,0.9750,0.9655
+5,92,Logistic Regression,0.9750,0.9655
+5,92,Decision Tree,0.9750,0.9655
+5,92,KNN (k=5),0.9500,0.9333
+5,92,SVM (RBF),1.0000,1.0000
+5,92,Random Forest,0.9750,0.9655
+5,92,Rule (fixed 450),0.9750,0.9655
+5,92,Rule (fixed 550),0.9000,0.8810
+5,93,Threshold rule,1.0000,1.0000
+5,93,Gaussian NB,1.0000,1.0000
+5,93,Logistic Regression,1.0000,1.0000
+5,93,Decision Tree,1.0000,1.0000
+5,93,KNN (k=5),0.9750,0.9655
+5,93,SVM (RBF),1.0000,1.0000
+5,93,Random Forest,0.9750,0.9655
+5,93,Rule (fixed 450),1.0000,1.0000
+5,93,Rule (fixed 550),0.9750,0.9677
+5,94,Threshold rule,0.9750,0.9677
+5,94,Gaussian NB,0.9750,0.9655
+5,94,Logistic Regression,0.9750,0.9655
+5,94,Decision Tree,1.0000,1.0000
+5,94,KNN (k=5),0.9750,0.9655
+5,94,SVM (RBF),0.9750,0.9655
+5,94,Random Forest,1.0000,1.0000
+5,94,Rule (fixed 450),0.9750,0.9655
+5,94,Rule (fixed 550),0.9500,0.9373
+5,95,Threshold rule,0.9750,0.9655
+5,95,Gaussian NB,0.9250,0.8880
+5,95,Logistic Regression,0.9250,0.8880
+5,95,Decision Tree,0.9500,0.9283
+5,95,KNN (k=5),0.9250,0.8880
+5,95,SVM (RBF),0.9250,0.8880
+5,95,Random Forest,0.9500,0.9283
+5,95,Rule (fixed 450),0.9500,0.9283
+5,95,Rule (fixed 550),1.0000,1.0000
+5,96,Threshold rule,0.9750,0.9655
+5,96,Gaussian NB,0.9750,0.9655
+5,96,Logistic Regression,0.9750,0.9655
+5,96,Decision Tree,0.9750,0.9655
+5,96,KNN (k=5),0.9750,0.9655
+5,96,SVM (RBF),0.9750,0.9655
+5,96,Random Forest,0.9750,0.9655
+5,96,Rule (fixed 450),0.9750,0.9655
+5,96,Rule (fixed 550),0.9750,0.9677
+5,97,Threshold rule,1.0000,1.0000
+5,97,Gaussian NB,1.0000,1.0000
+5,97,Logistic Regression,1.0000,1.0000
+5,97,Decision Tree,0.9750,0.9677
+5,97,KNN (k=5),0.9250,0.9031
+5,97,SVM (RBF),0.9750,0.9677
+5,97,Random Forest,0.9500,0.9373
+5,97,Rule (fixed 450),0.9750,0.9655
+5,97,Rule (fixed 550),0.8750,0.8545
+5,98,Threshold rule,0.9500,0.9373
+5,98,Gaussian NB,1.0000,1.0000
+5,98,Logistic Regression,1.0000,1.0000
+5,98,Decision Tree,1.0000,1.0000
+5,98,KNN (k=5),0.9750,0.9677
+5,98,SVM (RBF),1.0000,1.0000
+5,98,Random Forest,0.9500,0.9373
+5,98,Rule (fixed 450),1.0000,1.0000
+5,98,Rule (fixed 550),0.9000,0.8810
+5,99,Threshold rule,0.9750,0.9655
+5,99,Gaussian NB,0.9750,0.9655
+5,99,Logistic Regression,0.9750,0.9655
+5,99,Decision Tree,0.9500,0.9333
+5,99,KNN (k=5),1.0000,1.0000
+5,99,SVM (RBF),0.9750,0.9655
+5,99,Random Forest,0.9500,0.9333
+5,99,Rule (fixed 450),0.9750,0.9655
+5,99,Rule (fixed 550),0.9750,0.9677
+10,0,Threshold rule,0.9750,0.9655
+10,0,Gaussian NB,0.9500,0.9283
+10,0,Logistic Regression,0.9500,0.9283
+10,0,Decision Tree,0.8750,0.8274
+10,0,KNN (k=5),0.9250,0.8965
+10,0,SVM (RBF),0.9500,0.9283
+10,0,Random Forest,0.9250,0.8965
+10,0,Rule (fixed 450),0.9750,0.9655
+10,0,Rule (fixed 550),0.8750,0.8474
+10,1,Threshold rule,0.8500,0.8119
+10,1,Gaussian NB,0.8250,0.7584
+10,1,Logistic Regression,0.8250,0.7584
+10,1,Decision Tree,0.8250,0.7584
+10,1,KNN (k=5),0.8250,0.7584
+10,1,SVM (RBF),0.8250,0.7584
+10,1,Random Forest,0.8250,0.7584
+10,1,Rule (fixed 450),0.8250,0.7584
+10,1,Rule (fixed 550),0.8750,0.8474
+10,2,Threshold rule,0.9500,0.9373
+10,2,Gaussian NB,1.0000,1.0000
+10,2,Logistic Regression,0.9500,0.9333
+10,2,Decision Tree,0.9250,0.9085
+10,2,KNN (k=5),0.9750,0.9677
+10,2,SVM (RBF),0.9250,0.9031
+10,2,Random Forest,0.9500,0.9373
+10,2,Rule (fixed 450),0.9500,0.9373
+10,2,Rule (fixed 550),0.9250,0.9085
+10,3,Threshold rule,0.9500,0.9373
+10,3,Gaussian NB,0.9750,0.9677
+10,3,Logistic Regression,0.9750,0.9677
+10,3,Decision Tree,0.9750,0.9677
+10,3,KNN (k=5),0.9500,0.9333
+10,3,SVM (RBF),0.9750,0.9677
+10,3,Random Forest,0.9500,0.9373
+10,3,Rule (fixed 450),0.9750,0.9677
+10,3,Rule (fixed 550),0.9500,0.9373
+10,4,Threshold rule,0.9500,0.9373
+10,4,Gaussian NB,0.9500,0.9333
+10,4,Logistic Regression,0.9250,0.9031
+10,4,Decision Tree,0.9000,0.8746
+10,4,KNN (k=5),0.9000,0.8667
+10,4,SVM (RBF),0.9000,0.8667
+10,4,Random Forest,0.9250,0.9031
+10,4,Rule (fixed 450),0.9250,0.9031
+10,4,Rule (fixed 550),0.9500,0.9373
+10,5,Threshold rule,0.9750,0.9655
+10,5,Gaussian NB,0.9500,0.9283
+10,5,Logistic Regression,0.9500,0.9283
+10,5,Decision Tree,0.9250,0.8880
+10,5,KNN (k=5),0.9500,0.9283
+10,5,SVM (RBF),0.9500,0.9283
+10,5,Random Forest,0.9500,0.9283
+10,5,Rule (fixed 450),0.9750,0.9655
+10,5,Rule (fixed 550),0.9250,0.9031
+10,6,Threshold rule,0.9250,0.9085
+10,6,Gaussian NB,0.9000,0.8566
+10,6,Logistic Regression,0.9250,0.8965
+10,6,Decision Tree,0.9000,0.8566
+10,6,KNN (k=5),0.9000,0.8566
+10,6,SVM (RBF),0.9000,0.8566
+10,6,Random Forest,0.9000,0.8667
+10,6,Rule (fixed 450),0.9250,0.8965
+10,6,Rule (fixed 550),0.9000,0.8810
+10,7,Threshold rule,0.9250,0.9031
+10,7,Gaussian NB,0.9750,0.9655
+10,7,Logistic Regression,0.9750,0.9655
+10,7,Decision Tree,0.9500,0.9333
+10,7,KNN (k=5),0.9500,0.9333
+10,7,SVM (RBF),0.9750,0.9655
+10,7,Random Forest,0.9500,0.9333
+10,7,Rule (fixed 450),0.9250,0.9031
+10,7,Rule (fixed 550),0.8500,0.8214
+10,8,Threshold rule,0.9000,0.8667
+10,8,Gaussian NB,0.9000,0.8566
+10,8,Logistic Regression,0.8750,0.8274
+10,8,Decision Tree,0.8750,0.8386
+10,8,KNN (k=5),0.9000,0.8667
+10,8,SVM (RBF),0.8750,0.8274
+10,8,Random Forest,0.9250,0.8965
+10,8,Rule (fixed 450),0.9000,0.8667
+10,8,Rule (fixed 550),0.8750,0.8386
+10,9,Threshold rule,0.9500,0.9283
+10,9,Gaussian NB,0.9500,0.9283
+10,9,Logistic Regression,0.9500,0.9283
+10,9,Decision Tree,0.9250,0.8880
+10,9,KNN (k=5),0.9500,0.9283
+10,9,SVM (RBF),0.9500,0.9283
+10,9,Random Forest,0.9500,0.9283
+10,9,Rule (fixed 450),0.9500,0.9283
+10,9,Rule (fixed 550),0.9500,0.9373
+10,10,Threshold rule,0.9750,0.9677
+10,10,Gaussian NB,0.9250,0.8880
+10,10,Logistic Regression,0.9500,0.9283
+10,10,Decision Tree,0.9750,0.9655
+10,10,KNN (k=5),0.9000,0.8438
+10,10,SVM (RBF),0.9500,0.9283
+10,10,Random Forest,0.9250,0.8880
+10,10,Rule (fixed 450),1.0000,1.0000
+10,10,Rule (fixed 550),0.9000,0.8810
+10,11,Threshold rule,0.9750,0.9677
+10,11,Gaussian NB,1.0000,1.0000
+10,11,Logistic Regression,0.9750,0.9677
+10,11,Decision Tree,0.9500,0.9333
+10,11,KNN (k=5),0.9750,0.9677
+10,11,SVM (RBF),0.9750,0.9677
+10,11,Random Forest,0.9750,0.9677
+10,11,Rule (fixed 450),0.9750,0.9677
+10,11,Rule (fixed 550),0.9750,0.9677
+10,12,Threshold rule,0.9250,0.9085
+10,12,Gaussian NB,0.9500,0.9373
+10,12,Logistic Regression,0.9500,0.9373
+10,12,Decision Tree,0.9500,0.9373
+10,12,KNN (k=5),0.9500,0.9373
+10,12,SVM (RBF),0.9500,0.9373
+10,12,Random Forest,0.9500,0.9373
+10,12,Rule (fixed 450),0.9500,0.9373
+10,12,Rule (fixed 550),0.8750,0.8545
+10,13,Threshold rule,0.9750,0.9677
+10,13,Gaussian NB,0.9000,0.8566
+10,13,Logistic Regression,0.9500,0.9283
+10,13,Decision Tree,0.9500,0.9333
+10,13,KNN (k=5),0.9250,0.8965
+10,13,SVM (RBF),0.9000,0.8566
+10,13,Random Forest,0.9500,0.9333
+10,13,Rule (fixed 450),0.9500,0.9333
+10,13,Rule (fixed 550),0.9250,0.9085
+10,14,Threshold rule,0.9500,0.9333
+10,14,Gaussian NB,0.9750,0.9655
+10,14,Logistic Regression,0.9500,0.9333
+10,14,Decision Tree,0.8500,0.8214
+10,14,KNN (k=5),0.9000,0.8746
+10,14,SVM (RBF),0.9250,0.9031
+10,14,Random Forest,0.9500,0.9333
+10,14,Rule (fixed 450),0.9500,0.9333
+10,14,Rule (fixed 550),0.8500,0.8214
+10,15,Threshold rule,0.9500,0.9333
+10,15,Gaussian NB,0.9500,0.9333
+10,15,Logistic Regression,0.9250,0.8965
+10,15,Decision Tree,0.9250,0.8965
+10,15,KNN (k=5),0.9250,0.8965
+10,15,SVM (RBF),0.9500,0.9333
+10,15,Random Forest,0.9500,0.9333
+10,15,Rule (fixed 450),0.9500,0.9333
+10,15,Rule (fixed 550),0.9250,0.9031
+10,16,Threshold rule,0.9500,0.9283
+10,16,Gaussian NB,0.9500,0.9283
+10,16,Logistic Regression,0.9500,0.9283
+10,16,Decision Tree,0.9500,0.9283
+10,16,KNN (k=5),0.9500,0.9283
+10,16,SVM (RBF),0.9500,0.9283
+10,16,Random Forest,0.9500,0.9283
+10,16,Rule (fixed 450),0.9500,0.9283
+10,16,Rule (fixed 550),0.9750,0.9677
+10,17,Threshold rule,0.9250,0.9031
+10,17,Gaussian NB,0.9000,0.8667
+10,17,Logistic Regression,0.9000,0.8667
+10,17,Decision Tree,0.9250,0.8880
+10,17,KNN (k=5),0.9000,0.8667
+10,17,SVM (RBF),0.9250,0.9031
+10,17,Random Forest,0.9750,0.9655
+10,17,Rule (fixed 450),0.9250,0.9031
+10,17,Rule (fixed 550),0.9500,0.9373
+10,18,Threshold rule,0.9750,0.9655
+10,18,Gaussian NB,0.9500,0.9283
+10,18,Logistic Regression,0.9500,0.9283
+10,18,Decision Tree,0.9250,0.9031
+10,18,KNN (k=5),0.9250,0.8965
+10,18,SVM (RBF),0.9500,0.9283
+10,18,Random Forest,0.9250,0.8965
+10,18,Rule (fixed 450),0.9500,0.9283
+10,18,Rule (fixed 550),0.9750,0.9677
+10,19,Threshold rule,0.9250,0.9085
+10,19,Gaussian NB,0.9250,0.8965
+10,19,Logistic Regression,0.9250,0.8965
+10,19,Decision Tree,0.9000,0.8667
+10,19,KNN (k=5),0.9250,0.8965
+10,19,SVM (RBF),0.9500,0.9283
+10,19,Random Forest,0.9000,0.8566
+10,19,Rule (fixed 450),0.9250,0.9031
+10,19,Rule (fixed 550),0.9250,0.9085
+10,20,Threshold rule,1.0000,1.0000
+10,20,Gaussian NB,1.0000,1.0000
+10,20,Logistic Regression,1.0000,1.0000
+10,20,Decision Tree,1.0000,1.0000
+10,20,KNN (k=5),1.0000,1.0000
+10,20,SVM (RBF),1.0000,1.0000
+10,20,Random Forest,1.0000,1.0000
+10,20,Rule (fixed 450),1.0000,1.0000
+10,20,Rule (fixed 550),0.9000,0.8810
+10,21,Threshold rule,0.9250,0.8965
+10,21,Gaussian NB,0.9500,0.9283
+10,21,Logistic Regression,0.9250,0.8965
+10,21,Decision Tree,0.9250,0.9031
+10,21,KNN (k=5),0.9250,0.8965
+10,21,SVM (RBF),0.9250,0.8965
+10,21,Random Forest,0.9250,0.8965
+10,21,Rule (fixed 450),0.9500,0.9333
+10,21,Rule (fixed 550),0.9000,0.8746
+10,22,Threshold rule,0.9500,0.9333
+10,22,Gaussian NB,0.9500,0.9283
+10,22,Logistic Regression,0.9500,0.9283
+10,22,Decision Tree,0.9000,0.8667
+10,22,KNN (k=5),0.9500,0.9283
+10,22,SVM (RBF),0.9500,0.9283
+10,22,Random Forest,0.9500,0.9283
+10,22,Rule (fixed 450),0.9500,0.9283
+10,22,Rule (fixed 550),0.9750,0.9677
+10,23,Threshold rule,0.9250,0.8965
+10,23,Gaussian NB,0.9250,0.8965
+10,23,Logistic Regression,0.9250,0.8965
+10,23,Decision Tree,0.8750,0.8274
+10,23,KNN (k=5),0.9500,0.9333
+10,23,SVM (RBF),0.9250,0.8965
+10,23,Random Forest,0.9250,0.8965
+10,23,Rule (fixed 450),0.9250,0.8965
+10,23,Rule (fixed 550),0.8750,0.8386
+10,24,Threshold rule,0.8500,0.8291
+10,24,Gaussian NB,0.9000,0.8667
+10,24,Logistic Regression,0.9000,0.8667
+10,24,Decision Tree,0.8250,0.7964
+10,24,KNN (k=5),0.9250,0.8965
+10,24,SVM (RBF),0.9250,0.8965
+10,24,Random Forest,0.9000,0.8667
+10,24,Rule (fixed 450),0.9000,0.8667
+10,24,Rule (fixed 550),0.9250,0.9085
+10,25,Threshold rule,0.7500,0.7024
+10,25,Gaussian NB,0.8250,0.7584
+10,25,Logistic Regression,0.8500,0.7849
+10,25,Decision Tree,0.8250,0.7584
+10,25,KNN (k=5),0.8000,0.7333
+10,25,SVM (RBF),0.8500,0.7849
+10,25,Random Forest,0.8500,0.7849
+10,25,Rule (fixed 450),0.8250,0.7584
+10,25,Rule (fixed 550),0.7750,0.7484
+10,26,Threshold rule,0.9750,0.9655
+10,26,Gaussian NB,0.9500,0.9283
+10,26,Logistic Regression,0.9750,0.9655
+10,26,Decision Tree,0.9750,0.9655
+10,26,KNN (k=5),0.9750,0.9655
+10,26,SVM (RBF),0.9750,0.9655
+10,26,Random Forest,0.9750,0.9655
+10,26,Rule (fixed 450),0.9750,0.9655
+10,26,Rule (fixed 550),0.9500,0.9373
+10,27,Threshold rule,0.9750,0.9677
+10,27,Gaussian NB,0.9250,0.8965
+10,27,Logistic Regression,0.9250,0.8965
+10,27,Decision Tree,0.9000,0.8566
+10,27,KNN (k=5),0.8750,0.8133
+10,27,SVM (RBF),0.9500,0.9283
+10,27,Random Forest,0.9500,0.9333
+10,27,Rule (fixed 450),0.9750,0.9677
+10,27,Rule (fixed 550),0.9250,0.9085
+10,28,Threshold rule,1.0000,1.0000
+10,28,Gaussian NB,0.9750,0.9655
+10,28,Logistic Regression,0.9750,0.9655
+10,28,Decision Tree,0.9750,0.9655
+10,28,KNN (k=5),0.9750,0.9655
+10,28,SVM (RBF),0.9750,0.9655
+10,28,Random Forest,0.9750,0.9655
+10,28,Rule (fixed 450),0.9750,0.9655
+10,28,Rule (fixed 550),0.9250,0.9085
+10,29,Threshold rule,0.9500,0.9333
+10,29,Gaussian NB,0.9500,0.9333
+10,29,Logistic Regression,0.9500,0.9333
+10,29,Decision Tree,0.9750,0.9655
+10,29,KNN (k=5),0.9250,0.9031
+10,29,SVM (RBF),0.9000,0.8746
+10,29,Random Forest,0.9750,0.9655
+10,29,Rule (fixed 450),0.8750,0.8474
+10,29,Rule (fixed 550),0.9000,0.8810
+10,30,Threshold rule,0.9250,0.9085
+10,30,Gaussian NB,0.9250,0.8965
+10,30,Logistic Regression,0.9500,0.9333
+10,30,Decision Tree,0.8750,0.8386
+10,30,KNN (k=5),0.9250,0.9031
+10,30,SVM (RBF),0.9250,0.8965
+10,30,Random Forest,0.9250,0.8965
+10,30,Rule (fixed 450),0.9500,0.9333
+10,30,Rule (fixed 550),0.8750,0.8545
+10,31,Threshold rule,0.9250,0.9085
+10,31,Gaussian NB,0.9500,0.9333
+10,31,Logistic Regression,0.9500,0.9333
+10,31,Decision Tree,0.8750,0.8386
+10,31,KNN (k=5),0.8750,0.8274
+10,31,SVM (RBF),0.9500,0.9333
+10,31,Random Forest,0.8250,0.7740
+10,31,Rule (fixed 450),0.9500,0.9373
+10,31,Rule (fixed 550),0.8750,0.8545
+10,32,Threshold rule,0.9250,0.9085
+10,32,Gaussian NB,1.0000,1.0000
+10,32,Logistic Regression,0.9750,0.9677
+10,32,Decision Tree,0.9750,0.9677
+10,32,KNN (k=5),1.0000,1.0000
+10,32,SVM (RBF),1.0000,1.0000
+10,32,Random Forest,0.9750,0.9677
+10,32,Rule (fixed 450),0.9500,0.9373
+10,32,Rule (fixed 550),0.9250,0.9085
+10,33,Threshold rule,0.9500,0.9333
+10,33,Gaussian NB,0.9250,0.8965
+10,33,Logistic Regression,0.9250,0.8965
+10,33,Decision Tree,0.9500,0.9283
+10,33,KNN (k=5),0.9500,0.9333
+10,33,SVM (RBF),0.9250,0.8965
+10,33,Random Forest,0.9500,0.9333
+10,33,Rule (fixed 450),0.9500,0.9333
+10,33,Rule (fixed 550),0.9500,0.9373
+10,34,Threshold rule,0.9000,0.8667
+10,34,Gaussian NB,0.9500,0.9283
+10,34,Logistic Regression,0.9500,0.9283
+10,34,Decision Tree,0.9250,0.8965
+10,34,KNN (k=5),0.9250,0.8965
+10,34,SVM (RBF),0.9250,0.8965
+10,34,Random Forest,0.9250,0.8965
+10,34,Rule (fixed 450),0.9000,0.8667
+10,34,Rule (fixed 550),0.8500,0.8214
+10,35,Threshold rule,0.9500,0.9373
+10,35,Gaussian NB,0.9500,0.9333
+10,35,Logistic Regression,0.9500,0.9333
+10,35,Decision Tree,0.9750,0.9677
+10,35,KNN (k=5),0.9500,0.9333
+10,35,SVM (RBF),0.9500,0.9333
+10,35,Random Forest,0.9500,0.9333
+10,35,Rule (fixed 450),0.9500,0.9333
+10,35,Rule (fixed 550),0.9000,0.8810
+10,36,Threshold rule,0.9250,0.8880
+10,36,Gaussian NB,0.9250,0.8880
+10,36,Logistic Regression,0.9500,0.9283
+10,36,Decision Tree,0.8750,0.8133
+10,36,KNN (k=5),0.9750,0.9655
+10,36,SVM (RBF),0.9500,0.9283
+10,36,Random Forest,0.9250,0.8965
+10,36,Rule (fixed 450),0.9750,0.9655
+10,36,Rule (fixed 550),0.8750,0.8474
+10,37,Threshold rule,0.9750,0.9655
+10,37,Gaussian NB,0.9500,0.9283
+10,37,Logistic Regression,0.9500,0.9283
+10,37,Decision Tree,0.9750,0.9677
+10,37,KNN (k=5),0.9500,0.9283
+10,37,SVM (RBF),0.9500,0.9283
+10,37,Random Forest,0.9500,0.9333
+10,37,Rule (fixed 450),0.9750,0.9655
+10,37,Rule (fixed 550),0.9250,0.9085
+10,38,Threshold rule,0.8500,0.8214
+10,38,Gaussian NB,0.9500,0.9333
+10,38,Logistic Regression,0.9500,0.9333
+10,38,Decision Tree,0.9000,0.8746
+10,38,KNN (k=5),0.9500,0.9333
+10,38,SVM (RBF),0.9500,0.9333
+10,38,Random Forest,0.9250,0.9031
+10,38,Rule (fixed 450),0.9500,0.9333
+10,38,Rule (fixed 550),0.8500,0.8214
+10,39,Threshold rule,0.9500,0.9333
+10,39,Gaussian NB,0.9250,0.8965
+10,39,Logistic Regression,0.9500,0.9283
+10,39,Decision Tree,0.9500,0.9283
+10,39,KNN (k=5),0.9000,0.8566
+10,39,SVM (RBF),0.9500,0.9283
+10,39,Random Forest,0.9500,0.9283
+10,39,Rule (fixed 450),0.9500,0.9333
+10,39,Rule (fixed 550),0.8250,0.7964
+10,40,Threshold rule,0.9250,0.8965
+10,40,Gaussian NB,0.8750,0.7949
+10,40,Logistic Regression,0.9000,0.8438
+10,40,Decision Tree,0.8500,0.8000
+10,40,KNN (k=5),0.9000,0.8438
+10,40,SVM (RBF),0.9000,0.8438
+10,40,Random Forest,0.8750,0.8133
+10,40,Rule (fixed 450),0.9000,0.8438
+10,40,Rule (fixed 550),0.9250,0.9085
+10,41,Threshold rule,0.9500,0.9373
+10,41,Gaussian NB,0.9750,0.9677
+10,41,Logistic Regression,0.9500,0.9333
+10,41,Decision Tree,0.9500,0.9373
+10,41,KNN (k=5),0.9500,0.9333
+10,41,SVM (RBF),0.9500,0.9333
+10,41,Random Forest,0.9750,0.9677
+10,41,Rule (fixed 450),0.9750,0.9677
+10,41,Rule (fixed 550),0.9500,0.9373
+10,42,Threshold rule,0.9500,0.9333
+10,42,Gaussian NB,0.9250,0.8965
+10,42,Logistic Regression,0.9500,0.9333
+10,42,Decision Tree,0.9500,0.9373
+10,42,KNN (k=5),0.9500,0.9333
+10,42,SVM (RBF),0.9500,0.9333
+10,42,Random Forest,0.9500,0.9373
+10,42,Rule (fixed 450),0.9500,0.9333
+10,42,Rule (fixed 550),0.8500,0.8291
+10,43,Threshold rule,0.9750,0.9677
+10,43,Gaussian NB,0.9500,0.9333
+10,43,Logistic Regression,0.9750,0.9677
+10,43,Decision Tree,0.9500,0.9333
+10,43,KNN (k=5),0.9750,0.9677
+10,43,SVM (RBF),0.9750,0.9677
+10,43,Random Forest,1.0000,1.0000
+10,43,Rule (fixed 450),0.9750,0.9677
+10,43,Rule (fixed 550),0.9500,0.9373
+10,44,Threshold rule,0.9750,0.9677
+10,44,Gaussian NB,0.9750,0.9655
+10,44,Logistic Regression,0.9750,0.9655
+10,44,Decision Tree,0.9250,0.8965
+10,44,KNN (k=5),0.9750,0.9677
+10,44,SVM (RBF),0.9750,0.9655
+10,44,Random Forest,0.9250,0.8965
+10,44,Rule (fixed 450),0.9500,0.9333
+10,44,Rule (fixed 550),0.9750,0.9677
+10,45,Threshold rule,0.9250,0.8880
+10,45,Gaussian NB,0.9250,0.8880
+10,45,Logistic Regression,0.9250,0.8880
+10,45,Decision Tree,0.9250,0.8880
+10,45,KNN (k=5),0.9250,0.8880
+10,45,SVM (RBF),0.9250,0.8880
+10,45,Random Forest,0.9250,0.8880
+10,45,Rule (fixed 450),0.9250,0.8880
+10,45,Rule (fixed 550),0.9000,0.8746
+10,46,Threshold rule,0.9750,0.9655
+10,46,Gaussian NB,0.9500,0.9283
+10,46,Logistic Regression,0.9500,0.9283
+10,46,Decision Tree,0.9000,0.8438
+10,46,KNN (k=5),0.9500,0.9283
+10,46,SVM (RBF),0.9500,0.9283
+10,46,Random Forest,0.9500,0.9283
+10,46,Rule (fixed 450),0.9750,0.9655
+10,46,Rule (fixed 550),0.9000,0.8810
+10,47,Threshold rule,0.9500,0.9283
+10,47,Gaussian NB,0.9250,0.8880
+10,47,Logistic Regression,0.9250,0.8880
+10,47,Decision Tree,0.8750,0.8274
+10,47,KNN (k=5),0.9000,0.8566
+10,47,SVM (RBF),0.9250,0.8880
+10,47,Random Forest,0.9250,0.8880
+10,47,Rule (fixed 450),0.9500,0.9283
+10,47,Rule (fixed 550),0.8750,0.8474
+10,48,Threshold rule,0.9750,0.9655
+10,48,Gaussian NB,0.9500,0.9283
+10,48,Logistic Regression,0.9500,0.9283
+10,48,Decision Tree,0.9000,0.8667
+10,48,KNN (k=5),0.9500,0.9283
+10,48,SVM (RBF),0.9750,0.9655
+10,48,Random Forest,0.9750,0.9655
+10,48,Rule (fixed 450),0.9750,0.9655
+10,48,Rule (fixed 550),0.9750,0.9677
+10,49,Threshold rule,0.9500,0.9373
+10,49,Gaussian NB,0.9500,0.9333
+10,49,Logistic Regression,0.9500,0.9333
+10,49,Decision Tree,0.9500,0.9333
+10,49,KNN (k=5),0.9250,0.9031
+10,49,SVM (RBF),0.9500,0.9333
+10,49,Random Forest,0.9500,0.9333
+10,49,Rule (fixed 450),0.9500,0.9333
+10,49,Rule (fixed 550),0.9500,0.9373
+10,50,Threshold rule,0.9750,0.9655
+10,50,Gaussian NB,0.9750,0.9655
+10,50,Logistic Regression,0.9500,0.9283
+10,50,Decision Tree,0.8500,0.7849
+10,50,KNN (k=5),0.9500,0.9333
+10,50,SVM (RBF),0.9250,0.8880
+10,50,Random Forest,0.8750,0.8274
+10,50,Rule (fixed 450),0.9250,0.9085
+10,50,Rule (fixed 550),0.8750,0.8545
+10,51,Threshold rule,0.9500,0.9333
+10,51,Gaussian NB,0.9250,0.8965
+10,51,Logistic Regression,0.9500,0.9333
+10,51,Decision Tree,0.9750,0.9677
+10,51,KNN (k=5),0.9250,0.8965
+10,51,SVM (RBF),0.9250,0.8965
+10,51,Random Forest,0.9500,0.9333
+10,51,Rule (fixed 450),0.9500,0.9333
+10,51,Rule (fixed 550),0.9750,0.9677
+10,52,Threshold rule,0.9000,0.8746
+10,52,Gaussian NB,0.9500,0.9283
+10,52,Logistic Regression,0.9500,0.9283
+10,52,Decision Tree,0.9500,0.9283
+10,52,KNN (k=5),0.9250,0.8965
+10,52,SVM (RBF),0.9500,0.9283
+10,52,Random Forest,0.9500,0.9283
+10,52,Rule (fixed 450),0.9500,0.9283
+10,52,Rule (fixed 550),0.8500,0.8214
+10,53,Threshold rule,0.9000,0.8746
+10,53,Gaussian NB,0.9500,0.9333
+10,53,Logistic Regression,0.9500,0.9333
+10,53,Decision Tree,0.9000,0.8566
+10,53,KNN (k=5),0.9250,0.9085
+10,53,SVM (RBF),0.9500,0.9333
+10,53,Random Forest,0.9500,0.9333
+10,53,Rule (fixed 450),0.9250,0.9031
+10,53,Rule (fixed 550),0.8750,0.8545
+10,54,Threshold rule,0.9500,0.9373
+10,54,Gaussian NB,1.0000,1.0000
+10,54,Logistic Regression,1.0000,1.0000
+10,54,Decision Tree,0.9000,0.8667
+10,54,KNN (k=5),0.9500,0.9373
+10,54,SVM (RBF),1.0000,1.0000
+10,54,Random Forest,0.9000,0.8667
+10,54,Rule (fixed 450),0.9750,0.9677
+10,54,Rule (fixed 550),0.8750,0.8545
+10,55,Threshold rule,0.9500,0.9373
+10,55,Gaussian NB,0.9000,0.8566
+10,55,Logistic Regression,0.9000,0.8566
+10,55,Decision Tree,0.9000,0.8566
+10,55,KNN (k=5),0.9250,0.8880
+10,55,SVM (RBF),0.9000,0.8566
+10,55,Random Forest,0.9000,0.8566
+10,55,Rule (fixed 450),0.9500,0.9333
+10,55,Rule (fixed 550),0.9000,0.8810
+10,56,Threshold rule,0.9000,0.8746
+10,56,Gaussian NB,0.9250,0.8965
+10,56,Logistic Regression,0.9000,0.8667
+10,56,Decision Tree,0.9000,0.8667
+10,56,KNN (k=5),0.9000,0.8667
+10,56,SVM (RBF),0.9000,0.8667
+10,56,Random Forest,0.8750,0.8386
+10,56,Rule (fixed 450),0.9000,0.8667
+10,56,Rule (fixed 550),0.9000,0.8746
+10,57,Threshold rule,0.9250,0.8965
+10,57,Gaussian NB,0.9250,0.8965
+10,57,Logistic Regression,0.9250,0.8965
+10,57,Decision Tree,0.9250,0.8965
+10,57,KNN (k=5),0.9000,0.8566
+10,57,SVM (RBF),0.9250,0.8965
+10,57,Random Forest,0.9250,0.8965
+10,57,Rule (fixed 450),0.9250,0.8965
+10,57,Rule (fixed 550),0.8750,0.8474
+10,58,Threshold rule,0.9250,0.9085
+10,58,Gaussian NB,0.9500,0.9333
+10,58,Logistic Regression,0.9500,0.9333
+10,58,Decision Tree,0.9000,0.8746
+10,58,KNN (k=5),0.9500,0.9333
+10,58,SVM (RBF),0.9500,0.9333
+10,58,Random Forest,0.9000,0.8746
+10,58,Rule (fixed 450),0.9500,0.9333
+10,58,Rule (fixed 550),0.9000,0.8810
+10,59,Threshold rule,0.9000,0.8566
+10,59,Gaussian NB,0.9250,0.8880
+10,59,Logistic Regression,0.9000,0.8566
+10,59,Decision Tree,0.9000,0.8566
+10,59,KNN (k=5),0.9250,0.9031
+10,59,SVM (RBF),0.9000,0.8566
+10,59,Random Forest,0.9500,0.9333
+10,59,Rule (fixed 450),0.9250,0.8965
+10,59,Rule (fixed 550),0.8750,0.8474
+10,60,Threshold rule,0.9500,0.9373
+10,60,Gaussian NB,0.9250,0.8965
+10,60,Logistic Regression,0.9250,0.8965
+10,60,Decision Tree,0.9000,0.8746
+10,60,KNN (k=5),0.9500,0.9283
+10,60,SVM (RBF),0.9250,0.8965
+10,60,Random Forest,0.9250,0.8965
+10,60,Rule (fixed 450),0.9250,0.8965
+10,60,Rule (fixed 550),0.8750,0.8545
+10,61,Threshold rule,0.8000,0.7721
+10,61,Gaussian NB,0.8750,0.8474
+10,61,Logistic Regression,0.8750,0.8474
+10,61,Decision Tree,0.8750,0.8474
+10,61,KNN (k=5),0.8500,0.8214
+10,61,SVM (RBF),0.8750,0.8474
+10,61,Random Forest,0.8750,0.8474
+10,61,Rule (fixed 450),0.8750,0.8474
+10,61,Rule (fixed 550),0.8000,0.7721
+10,62,Threshold rule,0.9750,0.9655
+10,62,Gaussian NB,0.9500,0.9283
+10,62,Logistic Regression,0.9500,0.9283
+10,62,Decision Tree,0.9500,0.9333
+10,62,KNN (k=5),0.9500,0.9283
+10,62,SVM (RBF),0.9500,0.9283
+10,62,Random Forest,0.9750,0.9655
+10,62,Rule (fixed 450),0.9750,0.9655
+10,62,Rule (fixed 550),0.9250,0.9031
+10,63,Threshold rule,0.9500,0.9373
+10,63,Gaussian NB,0.9250,0.8965
+10,63,Logistic Regression,0.9000,0.8667
+10,63,Decision Tree,0.8750,0.8386
+10,63,KNN (k=5),0.9250,0.9031
+10,63,SVM (RBF),0.9000,0.8667
+10,63,Random Forest,0.8750,0.8386
+10,63,Rule (fixed 450),0.9000,0.8667
+10,63,Rule (fixed 550),0.9250,0.9085
+10,64,Threshold rule,0.9500,0.9333
+10,64,Gaussian NB,0.9750,0.9655
+10,64,Logistic Regression,0.9750,0.9655
+10,64,Decision Tree,0.9500,0.9333
+10,64,KNN (k=5),0.9750,0.9655
+10,64,SVM (RBF),0.9750,0.9655
+10,64,Random Forest,0.9750,0.9655
+10,64,Rule (fixed 450),0.9750,0.9655
+10,64,Rule (fixed 550),0.9250,0.9031
+10,65,Threshold rule,0.9750,0.9655
+10,65,Gaussian NB,0.9500,0.9283
+10,65,Logistic Regression,0.9750,0.9655
+10,65,Decision Tree,0.9250,0.9031
+10,65,KNN (k=5),0.9250,0.9031
+10,65,SVM (RBF),0.9750,0.9655
+10,65,Random Forest,0.9750,0.9655
+10,65,Rule (fixed 450),0.9750,0.9655
+10,65,Rule (fixed 550),0.8500,0.8214
+10,66,Threshold rule,0.9500,0.9373
+10,66,Gaussian NB,0.9750,0.9677
+10,66,Logistic Regression,0.9750,0.9677
+10,66,Decision Tree,0.8250,0.8043
+10,66,KNN (k=5),0.9000,0.8810
+10,66,SVM (RBF),0.9500,0.9373
+10,66,Random Forest,0.9000,0.8810
+10,66,Rule (fixed 450),0.9750,0.9677
+10,66,Rule (fixed 550),0.8500,0.8291
+10,67,Threshold rule,0.8750,0.8474
+10,67,Gaussian NB,0.9250,0.8965
+10,67,Logistic Regression,0.9000,0.8667
+10,67,Decision Tree,0.9250,0.8965
+10,67,KNN (k=5),0.9750,0.9655
+10,67,SVM (RBF),0.9500,0.9333
+10,67,Random Forest,0.9250,0.8965
+10,67,Rule (fixed 450),0.9000,0.8746
+10,67,Rule (fixed 550),0.8500,0.8291
+10,68,Threshold rule,0.9000,0.8566
+10,68,Gaussian NB,0.8750,0.7949
+10,68,Logistic Regression,0.8750,0.7949
+10,68,Decision Tree,0.8250,0.7128
+10,68,KNN (k=5),0.8750,0.7949
+10,68,SVM (RBF),0.8750,0.7949
+10,68,Random Forest,0.9250,0.8880
+10,68,Rule (fixed 450),0.9000,0.8438
+10,68,Rule (fixed 550),0.8750,0.8474
+10,69,Threshold rule,0.9250,0.9031
+10,69,Gaussian NB,0.9250,0.8880
+10,69,Logistic Regression,0.9500,0.9283
+10,69,Decision Tree,0.8500,0.8119
+10,69,KNN (k=5),0.9250,0.8880
+10,69,SVM (RBF),0.9250,0.8880
+10,69,Random Forest,0.9500,0.9283
+10,69,Rule (fixed 450),0.9000,0.8667
+10,69,Rule (fixed 550),0.9000,0.8746
+10,70,Threshold rule,0.9500,0.9333
+10,70,Gaussian NB,0.9000,0.8566
+10,70,Logistic Regression,0.9000,0.8566
+10,70,Decision Tree,0.9000,0.8566
+10,70,KNN (k=5),0.9000,0.8566
+10,70,SVM (RBF),0.9250,0.8965
+10,70,Random Forest,0.9250,0.8880
+10,70,Rule (fixed 450),0.9500,0.9333
+10,70,Rule (fixed 550),0.9250,0.9031
+10,71,Threshold rule,0.9250,0.8965
+10,71,Gaussian NB,0.9250,0.8880
+10,71,Logistic Regression,0.9250,0.8880
+10,71,Decision Tree,0.9000,0.8566
+10,71,KNN (k=5),0.9250,0.8880
+10,71,SVM (RBF),0.9250,0.8880
+10,71,Random Forest,0.9250,0.8880
+10,71,Rule (fixed 450),0.9250,0.8880
+10,71,Rule (fixed 550),0.9500,0.9333
+10,72,Threshold rule,0.9250,0.9031
+10,72,Gaussian NB,0.9500,0.9283
+10,72,Logistic Regression,0.9500,0.9283
+10,72,Decision Tree,0.9750,0.9655
+10,72,KNN (k=5),0.9500,0.9283
+10,72,SVM (RBF),0.9250,0.8965
+10,72,Random Forest,0.9500,0.9283
+10,72,Rule (fixed 450),0.9000,0.8667
+10,72,Rule (fixed 550),0.9250,0.9031
+10,73,Threshold rule,0.8500,0.8291
+10,73,Gaussian NB,0.9750,0.9655
+10,73,Logistic Regression,0.9750,0.9655
+10,73,Decision Tree,0.9750,0.9655
+10,73,KNN (k=5),0.9750,0.9655
+10,73,SVM (RBF),0.9750,0.9655
+10,73,Random Forest,0.9750,0.9655
+10,73,Rule (fixed 450),0.9750,0.9655
+10,73,Rule (fixed 550),0.9500,0.9373
+10,74,Threshold rule,0.9750,0.9677
+10,74,Gaussian NB,0.9000,0.8438
+10,74,Logistic Regression,0.9000,0.8566
+10,74,Decision Tree,0.9750,0.9655
+10,74,KNN (k=5),0.9000,0.8438
+10,74,SVM (RBF),0.9250,0.8965
+10,74,Random Forest,0.9500,0.9283
+10,74,Rule (fixed 450),0.9500,0.9333
+10,74,Rule (fixed 550),0.9500,0.9373
+10,75,Threshold rule,0.9500,0.9333
+10,75,Gaussian NB,0.9500,0.9283
+10,75,Logistic Regression,0.9500,0.9333
+10,75,Decision Tree,0.9250,0.8965
+10,75,KNN (k=5),0.8750,0.8133
+10,75,SVM (RBF),0.9250,0.8965
+10,75,Random Forest,0.9500,0.9283
+10,75,Rule (fixed 450),0.9500,0.9333
+10,75,Rule (fixed 550),0.9500,0.9333
+10,76,Threshold rule,1.0000,1.0000
+10,76,Gaussian NB,0.9500,0.9283
+10,76,Logistic Regression,1.0000,1.0000
+10,76,Decision Tree,0.9500,0.9333
+10,76,KNN (k=5),1.0000,1.0000
+10,76,SVM (RBF),0.9750,0.9655
+10,76,Random Forest,1.0000,1.0000
+10,76,Rule (fixed 450),1.0000,1.0000
+10,76,Rule (fixed 550),0.9250,0.9085
+10,77,Threshold rule,0.9500,0.9373
+10,77,Gaussian NB,1.0000,1.0000
+10,77,Logistic Regression,0.9500,0.9373
+10,77,Decision Tree,0.9500,0.9373
+10,77,KNN (k=5),0.9500,0.9373
+10,77,SVM (RBF),0.9500,0.9373
+10,77,Random Forest,0.9500,0.9373
+10,77,Rule (fixed 450),0.9750,0.9677
+10,77,Rule (fixed 550),0.9500,0.9373
+10,78,Threshold rule,0.9000,0.8438
+10,78,Gaussian NB,0.9000,0.8438
+10,78,Logistic Regression,0.9000,0.8438
+10,78,Decision Tree,0.9000,0.8438
+10,78,KNN (k=5),0.9000,0.8438
+10,78,SVM (RBF),0.9000,0.8438
+10,78,Random Forest,0.9000,0.8438
+10,78,Rule (fixed 450),0.8750,0.8133
+10,78,Rule (fixed 550),0.8750,0.8274
+10,79,Threshold rule,0.8750,0.8474
+10,79,Gaussian NB,0.9250,0.9031
+10,79,Logistic Regression,0.9250,0.9031
+10,79,Decision Tree,0.8750,0.8474
+10,79,KNN (k=5),0.9250,0.9031
+10,79,SVM (RBF),0.9250,0.9031
+10,79,Random Forest,0.8750,0.8474
+10,79,Rule (fixed 450),0.9250,0.9031
+10,79,Rule (fixed 550),0.8750,0.8474
+10,80,Threshold rule,1.0000,1.0000
+10,80,Gaussian NB,0.9750,0.9655
+10,80,Logistic Regression,1.0000,1.0000
+10,80,Decision Tree,0.9250,0.8965
+10,80,KNN (k=5),0.9750,0.9655
+10,80,SVM (RBF),1.0000,1.0000
+10,80,Random Forest,0.9250,0.8965
+10,80,Rule (fixed 450),0.9750,0.9677
+10,80,Rule (fixed 550),0.9250,0.9085
+10,81,Threshold rule,0.9250,0.9031
+10,81,Gaussian NB,0.9500,0.9333
+10,81,Logistic Regression,0.9250,0.9031
+10,81,Decision Tree,0.8750,0.8386
+10,81,KNN (k=5),0.9000,0.8810
+10,81,SVM (RBF),0.9250,0.9031
+10,81,Random Forest,0.9000,0.8746
+10,81,Rule (fixed 450),0.9250,0.9031
+10,81,Rule (fixed 550),0.9000,0.8810
+10,82,Threshold rule,0.9000,0.8667
+10,82,Gaussian NB,0.8750,0.8274
+10,82,Logistic Regression,0.9000,0.8566
+10,82,Decision Tree,0.8500,0.7849
+10,82,KNN (k=5),0.8500,0.7849
+10,82,SVM (RBF),0.8750,0.8274
+10,82,Random Forest,0.8500,0.8000
+10,82,Rule (fixed 450),0.8750,0.8274
+10,82,Rule (fixed 550),0.9250,0.9085
+10,83,Threshold rule,0.9750,0.9677
+10,83,Gaussian NB,0.9750,0.9655
+10,83,Logistic Regression,1.0000,1.0000
+10,83,Decision Tree,0.9750,0.9655
+10,83,KNN (k=5),0.9750,0.9655
+10,83,SVM (RBF),0.9750,0.9655
+10,83,Random Forest,1.0000,1.0000
+10,83,Rule (fixed 450),0.9750,0.9677
+10,83,Rule (fixed 550),0.9750,0.9677
+10,84,Threshold rule,0.9500,0.9373
+10,84,Gaussian NB,1.0000,1.0000
+10,84,Logistic Regression,1.0000,1.0000
+10,84,Decision Tree,0.9750,0.9677
+10,84,KNN (k=5),0.9750,0.9677
+10,84,SVM (RBF),1.0000,1.0000
+10,84,Random Forest,1.0000,1.0000
+10,84,Rule (fixed 450),0.9750,0.9677
+10,84,Rule (fixed 550),0.9250,0.9085
+10,85,Threshold rule,0.9500,0.9373
+10,85,Gaussian NB,0.9250,0.8880
+10,85,Logistic Regression,0.9250,0.8880
+10,85,Decision Tree,0.9250,0.9031
+10,85,KNN (k=5),0.8750,0.8133
+10,85,SVM (RBF),0.9250,0.8880
+10,85,Random Forest,0.9250,0.8880
+10,85,Rule (fixed 450),0.9750,0.9655
+10,85,Rule (fixed 550),0.9000,0.8810
+10,86,Threshold rule,0.9250,0.9031
+10,86,Gaussian NB,0.9500,0.9333
+10,86,Logistic Regression,0.9500,0.9333
+10,86,Decision Tree,0.9750,0.9655
+10,86,KNN (k=5),0.9250,0.9031
+10,86,SVM (RBF),0.9250,0.9031
+10,86,Random Forest,0.9500,0.9333
+10,86,Rule (fixed 450),0.9250,0.9031
+10,86,Rule (fixed 550),0.9250,0.9085
+10,87,Threshold rule,0.9500,0.9373
+10,87,Gaussian NB,0.9500,0.9333
+10,87,Logistic Regression,0.9500,0.9333
+10,87,Decision Tree,0.9000,0.8566
+10,87,KNN (k=5),0.9250,0.8965
+10,87,SVM (RBF),0.9500,0.9333
+10,87,Random Forest,0.9250,0.8965
+10,87,Rule (fixed 450),0.9750,0.9677
+10,87,Rule (fixed 550),0.9500,0.9373
+10,88,Threshold rule,0.9500,0.9333
+10,88,Gaussian NB,0.9500,0.9283
+10,88,Logistic Regression,0.9500,0.9283
+10,88,Decision Tree,0.9250,0.8965
+10,88,KNN (k=5),0.9750,0.9655
+10,88,SVM (RBF),0.9750,0.9655
+10,88,Random Forest,0.9500,0.9283
+10,88,Rule (fixed 450),0.9500,0.9283
+10,88,Rule (fixed 550),0.9250,0.9085
+10,89,Threshold rule,0.9750,0.9655
+10,89,Gaussian NB,0.9750,0.9655
+10,89,Logistic Regression,0.9750,0.9655
+10,89,Decision Tree,0.9250,0.9031
+10,89,KNN (k=5),0.9000,0.8746
+10,89,SVM (RBF),0.9500,0.9333
+10,89,Random Forest,0.9500,0.9333
+10,89,Rule (fixed 450),0.9750,0.9655
+10,89,Rule (fixed 550),0.9750,0.9677
+10,90,Threshold rule,1.0000,1.0000
+10,90,Gaussian NB,0.9500,0.9283
+10,90,Logistic Regression,0.9500,0.9283
+10,90,Decision Tree,0.9500,0.9283
+10,90,KNN (k=5),0.9500,0.9283
+10,90,SVM (RBF),0.9500,0.9283
+10,90,Random Forest,0.9500,0.9283
+10,90,Rule (fixed 450),0.9500,0.9283
+10,90,Rule (fixed 550),0.9500,0.9373
+10,91,Threshold rule,0.9000,0.8810
+10,91,Gaussian NB,0.9250,0.8880
+10,91,Logistic Regression,0.9250,0.8880
+10,91,Decision Tree,0.9250,0.8880
+10,91,KNN (k=5),0.9250,0.8880
+10,91,SVM (RBF),0.9250,0.8880
+10,91,Random Forest,0.9250,0.8880
+10,91,Rule (fixed 450),0.9500,0.9283
+10,91,Rule (fixed 550),0.8750,0.8474
+10,92,Threshold rule,0.9250,0.9031
+10,92,Gaussian NB,0.9250,0.9031
+10,92,Logistic Regression,0.9250,0.9031
+10,92,Decision Tree,0.9250,0.9085
+10,92,KNN (k=5),0.9250,0.9031
+10,92,SVM (RBF),0.9250,0.9031
+10,92,Random Forest,0.9250,0.9031
+10,92,Rule (fixed 450),0.9250,0.9031
+10,92,Rule (fixed 550),0.9000,0.8810
+10,93,Threshold rule,1.0000,1.0000
+10,93,Gaussian NB,1.0000,1.0000
+10,93,Logistic Regression,1.0000,1.0000
+10,93,Decision Tree,0.9750,0.9677
+10,93,KNN (k=5),1.0000,1.0000
+10,93,SVM (RBF),1.0000,1.0000
+10,93,Random Forest,1.0000,1.0000
+10,93,Rule (fixed 450),1.0000,1.0000
+10,93,Rule (fixed 550),0.9250,0.9085
+10,94,Threshold rule,0.8750,0.8545
+10,94,Gaussian NB,0.9500,0.9283
+10,94,Logistic Regression,0.9750,0.9655
+10,94,Decision Tree,0.8750,0.8386
+10,94,KNN (k=5),0.9750,0.9655
+10,94,SVM (RBF),0.9750,0.9655
+10,94,Random Forest,0.9500,0.9283
+10,94,Rule (fixed 450),0.9500,0.9333
+10,94,Rule (fixed 550),0.8500,0.8291
+10,95,Threshold rule,0.9500,0.9283
+10,95,Gaussian NB,0.9250,0.8880
+10,95,Logistic Regression,0.9250,0.8880
+10,95,Decision Tree,0.9500,0.9283
+10,95,KNN (k=5),0.9250,0.8965
+10,95,SVM (RBF),0.9250,0.8880
+10,95,Random Forest,0.9500,0.9283
+10,95,Rule (fixed 450),0.9500,0.9283
+10,95,Rule (fixed 550),0.9250,0.8965
+10,96,Threshold rule,0.9750,0.9655
+10,96,Gaussian NB,0.9750,0.9655
+10,96,Logistic Regression,0.9750,0.9655
+10,96,Decision Tree,0.9500,0.9333
+10,96,KNN (k=5),0.9500,0.9333
+10,96,SVM (RBF),0.9750,0.9655
+10,96,Random Forest,0.9500,0.9333
+10,96,Rule (fixed 450),0.9750,0.9677
+10,96,Rule (fixed 550),0.9750,0.9677
+10,97,Threshold rule,0.9250,0.9085
+10,97,Gaussian NB,1.0000,1.0000
+10,97,Logistic Regression,1.0000,1.0000
+10,97,Decision Tree,1.0000,1.0000
+10,97,KNN (k=5),0.9500,0.9333
+10,97,SVM (RBF),0.9750,0.9677
+10,97,Random Forest,0.9750,0.9677
+10,97,Rule (fixed 450),1.0000,1.0000
+10,97,Rule (fixed 550),0.8750,0.8545
+10,98,Threshold rule,0.9750,0.9677
+10,98,Gaussian NB,0.9500,0.9283
+10,98,Logistic Regression,0.9500,0.9333
+10,98,Decision Tree,0.9250,0.9031
+10,98,KNN (k=5),0.9000,0.8667
+10,98,SVM (RBF),0.9500,0.9333
+10,98,Random Forest,0.9250,0.9031
+10,98,Rule (fixed 450),0.9500,0.9373
+10,98,Rule (fixed 550),0.9000,0.8810
+10,99,Threshold rule,0.9500,0.9373
+10,99,Gaussian NB,0.9750,0.9655
+10,99,Logistic Regression,0.9750,0.9655
+10,99,Decision Tree,0.9000,0.8746
+10,99,KNN (k=5),0.9750,0.9677
+10,99,SVM (RBF),0.9500,0.9333
+10,99,Random Forest,0.9500,0.9333
+10,99,Rule (fixed 450),0.9500,0.9333
+10,99,Rule (fixed 550),0.9000,0.8810

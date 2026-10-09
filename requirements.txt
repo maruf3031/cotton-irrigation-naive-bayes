@@ -1,0 +1,13 @@
+# এই প্রজেক্ট চালাতে যে Python লাইব্রেরিগুলো লাগবে (Python 3.12 বা তার পরের)
+# ইনস্টল:  pip install -r requirements.txt
+# ঠিক কোন version ইনস্টল হলো, তা src/00_check_environment.py চালালে
+# results/environment.txt-এ লেখা থাকবে — পেপারের Methods-এ সেটাই দিতে হবে।
+
+numpy>=2.1
+pandas>=2.2.3
+scikit-learn>=1.6
+scipy>=1.14.1
+matplotlib>=3.9.2
+seaborn>=0.13.2
+openpyxl>=3.1.5      # Bushland-এর Excel (.xlsx) ফাইল পড়ার জন্য
+joblib>=1.4          # মডেল সেভ করার জন্য
