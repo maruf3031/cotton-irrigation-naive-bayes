@@ -27,10 +27,10 @@ data/
 - 200 records; columns `crop` (always cotton), `moisture` (sensor reading 0–1023, higher = drier), `temp` (°C), `pump` (0 = OFF, 1 = ON).
 - Note: the pump label is perfectly separated by a single moisture value (OFF ≤ 493, ON ≥ 503), indicating rule-generated labels.
 
-## D4 — Bushland, Texas cotton lysimeters (real field data)
+## D2 — Bushland, Texas cotton lysimeters (real field data)
 
-- Source: Evett et al. (2022), USDA Ag Data Commons:
-  https://agdatacommons.nal.usda.gov/articles/dataset/Weighing_Lysimeter_Data_for_The_Bushland_Texas_Cotton_Datasets/25114670
+- Called **D2** in the paper; the files are kept in the folder `D4_bushland_cotton`.
+- Source: Evett et al. (2024), USDA Ag Data Commons: https://doi.org/10.15482/USDA.ADC/25114670
 - Download the ten irrigated-season files listed above (the dryland "W" files of 2000, 2001, 2003, 2004 and 2008 are not used).
 - Only the `Daily` sheet of each workbook is read. The label is the daily `Irrigation Token`.
 - The 2000 SE lysimeter is excluded because its Irrigation Token was not recorded.
