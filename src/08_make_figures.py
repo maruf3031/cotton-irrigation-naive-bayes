@@ -100,8 +100,8 @@ box(4.7, 3.3, 2.3, 1.2, "Models (7)\nThreshold rule, Gaussian NB,\nLR, DT, KNN, 
 box(7.4, 3.3, 2.5, 1.2, "Evaluation\n• 10×10 stratified CV\n• ablation (8 configs)\n• sensor-noise test\n• IoT cost benchmark")
 for x1, x2 in [(2.0, 2.4), (4.3, 4.7), (7.0, 7.4)]:
     arrow(x1, 3.9, x2, 3.9)
-# সারি ২: D4
-box(0.1, 0.9, 1.9, 1.2, "D4: Bushland, TX\n(USDA-ARS lysimeters)\n8 seasons, 19 lysimeters\nreal cotton field")
+# সারি ২: Bushland (পেপারে নাম D2; ফোল্ডারের নাম D4_bushland_cotton)
+box(0.1, 0.9, 1.9, 1.2, "D2: Bushland, TX\n(USDA-ARS lysimeters)\n19 lysimeter-seasons\n(8 years), real cotton")
 box(2.4, 0.9, 1.9, 1.2, "Feature building\n(only day t−1 data)\nwater deficit, ET,\nstorage change, weather")
 box(4.7, 0.9, 2.3, 1.2, "Same models\n+ deficit-threshold rule\n+ 'always no' baseline")
 box(7.4, 0.9, 2.5, 1.2, "External validation\n• leave-one-year-out\n• balanced acc., F1,\n  ROC-AUC")
@@ -115,8 +115,8 @@ save(fig, "fig01_workflow.png",
      "Workflow of the study. (A) The primary simulated dataset (D1) is preprocessed and seven "
      "classifiers are compared with repeated stratified 10-fold cross-validation, an ablation study, "
      "a sensor-noise robustness test and a computational-cost benchmark. (B) The same models are "
-     "externally validated on real cotton-field lysimeter data from Bushland, Texas (D4) using "
-     "leave-one-year-out evaluation; all D4 features use only information available up to the previous day.")
+     "externally validated on real cotton-field lysimeter data from Bushland, Texas (D2) using "
+     "leave-one-year-out evaluation; all D2 features use only information available up to the previous day.")
 
 # ---------------------------------------------------------------------------
 # Fig 2 — D1: moisture বনাম temp (threshold দৃশ্যমান)
@@ -242,7 +242,7 @@ save(fig, "fig06_ablation.png",
      "Ablation of the Gaussian Naive Bayes pipeline on D1 (identical 100 cross-validation splits for all "
      "configurations). Removing the constant 'crop' variable has no effect (C1 vs C2); raw and log versions "
      "of the same variable are highly correlated (r = 0.91 for moisture, 0.98 for temperature), and using only "
-     "the log features (C4, selected) performs within 0.1 percentage points of the redundant raw + log set.")
+     "the log features (C4, selected) performs within 0.2 percentage points of the redundant raw + log set.")
 
 # ---------------------------------------------------------------------------
 # Fig 7 — Sensor noise
@@ -304,7 +304,7 @@ save(fig, "fig08_bushland_validation.png",
      "External validation on real cotton-field data (USDA-ARS Bushland, Texas; 19 lysimeter-seasons, "
      "2,584 in-season days, 12.4% irrigation days). Each season-year was held out in turn. All models are "
      "only modestly better than chance (dotted line), showing that real irrigation decisions are much harder "
-     "to predict than the simulated D1 labels; Gaussian NB performs on par with heavier models and better "
+     "to predict than the simulated D1 labels; Gaussian NB performs on par with heavier models and, on average, better "
      "than the deficit-threshold rule. A model that never irrigates reaches 87% accuracy but 0.50 balanced "
      "accuracy (not shown).")
 
