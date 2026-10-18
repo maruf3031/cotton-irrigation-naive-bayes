@@ -104,18 +104,18 @@ for x1, x2 in [(2.0, 2.4), (4.3, 4.7), (7.0, 7.4)]:
 box(0.1, 0.9, 1.9, 1.2, "D2: Bushland, TX\n(USDA-ARS lysimeters)\n19 lysimeter-seasons\n(8 years), real cotton")
 box(2.4, 0.9, 1.9, 1.2, "Feature building\n(only day t−1 data)\nwater deficit, ET,\nstorage change, weather")
 box(4.7, 0.9, 2.3, 1.2, "Same models\n+ deficit-threshold rule\n+ 'always no' baseline")
-box(7.4, 0.9, 2.5, 1.2, "External validation\n• leave-one-year-out\n• balanced acc., F1,\n  ROC-AUC")
+box(7.4, 0.9, 2.5, 1.2, "Independent field test\n• models retrained on D2\n• leave-one-year-out\n• balanced acc., F1, ROC-AUC")
 for x1, x2 in [(2.0, 2.4), (4.3, 4.7), (7.0, 7.4)]:
     arrow(x1, 1.5, x2, 1.5)
 box(7.4, 2.3, 2.5, 0.65, "Irrigation decision:\npump ON / OFF", edge=BLUE, fill="#eef4fc", bold=True)
 arrow(8.65, 3.3, 8.65, 2.95); arrow(8.65, 2.1, 8.65, 2.3)
 ax.text(0.1, 4.75, "A  Primary dataset", fontsize=8.5, weight="bold", color=INK)
-ax.text(0.1, 2.35, "B  External real-field dataset", fontsize=8.5, weight="bold", color=INK)
+ax.text(0.1, 2.35, "B  Independent real-field dataset (models retrained)", fontsize=8.5, weight="bold", color=INK)
 save(fig, "fig01_workflow.png",
      "Workflow of the study. (A) The primary simulated dataset (D1) is preprocessed and seven "
      "classifiers are compared with repeated stratified 10-fold cross-validation, an ablation study, "
-     "a sensor-noise robustness test and a computational-cost benchmark. (B) The same models are "
-     "externally validated on real cotton-field lysimeter data from Bushland, Texas (D2) using "
+     "a sensor-noise robustness test and a computational-cost benchmark. (B) The same model types are "
+     "retrained and evaluated on independent real cotton-field lysimeter data from Bushland, Texas (D2), using "
      "leave-one-year-out evaluation; all D2 features use only information available up to the previous day.")
 
 # ---------------------------------------------------------------------------
@@ -160,7 +160,7 @@ save(fig, "fig03_log_distributions.png",
      "Distributions of the log-transformed predictors used by the final Gaussian Naive Bayes model "
      "(all 200 records of D1). (a, b) Histograms; (c, d) normal Q-Q plots with the probability-plot "
      "correlation coefficient r. Log-moisture is bimodal because the two pump classes occupy separate "
-     "moisture ranges, so the Gaussian assumption holds within classes rather than marginally.")
+     "moisture ranges; the plots are pooled over both classes and do not test normality within each class.")
 
 # ---------------------------------------------------------------------------
 # Fig 4 — চূড়ান্ত NB-র confusion matrix (10-fold CV, সব ভাগ মিলিয়ে)
@@ -192,14 +192,24 @@ pd.DataFrame(cm, index=["actual_OFF", "actual_ON"], columns=["pred_OFF", "pred_O
 # ---------------------------------------------------------------------------
 # Fig 5 — D1 মডেল তুলনা (dot + error bar)
 # ---------------------------------------------------------------------------
-s = pd.read_csv(T / "02_cv_summary.csv").sort_values("accuracy_mean")
+# mean ও SD fold-এর আসল মান থেকে হিসাব, তারপর half-up rounding (টেবিলের সাথে মিলবে)
+from decimal import Decimal, ROUND_HALF_UP
+
+
+def r3(x):
+    return str(Decimal(f"{float(x):.10f}").quantize(Decimal("0.001"), rounding=ROUND_HALF_UP))
+
+
+_f = pd.read_csv(T / "02_cv_fold_scores.csv")
+s = (_f.groupby("model", sort=False).accuracy.agg(accuracy_mean="mean", accuracy_sd=lambda v: v.std(ddof=1))
+     .reset_index().sort_values("accuracy_mean"))
 fig, ax = plt.subplots(figsize=(5.2, 3.0))
 yy = np.arange(len(s))
 for i, r in enumerate(s.itertuples()):
     c = color_of(r.model)
     ax.errorbar(r.accuracy_mean, i, xerr=r.accuracy_sd, fmt="o", ms=7, color=c, ecolor=c,
                 elinewidth=1.4, capsize=0, mec="white", mew=0.8, zorder=3)
-    ax.text(1.06, i, f"{r.accuracy_mean:.3f} ± {r.accuracy_sd:.3f}", va="center", fontsize=7.5,
+    ax.text(1.06, i, f"{r3(r.accuracy_mean)} ± {r3(r.accuracy_sd)}", va="center", fontsize=7.5,
             color=INK2, transform=ax.get_yaxis_transform())
 ax.set_yticks(yy, s.model)
 for lbl in ax.get_yticklabels():
@@ -209,7 +219,7 @@ ax.set_xlabel("Accuracy (mean ± SD over 100 test folds)")
 ax.set_xlim(0.9, 1.01)
 ax.grid(axis="y", visible=False)
 save(fig, "fig05_d1_model_comparison.png",
-     "Accuracy of seven classifiers on D1 under 10-times-repeated stratified 10-fold cross-validation "
+     "Accuracy of seven classifiers on D1 (n = 200) under 10-times-repeated stratified 10-fold cross-validation "
      "(100 test folds; points = mean, bars = ±1 SD). Outlier trimming and feature scaling were fitted on "
      "training folds only. The single-threshold rule, decision tree and random forest separate D1 perfectly, "
      "reflecting the rule-based origin of its labels.")
@@ -239,7 +249,7 @@ ax.set_xlabel("Accuracy of Gaussian NB (mean ± SD, 100 test folds)")
 ax.set_xlim(0.93, 1.01)
 ax.grid(axis="y", visible=False)
 save(fig, "fig06_ablation.png",
-     "Ablation of the Gaussian Naive Bayes pipeline on D1 (identical 100 cross-validation splits for all "
+     "Ablation of the Gaussian Naive Bayes pipeline on D1 (n = 200; identical 100 cross-validation splits for all "
      "configurations). Removing the constant 'crop' variable has no effect (C1 vs C2); raw and log versions "
      "of the same variable are highly correlated (r = 0.91 for moisture, 0.98 for temperature), and using only "
      "the log features (C4, selected) performs within 0.2 percentage points of the redundant raw + log set.")
@@ -270,7 +280,7 @@ ax.set_xlabel("Sensor noise added to soil moisture (SD as % of 0–1023 range)")
 ax.set_ylabel("Accuracy (mean, 100 test folds)")
 ax.set_xlim(-0.5, 10.2)
 save(fig, "fig07_noise_robustness.png",
-     "Robustness to simulated soil-moisture sensor noise on D1 (Gaussian noise added to training and test "
+     "Robustness to simulated soil-moisture sensor noise on D1 (n = 200; Gaussian noise added to training and test "
      "readings, labels unchanged; 20×5-fold cross-validation per level). The learned-threshold rule and the "
      "decision tree, which are perfect on clean data, degrade fastest; Gaussian NB, logistic regression and SVM "
      "decline gradually and end within 0.01 of each other at 10% noise. A manually set "
@@ -298,11 +308,11 @@ axes[0].set_yticks(range(len(b)), b.model)
 for lbl in axes[0].get_yticklabels():
     if lbl.get_text().startswith("Gaussian NB"):
         lbl.set_weight("bold")
-fig.supxlabel("Mean ± SD over 8 held-out seasons (leave-one-year-out)", fontsize=8.5)
+fig.supxlabel("Mean ± SD over 8 held-out years (leave-one-year-out)", fontsize=8.5)
 fig.tight_layout()
 save(fig, "fig08_bushland_validation.png",
-     "External validation on real cotton-field data (USDA-ARS Bushland, Texas; 19 lysimeter-seasons, "
-     "2,584 in-season days, 12.4% irrigation days). Each season-year was held out in turn. All models are "
+     "Evaluation on independent real cotton-field data (USDA-ARS Bushland, Texas; 19 lysimeter-seasons, "
+     "2,584 in-season days, 12.4% irrigation days). The models were retrained on D2, and each year was held out in turn. All models are "
      "only modestly better than chance (dotted line), showing that real irrigation decisions are much harder "
      "to predict than the simulated D1 labels; Gaussian NB performs on par with heavier models and, on average, better "
      "than the deficit-threshold rule. A model that never irrigates reaches 87% accuracy but 0.50 balanced "
