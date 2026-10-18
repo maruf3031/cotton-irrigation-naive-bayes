@@ -95,7 +95,7 @@ Python 3.12.10, NumPy 2.5.3, pandas 3.0.6, scikit-learn 1.9.1, SciPy 1.18.1, Mat
 ## Data sources
 
 - **D1 — AutoIrrigationData** (simulated, 200 records): Patel, H. (2020). Kaggle. https://www.kaggle.com/datasets/harshilpatel355/autoirrigationdata
-- **D4 — Bushland, Texas cotton lysimeters** (real field data): Evett, S. R., Marek, G. W., Copeland, K. S., Howell, T. A. Sr., Colaizzi, P. D., Brauer, D. K., & Ruthardt, B. B. (2022). *Weighing Lysimeter Data for The Bushland, Texas, Cotton Datasets*. Ag Data Commons. https://agdatacommons.nal.usda.gov/articles/dataset/Weighing_Lysimeter_Data_for_The_Bushland_Texas_Cotton_Datasets/25114670
+- **D2 — Bushland, Texas cotton lysimeters** (real field data; stored in the folder `data/raw/D4_bushland_cotton`): Evett, S. R., Marek, G. W., Copeland, K. S., Howell, T. A., Sr., Colaizzi, P. D., Brauer, D. K., & Ruthardt, B. B. (2024). *Weighing lysimeter data for the Bushland, Texas, cotton datasets* [Data set]. Ag Data Commons. https://doi.org/10.15482/USDA.ADC/25114670
 
 ---
 

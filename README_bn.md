@@ -17,7 +17,7 @@ Predictive_Control\
 ├── data\
 │   ├── raw\             ← আসল ডেটা — কখনো হাতে বদলাবেন না
 │   │   ├── D1_autoirrigation\    ← মূল ডেটা (Kaggle, simulated cotton, 200 row)
-│   │   ├── D4_bushland_cotton\   ← যাচাইয়ের ডেটা (USDA, আসল cotton মাঠ)
+│   │   ├── D4_bushland_cotton\   ← যাচাইয়ের ডেটা (USDA, আসল cotton মাঠ; পেপারে এর নাম D2)
 │   │   ├── D2_mendeley_iot\      ← (ব্যবহার করা হচ্ছে না — রেখে দেওয়া হয়েছে)
 │   │   └── D3_kaggle_multicrop\  ← (ব্যবহার করা হচ্ছে না — রেখে দেওয়া হয়েছে)
 │   └── processed\       ← কোড দিয়ে পরিষ্কার করা ডেটা
