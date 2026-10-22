@@ -282,7 +282,7 @@ ax.set_xlim(-0.5, 10.2)
 save(fig, "fig07_noise_robustness.png",
      "Robustness to simulated soil-moisture sensor noise on D1 (n = 200; 20-times-repeated stratified 5-fold "
      "cross-validation per noise level; Gaussian noise added to training and test readings, labels unchanged). The learned-threshold rule and the "
-     "decision tree, which are perfect on clean data, degrade fastest; Gaussian NB, logistic regression and SVM "
+     "decision tree, which are nearly perfect on clean data (accuracy 0.999), degrade fastest; Gaussian NB, logistic regression and SVM "
      "decline gradually and end within 0.01 of each other at 10% noise. A manually set "
      "threshold that is slightly wrong (550 instead of ≈500, dashed) is worse than all learned models even "
      "without noise. Grey lines: logistic regression, KNN, SVM, random forest and the 450 threshold.")
