@@ -102,7 +102,7 @@ for x1, x2 in [(2.0, 2.4), (4.3, 4.7), (7.0, 7.4)]:
     arrow(x1, 3.9, x2, 3.9)
 # সারি ২: Bushland (পেপারে নাম D2; ফোল্ডারের নাম D4_bushland_cotton)
 box(0.1, 0.9, 1.9, 1.2, "D2: Bushland, TX\n(USDA-ARS lysimeters)\n19 lysimeter-seasons\n(8 years), real cotton")
-box(2.4, 0.9, 1.9, 1.2, "Feature building\n(only day t−1 data)\nwater deficit, ET,\nstorage change, weather")
+box(2.4, 0.9, 1.9, 1.2, "Feature building\n(data up to day t−1)\nwater deficit, ET,\nstorage change, weather")
 box(4.7, 0.9, 2.3, 1.2, "Same models\n+ deficit-threshold rule\n+ 'always no' baseline")
 box(7.4, 0.9, 2.5, 1.2, "Independent field test\n• models retrained on D2\n• leave-one-year-out\n• balanced acc., F1, ROC-AUC")
 for x1, x2 in [(2.0, 2.4), (4.3, 4.7), (7.0, 7.4)]:
@@ -249,8 +249,8 @@ ax.set_xlabel("Accuracy of Gaussian NB (mean ± SD, 100 test folds)")
 ax.set_xlim(0.93, 1.01)
 ax.grid(axis="y", visible=False)
 save(fig, "fig06_ablation.png",
-     "Ablation of the Gaussian Naive Bayes pipeline on D1 (n = 200; identical 100 cross-validation splits for all "
-     "configurations). Removing the constant 'crop' variable has no effect (C1 vs C2); raw and log versions "
+     "Ablation of the Gaussian Naive Bayes pipeline on D1 (n = 200; 10-times-repeated stratified 10-fold "
+     "cross-validation, the same 100 test folds for all configurations; points = mean, bars = ±1 SD). Removing the constant 'crop' variable has no effect (C1 vs C2); raw and log versions "
      "of the same variable are highly correlated (r = 0.91 for moisture, 0.98 for temperature), and using only "
      "the log features (C4, selected) performs within 0.2 percentage points of the redundant raw + log set.")
 
@@ -280,8 +280,8 @@ ax.set_xlabel("Sensor noise added to soil moisture (SD as % of 0–1023 range)")
 ax.set_ylabel("Accuracy (mean, 100 test folds)")
 ax.set_xlim(-0.5, 10.2)
 save(fig, "fig07_noise_robustness.png",
-     "Robustness to simulated soil-moisture sensor noise on D1 (n = 200; Gaussian noise added to training and test "
-     "readings, labels unchanged; 20×5-fold cross-validation per level). The learned-threshold rule and the "
+     "Robustness to simulated soil-moisture sensor noise on D1 (n = 200; 20-times-repeated stratified 5-fold "
+     "cross-validation per noise level; Gaussian noise added to training and test readings, labels unchanged). The learned-threshold rule and the "
      "decision tree, which are perfect on clean data, degrade fastest; Gaussian NB, logistic regression and SVM "
      "decline gradually and end within 0.01 of each other at 10% noise. A manually set "
      "threshold that is slightly wrong (550 instead of ≈500, dashed) is worse than all learned models even "
@@ -315,7 +315,7 @@ save(fig, "fig08_bushland_validation.png",
      "2,584 in-season days, 12.4% irrigation days). The models were retrained on D2, and each year was held out in turn. All models are "
      "only modestly better than chance (dotted line), showing that real irrigation decisions are much harder "
      "to predict than the simulated D1 labels; Gaussian NB performs on par with heavier models and, on average, better "
-     "than the deficit-threshold rule. A model that never irrigates reaches 87% accuracy but 0.50 balanced "
+     "than the deficit-threshold rule. A model that never irrigates reaches a mean accuracy of 0.871 but 0.50 balanced "
      "accuracy (not shown).")
 
 # ---------------------------------------------------------------------------
